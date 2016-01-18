@@ -1,0 +1,711 @@
+.blauw {
+	color:#2b2e83 !important;
+}
+.introductie {
+	margin: 40px auto 20px;
+}
+h1.salespage-titel {
+	font-family: 'Roboto',sans-serif !important; color:#231f20 !important; font-weight: 400;
+}
+h1.titel {
+	font-family: 'Roboto', sans-serif !important; color: #2b2e83 !important; font-weight: 600; font-size: 60px !important; text-transform: uppercase;
+}
+h4.sub-titel {
+	font-family: 'Roboto', sans-serif !important; text-transform: uppercase; color: #231f20 !important;
+}
+div.titel {
+	text-align:center;margin:0 auto;
+}
+img.ebook-tijdlijnacties{ 
+	width:72%; display:block; margin:10px auto;
+}
+img.waar-geleerd{
+	max-width: 180px;
+}
+div.waar-geleerd{
+	margin-top:25px;
+}
+div.waar-geleerd > h2,
+div.waar-geleerd > p {
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+div.waar-geleerd button {
+	float:left;
+}
+.border-bottom {
+    border-bottom: 1px dashed rgba(255,255,255,0.3);
+    border-top: 1px dashed rgba(255,255,255,0.3);
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.2), rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,255,255,0), rgba(255,255,255,0.2), rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,255,255,0), rgba(255,255,255,0.2), rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.2), rgba(255,255,255,0)); /* Standard syntax (must be last) */
+    display: block;
+    float: none;
+    margin: 40px auto !important;
+    padding-bottom: 25px;
+    padding-top:25px;
+    width: 60%;
+    font-family: 'Roboto',sans-serif !important; text-transform: uppercase;
+}
+.border-top {
+    border-top: 1px dashed #f6f6f6;
+    display: block;
+    float: none;
+    margin: 40px auto !important;
+    padding-top: 25px;
+    width: 100%;
+    font-family: 'Roboto',sans-serif !important; text-transform: uppercase;
+}
+hr.dashed {
+	border-style:dashed;
+}
+
+.if-ideal {
+	border-left: 1px solid #eee;
+}
+
+
+/*
+|----------------------------------------------------------------------
+| ID's
+|----------------------------------------------------------------------
+*/
+#page,
+#bestellen {
+	padding: 60px 0;
+}
+#waargeleerd {
+    /*background-image: url("http://www.digitusmarketing.nl/images/site/bg/laptop-on-desk-waar-geleerd.jpg");*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+}
+#waargeleerd .container .introductie div h2,
+#waargeleerd .container .introductie div p{
+	color: #f6f6f6 !important;
+}
+#facebookworkshop{
+	
+	background-repeat: repeat;
+	padding: 80px 0;
+}
+#bonus,
+#aan-de-slag {
+	background-image: url('http://www.digitusmarketing.nl/images/site/bg/lichtblauw-bg-pattern.jpg');
+	background-repeat: repeat;
+	padding: 60px 0;
+	border-bottom:2px solid #1a82b0;
+	border-top: 2px solid #2bb5f3;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+}
+#aan-de-slag {
+	text-align: center;
+}
+#bonus div div div p,
+#bonus div div div h2,
+#aan-de-slag div div h2,
+#aan-de-slag div div h3 {
+	color: #f6f6f6 !important;
+	font-size: 120%;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+#facebookworkshop .container .introductie .col-md-12 > img {
+	padding:5px;
+	background:white;
+	box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
+	margin:20px auto;
+}
+#facebookworkshop,
+#webinar,
+#ibora-zant-campagne,
+#kennisdelen {
+	margin: 25px 0;
+	padding: 100px 0;
+	text-align: center;
+	color: #f6f6f6 !important;
+}
+#ibora-zant-campagne {
+	padding: 175px 0;
+}
+#ibora-zant-campagne div div > h2,
+#kennisdelen div div > h2,
+#kennisdelen div div > p,
+#kennisdelen div div > h1 {
+	color: #f6f6f6 !important;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+/*
+|----------------------------------------------------------------------
+| Modules
+|----------------------------------------------------------------------
+*/
+#modules {
+	background-image: url('http://www.digitusmarketing.nl/images/site/bg/lichtblauw-bg-pattern.jpg');
+	padding: 80px 0;
+}
+#modules div div h2 {
+	color: #f6f6f6 !important;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+}
+/*div.module {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    position:relative;
+}
+div.module:nth-child(2n) {
+	background-color: rgba(255,255,255,0.3);
+}*/
+div.module {
+	position:relative;
+}
+div.module > h3 {
+	color:white !important;
+	font-family: 'Roboto', serif;
+}
+div.module div > ul,
+div.module div ul > li {
+	color:white;
+}
+div.module .module-titel {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+    float: right;
+    padding: 25px;
+    width: 70%;
+}
+div.module .module-titel > h3 {
+    color: #f6f6f6 !important;
+    margin: 0 !important;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+}
+div.module .module-icon-holder {
+    float: left;
+    height: auto;
+    padding: 25px 35px;
+    width: 30%;
+}
+div.module .module-icon-holder .module-icon {
+    background-color: #0e71b8;
+    border:2px solid white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    color: #f6f6f6;
+    height: 150px;
+    padding: 23px 15px;
+    text-align: center;
+    width: 150px;
+}
+div.module .module-icon-holder .module-icon span {
+    border-bottom: 1px dashed #f6f6f6;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+div.module .module-icon-holder .module-icon h3 {
+	color: #f6f6f6 !important;
+}
+div.module .module-body {
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+    float: right;
+    width: 70%;
+}
+div.module .module-body ul {
+	margin: 0 !important;
+}
+div.module .module-body li {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    padding: 20px;
+    color:#f6f6f6;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+    list-style-image: url('http://www.digitusmarketing.nl/images/digitus/vink.png');
+}
+div.module .module-body li:nth-child(2n+1){
+	background-color: rgba(255,255,255,0.1);
+}
+div.module .module-body li:last-child {
+	border-bottom: 0 none;
+}
+
+/*
+|----------------------------------------------------------------------
+| Recensies
+|----------------------------------------------------------------------
+*/
+div.recensie-afbeelding{
+	text-align:center;
+}
+img.recensie-afbeelding{
+	border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0 black;
+    max-width: 130px;
+}
+.recensie-content {
+    background: white;
+    padding: 15px 15px 5px;
+}
+img.recensie-foto {
+    background: white;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    max-width:100%;
+}
+.recensie-naam {
+	color:white;margin-top:20px !important;
+}
+.recensie {
+	margin-top:25px;
+}
+.recensie-tekst {
+    background: none repeat scroll 0 0 white;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+}
+.recensie-content:before {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid white;
+    border-top: 0 solid transparent;
+    content: "";
+    height: 10px;
+    left: -20px;
+    position: absolute;
+    top: 30px;
+    width: 20px;
+}
+
+.iframe > iframe{
+	width:100%;
+}
+
+/*
+|----------------------------------------------------------------------
+| Aanmeld formulier
+|----------------------------------------------------------------------
+*/
+#aanmeld-formulier {
+	display: none;
+	padding: 60px 0;
+}
+
+/*
+|----------------------------------------------------------------------
+| Buttons
+|----------------------------------------------------------------------
+*/
+.white-transparent {
+    background: #ff6f21 none repeat scroll 0 0;
+    border: 1px solid #f6f6f6 !important;
+    color: #f6f6f6;
+    display: block;
+    float: none;
+    font-size: 22px !important;
+    margin: 25px auto;
+    text-transform: uppercase;
+    transition: all 0.1s ease 0s;
+}
+.white-transparent:hover{
+	color:#f6f6f6;
+	background: rgba(255,150,94,37);
+	transition: all 0.4s ease 0s;
+}
+.white-transparent:focus{
+	color: #f6f6f6;
+}
+
+/*
+|----------------------------------------------------------------------
+| Garantie
+|----------------------------------------------------------------------
+*/
+#garantie {
+    background-image: url("http://www.digitusmarketing.nl/images/site/bg/donkergrijs-bg-pattern.jpg");
+    background-repeat: repeat;
+    padding: 40px 15px;
+    position: relative;
+    width: 100%;
+    color: #f6f6f6 !important;
+    border-top:2px solid #231f20;
+}
+#garantie div div > h2 {
+	color: #f6f6f6 !important;
+}
+
+/*
+|----------------------------------------------------------------------
+| Donker balk
+|----------------------------------------------------------------------
+*/
+#donker-balk {
+	background-image: url("http://www.digitusmarketing.nl/images/site/bg/donkergrijs-bg-pattern.jpg");
+    background-repeat: repeat;
+    padding: 40px 15px;
+    position: relative;
+    width: 100%;
+}
+#donker-balk div div h3,
+#donker-balk div div p {
+	color:white;
+}
+
+/*
+|----------------------------------------------------------------------
+| Selected
+|----------------------------------------------------------------------
+*/
+.paymentmethod {
+    float: left;
+}
+.paymentmethod > input[type="radio"] {
+    display: block;
+    margin: 5px auto 10px;
+}
+
+a.btn {
+	word-wrap: break-word;
+}
+
+/*
+|----------------------------------------------------------------------
+| computer vs mobiel
+|----------------------------------------------------------------------
+*/
+.computer{
+	display:block;
+}
+.mobiel{
+	display:none;
+}
+
+/*
+|-----------------------------------------------------------------------
+| MOBILE PORTRAIT
+|-----------------------------------------------------------------------
+*/
+
+@media only screen and (min-width:220px) and (max-width:480px) and (orientation:portrait) {
+	#mainmenubar .container {
+		padding: 0 15px;
+	}
+	.container {
+		padding: 0 5px;
+	}
+	.content{padding:15px;}
+	h1.titel {
+		font-family: 'Roboto', sans-serif !important; color: #2b2e83 !important; font-weight: 600; font-size: 45px !important; text-transform: uppercase;
+	}
+	div.titel {
+		text-align:center;max-width:100%;margin:0 auto;
+	}
+	img.ebook-tijdlijnacties{ 
+		width:100%; display:block; margin:10px auto;
+	}
+	img.waar-geleerd {
+		display: block;
+		margin: 0 auto;
+	}
+	div.waar-geleerd,
+	#bonus{
+		text-align: center;
+	}
+	div.waar-geleerd button {
+		float: none;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Modules
+	|----------------------------------------------------------------------
+	*/
+	div.module {
+		margin: 10px 0;
+	}
+	div.module .module-icon-holder,
+	div.module .module-titel,
+	div.module .module-body {
+		float:left;
+		width: 100%;
+		text-align:center;
+	}
+	div.module .module-icon-holder {
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+	div.module .module-icon-holder .module-icon{
+		display: block;
+		margin: 0 auto;
+	}
+	div.module .module-titel,
+	div.module .module-body{
+		border-left: 0 none;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Garantie
+	|----------------------------------------------------------------------
+	*/
+	#garantie {
+		text-align: center;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Overig
+	|----------------------------------------------------------------------
+	*/
+	.border-bottom {
+		width:80%;
+	}
+	.border-top {
+		font-size: 26px !important;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Recensies
+	|----------------------------------------------------------------------
+	*/
+	img.recensie-afbeelding {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.recensie-naam {
+		text-align:center;
+	}
+	.recensie-tekst::before {
+	    border-color: transparent white transparent transparent;
+	    border-style: solid;
+	    border-width: 20px 20px 0;
+	    content: "";
+	    height: 20px;
+	    left: 25%;
+	    position: absolute;
+	    top: -20px;
+	    width: 20px;
+	}
+	.recensie-tekst {
+		margin-top:25px;
+	}
+
+
+	html.scrolled .uitbesteden-menu,
+	html.scrolled .zelf-leren-menu{
+		display:none !important;
+	}
+	html.scrolled .uitbesteden-in-page,
+	html.scrolled .zelf-leren-in-page {
+		display: block !important;
+	}
+
+	h2{
+		font-size: 19pt !important;
+	}
+	.btn{
+		white-space: normal;
+		word-wrap:break-word;
+		font-size: 16px !important;
+	}
+	.col-md-4 button {
+		float: none !important;
+		margin: 10px 0;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| computer vs mobiel
+	|----------------------------------------------------------------------
+	*/
+	.computer{
+		display:none;
+	}
+	.mobiel{
+		display:block;
+	}
+	.geenpadding-mobiel{
+		padding: 0;
+	}
+}
+
+
+
+/*
+|-----------------------------------------------------------------------
+| MOBILE LANDSCAPE
+|-----------------------------------------------------------------------
+*/
+
+@media screen and (min-width:321px) and (max-width:768px) and (orientation:landscape) {
+	#mainmenubar .container {
+		padding: 0 15px;
+	}
+	.container {
+		padding: 0 5px;
+	}
+	div.titel {
+		text-align:center;max-width:100%;margin:0 auto;
+	}
+	img.ebook-tijdlijnacties{ 
+		width:100%; display:block; margin:10px auto;
+	}
+	img.waar-geleerd {
+		display: block;
+		margin: 0 auto;
+	}
+	div.waar-geleerd,
+	#bonus{
+		text-align: center;
+	}
+	div.waar-geleerd button {
+		float: none;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Modules
+	|----------------------------------------------------------------------
+	*/
+	div.module {
+		margin: 10px 0;
+	}
+	div.module .module-icon-holder,
+	div.module .module-titel,
+	div.module .module-body {
+		float:left;
+		width: 100%;
+		text-align:center;
+	}
+	div.module .module-icon-holder {
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+	div.module .module-icon-holder .module-icon{
+		display: block;
+		margin: 0 auto;
+	}
+	div.module .module-titel,
+	div.module .module-body{
+		border-left: 0 none;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Garantie
+	|----------------------------------------------------------------------
+	*/
+	#garantie {
+		text-align: center;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Overig
+	|----------------------------------------------------------------------
+	*/
+	.border-bottom {
+		width:80%;
+	}
+	.border-top {
+		font-size: 26px !important;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| Recensies
+	|----------------------------------------------------------------------
+	*/
+	img.recensie-afbeelding {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.recensie-naam {
+		text-align:center;
+	}
+	.recensie-tekst::before {
+	    border-color: transparent white transparent transparent;
+	    border-style: solid;
+	    border-width: 20px 20px 0;
+	    content: "";
+	    height: 20px;
+	    left: 25%;
+	    position: absolute;
+	    top: -20px;
+	    width: 20px;
+	}
+	.recensie-tekst {
+		margin-top:25px;
+	}
+
+	html.scrolled .uitbesteden-menu,
+	html.scrolled .zelf-leren-menu{
+		display:none !important;
+	}
+	html.scrolled .uitbesteden-in-page,
+	html.scrolled .zelf-leren-in-page {
+		display: block !important;
+	}
+	h2{
+		font-size: 19pt !important;
+	}
+	.btn{
+		white-space: normal;
+		word-wrap:break-word;
+		font-size: 16px !important;
+	}
+
+	/*
+	|----------------------------------------------------------------------
+	| computer vs mobiel
+	|----------------------------------------------------------------------
+	*/
+	.computer{
+		display:none;
+	}
+	.mobiel{
+		display:block;
+	}
+	.geenpadding-mobiel{
+		padding: 0;
+	}
+}
+
+
+/*
+|-----------------------------------------------------------------------
+| TABLET PORTRAIT
+|-----------------------------------------------------------------------
+*/
+
+@media screen and (min-width:768px) and (max-width: 1024px) and (orientation:portrait) {
+
+}
+
+
+
+/*
+|-----------------------------------------------------------------------
+| TABLET LANDSCAPE
+|-----------------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px ) and (max-width: 1280px) and (orientation:landscape) {
+
+}
+
+html.scrolled .uitbesteden-menu,
+html.scrolled .zelf-leren-menu{
+	display:block;
+	margin: 10px auto;
+}
+html.scrolled .uitbesteden-in-page,
+html.scrolled .zelf-leren-in-page,
+.uitbesteden-menu,
+.zelf-leren-menu {
+	display: none;
+}

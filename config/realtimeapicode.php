@@ -1,0 +1,20 @@
+<?php
+return array(
+'julienapi'					=> '2vpk8',
+'digitusapi'				=> 'AXDV',
+'joepapi'					=> '4qaiu',
+'testrestaurant'			=> 'AXDs',
+'maartenvazquez'			=> '3gqyi',
+'hartforher'				=> '57kYb',
+'hartforheramsterdamoost'	=> '5BbyY',
+'burningheart'				=> '5gc6R',
+'sportzenter'				=> '50Uwl',
+'judithdancepoint'			=> '5pxtg',
+'onefitnessweesp'			=> '5pytz',
+'danscentrumlapasse'		=> '5loxv',
+'praktijkernabasten'		=> '5yj7j',
+'totalexercise'				=> '5zN7W',
+'horecapersoneel'			=> '1ErFC',
+'theunit'					=> '6BkvA',
+'nextgen'					=> '6pkO7',
+);

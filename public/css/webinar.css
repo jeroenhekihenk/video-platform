@@ -1,0 +1,436 @@
+.page-container{
+  background-image: url("http://www.digitusmarketing.nl/images/site/bg/blauw-bg-pattern.jpg");
+  background-position: center center;
+  height: auto !important;
+  padding: 3% 0 8% !important;
+  position:relative;
+  z-index: 0;
+}
+body {
+  background-image: url('http://www.digitusmarketing.nl/images/site/bg/grijs-bg-pattern.jpg');
+  background-position: center center;
+}
+ul.wink > li.vink {
+    background: rgba(0, 0, 0, 0) url("http://www.digitusmarketing.nl/images/digitus/vink.png") no-repeat scroll left center;
+    display: block;
+    line-height: 1.3;
+    margin: 11px 0;
+    min-height: 25px;
+    padding: 5px 5px 5px 30px;
+}
+.login-container{
+  margin-bottom:5%;
+  margin-top:-6%;
+  position:relative;
+  z-index: 1;
+}
+#mc-message{display:none;}
+.demo-button {
+    background: #ff6f21 none repeat scroll 0 0 !important;
+    border-color: #b74d13 !important;
+    color: white !important;
+    font-size: 15pt !important;
+    font-weight: bold !important;
+    padding: 15px 45px !important;
+    text-transform: uppercase;
+    margin: 25px 0 0 ;
+}
+.demo-button{
+  transform:scale(1);
+}
+.demo-button:hover {
+    background: #fc762d none repeat scroll 0 0 !important;
+    color: white !important;
+    transform: scale(1.1);
+}
+.demo-button:active, .demo-button:focus {
+    border-top: 2px solid #b74d13 !important;
+    color: white !important;
+}
+
+div#belmijterugformulier, div#downloadebookformulier {
+    background: rgba(0, 0, 0, 0) url("../images/digitus/overlay.png") repeat scroll 0 0;
+    bottom: 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+div#belmijterugformulier div.belmijterugformulier, div#downloadebookformulier div.downloadebookformulier {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 2px #231f20;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -175px;
+    min-height: 350px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    width: 400px;
+}
+div#belmijterugformulier.-on, div#downloadebookformulier.-on {
+    display: block;
+}
+#superboost-aanmeld .form-group > .demo-button,
+#superboost-aanmeld .form-group > .demo-button:hover {
+    font-size: 12pt !important;
+    padding: 9px 25px !important;
+}
+#belmijterugformulier h2 {
+    font-size: 21pt !important;
+    color: #2b2e83 !important;
+    margin-bottom: 20px !important;
+    margin-top: 0 !important;
+}
+
+#intro {
+  text-align: center;
+}
+#intro div > h4,
+#intro div > h1,
+#intro div > h5 {
+  color: white;
+}
+#intro div > h5 {
+    font-size: 14pt;
+    font-weight: 500;
+    margin: 25px auto 10px;
+}
+#intro div > h4 {
+  border-left: 13em solid white;
+  border-right: 13em solid white;
+  font-weight: 600;
+  line-height: 4px;
+  margin: 0 auto 25px;
+}
+#intro div > h1 {
+  font-weight: 700;
+}
+.hoelaat-wanneer p > span {
+  color:#0e71b8 ;
+  font-size: 25px;
+  margin-right:10px;
+}
+.hoelaat-wanneer p {
+  font-size: 16px;
+  color: #231f20;
+  margin: 0 0 10px;
+}
+.timer-holder,
+.timer-holder-mobiel{
+    background-color: white;
+    text-align: center;
+    padding: 25px 0;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+}
+.timer-holder p {
+    font-size: 16px;
+}
+.timer-holder p b {
+    font-weight:bold;
+}
+.timer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.timer > div {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+    text-align:center;
+}
+.timer div > p.letter {
+    color: #231f20 !important;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px !important;
+    text-align:left;
+}
+.timer div > p.cijfer {
+    font-size: 26px !important;
+    text-align:center;
+    width:100%;
+    color: white !important;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    background-color:#0e71b8;
+    padding: 10px;
+    border-top:1px solid #328ac6;
+    border-left:1px solid #0c64a0;
+    border-right:1px solid #0c64a0;
+    border-bottom:2px solid #0c64a0;
+}
+.tiles {
+  -webkit-box-shadow:0 2px 3px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow:0 2px 3px 0 rgba(0,0,0,0.5);
+  -ms-box-shadow:0 2px 3px 0 rgba(0,0,0,0.5);
+  -o-box-shadow:0 2px 3px 0 rgba(0,0,0,0.5);
+  box-shadow:0 2px 3px 0 rgba(0,0,0,0.5);
+}
+.tiles.white,
+.tiles > h3 {
+  color: black !important;
+}
+p, b, ul, li, ul > li {
+  font-size: 15px ;
+}
+
+.ical{
+    border-color: #ab373a #eee #eee;
+}
+.google-calendar{
+    border-color: #fa9d00 #eee #eee;
+}
+.outlook {
+    border-color: #1473c5 #eee #eee;
+}
+.agenda {
+    background-color: white;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 4px 1px 1px;
+    padding: 15px;
+}
+.agenda a img {
+    display: block;
+    margin: 10px auto;
+    max-height: 50px;
+    max-width: 100%;
+}
+.agenda p {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    text-align: center;
+}
+/*
+|
+| Desktop rare resolutie
+|--
+*/
+
+@media only screen and (min-width:1px) and (max-width:480px) {
+  #intro div > h4 {
+      border-bottom: 1px dashed white;
+      border-left: 0 solid white;
+      border-right: 0 solid white;
+      line-height: 22px;
+      margin-top: 15px;
+      padding-bottom:25px;
+  }
+}
+
+/*
+|-----------------------------------------------------------------------
+| MOBILE PORTRAIT
+|-----------------------------------------------------------------------
+*/
+
+@media only screen and (min-width:220px) and (max-width:480px) and (orientation:portrait) {
+  .page-container {
+    padding-bottom: 60px !important;
+  }
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-11,
+  .col-md-12 {
+    padding: 0 !important;
+  }
+  .timer div > p.letter {
+    font-size: 13px;
+  }
+  #intro div > h4 {
+      border-bottom: 1px dashed white;
+      border-left: 0 solid white;
+      border-right: 0 solid white;
+      line-height: 22px;
+      margin-top: 15px;
+      padding-bottom:25px;
+  }
+  #intro div > h1 {
+    font-size:26px;
+    line-height:34px;
+  }
+  #intro div > h5 {
+    font-size: 12pt;
+  }
+  .demo-button {
+    padding :15px 30px !important;
+  }
+  .demo-button:hover {
+    padding :15px 30px !important;
+  }
+}
+
+/*
+|
+| Desktop resolutie
+|--
+*/
+@media screen and (min-width:321px) and (max-width:768px) {
+  #intro div > h4 {
+      border-bottom: 1px dashed white;
+      border-left: 0 solid white;
+      border-right: 0 solid white;
+      line-height: 22px;
+      margin-top: 15px;
+      padding-bottom:25px;
+  }
+}
+
+
+
+/*
+|-----------------------------------------------------------------------
+| MOBILE LANDSCAPE
+|-----------------------------------------------------------------------
+*/
+
+@media screen and (min-width:321px) and (max-width:768px) and (orientation:landscape) {
+  .page-container {
+    padding-bottom: 60px !important;
+  }
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-11,
+  .col-md-12 {
+    padding: 0 !important;
+  }
+  .timer div > p.letter {
+    font-size: 13px;
+  }
+  #intro div > h4 {
+      border-bottom: 1px dashed white;
+      border-left: 0 solid white;
+      border-right: 0 solid white;
+      line-height: 22px;
+      margin-top: 15px;
+      padding-bottom:25px;
+  }
+  #intro div > h1 {
+    font-size:26px;
+    line-height:34px;
+  }
+  #intro div > h5 {
+    font-size: 12pt;
+  }
+  .demo-button {
+    padding :15px 30px !important;
+  }
+  .demo-button:hover {
+    padding :15px 30px !important;
+  }
+}
+
+
+/*
+|-----------------------------------------------------------------------
+| TABLET PORTRAIT
+|-----------------------------------------------------------------------
+*/
+
+@media screen and (min-width:768px) and (max-width: 1024px) and (orientation:portrait) {
+  #intro div > h4{
+    border-left: 5em solid white;
+    border-right: 5em solid white;
+  }
+}
+
+
+
+/*
+|-----------------------------------------------------------------------
+| TABLET LANDSCAPE
+|-----------------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px ) and (max-width: 1280px) and (orientation:landscape) {
+  #intro div > h4{
+    border-left: 8em solid white;
+    border-right: 8em solid white;
+  }
+}
+
+.hr-pijl-wit {
+    background-image: url("http://www.digitusmarketing.nl/images/digitus/hr-pijl-wit.png");
+    display: inline-block;
+    height: 20px;
+    margin: 15px auto;
+    width: 100%;
+    background-position:center center;
+}
+.hr-pijl-donker {
+    background-image: url("http://www.digitusmarketing.nl/images/digitus/hr-pijl-donker.png");
+    display: inline-block;
+    height: 20px;
+    margin: 15px auto;
+    width: 100%;
+    background-position:center center;
+}
+
+.download-bar::before {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 0;
+    margin-left:-15px;
+}
+.download-bar {
+    background-image: url("http://www.digitusmarketing.nl/images/site/bg/blauw-bg-pattern.jpg");
+    padding: 30px 15px;
+    position: relative;
+    /*border-bottom:2px solid white;*/
+    box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.5);
+}
+.bonus-bar {
+  background-image: url("http://www.digitusmarketing.nl/images/site/bg/grijs-bg-pattern.jpg");
+  padding: 30px 15px;
+  position: relative;
+  /*border-bottom:2px solid white;*/
+  box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.download-bar div > h4,
+.download-bar div > p {
+  color:white;
+  margin-left:15px;
+}
+button.show-form {
+    display: block;
+    float: none;
+    margin: 20px auto;
+}
+
+.host img {
+  border-radius: 100%; margin: 0px 25px; border: 2px solid white; width: 130px; height: 130px;
+}
+.host h3 {
+  color:white;
+}
+.host h6 {
+  color:white;
+  font-style: italic;
+  font-weight: 500;
+}

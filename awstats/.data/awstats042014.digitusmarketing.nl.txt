@@ -1,0 +1,442 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201404 will be lost/reset.
+# Last config file used to build this data file was /home/id00005/domains/digitusmarketing.nl/awstats/.data/awstats.digitusmarketing.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2045                
+POS_TIME 2726                
+POS_VISITOR 13684               
+POS_DAY 14552               
+POS_DOMAIN 3409                
+POS_LOGIN 3639                
+POS_ROBOT 3794                
+POS_WORMS 4279                
+POS_EMAILSENDER 4410                
+POS_EMAILRECEIVER 4553                
+POS_SESSION 14660               
+POS_SIDER 14835               
+POS_FILETYPES 4688                
+POS_DOWNLOADS 4884                
+POS_OS 4932                
+POS_BROWSER 5099                
+POS_SCREENSIZE 5646                
+POS_UNKNOWNREFERER 5720                
+POS_UNKNOWNREFERERBROWSER 5931                
+POS_ORIGIN 6137                
+POS_SEREFERRALS 6275                
+POS_PAGEREFS 6430                
+POS_SEARCHWORDS 6893                
+POS_KEYWORDS 7045                
+POS_MISC 2390                
+POS_ERRORS 7104                
+POS_CLUSTER 3495                
+POS_SIDER_404 7205                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140501001312 417 82717 8899447406485
+FirstTime 20140429144419
+LastTime 20140430234453
+LastUpdate 20140501001318 417 0 416 0 0
+TotalVisits 34                  
+TotalUnique 20                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 21                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 1788 55 60 31197
+1 5 5 4413 8 12 7394
+2 1 1 894 7 8 5477
+3 1 1 894 9 11 6874
+4 4 4 3576 15 17 11228
+5 2 2 1788 13 15 9537
+6 1 1 894 4 4 2382
+7 6 6 4644 15 15 8229
+8 2 2 1788 7 14 7384
+9 1 1 894 7 15 7801
+10 7 7 7531 9 15 8320
+11 1 1 894 2 3 1697
+12 2 2 1788 7 13 34420
+13 3 4 16730 6 13 6241
+14 18 78 729352 11 23 65830
+15 72 83 169239 26 33 18510
+16 72 76 80735 43 48 28889
+17 65 68 61130 33 43 96081
+18 45 46 43916 16 19 24329
+19 5 7 32566 18 25 12458
+20 3 3 2446 11 34 17943
+21 4 5 16979 26 36 20558
+22 3 3 2682 11 12 7279
+23 5 5 4110 20 22 13213
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 330 413 1191671
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+yandex 38 27130 20140430235512 0
+facebook 14 119265 20140430170925 0
+bingbot 6 4284 20140430183227 0
+phantom 6 44827 20140430124114 0
+googlebot 4 2856 20140430214600 0
+no_user_agent 1 894 20140430163113 0
+googlebot\-image 1 14229 20140430181214 0
+bot[\s_+:,\.\;\/\\-] 1 677 20140430094433 0
+mail\.ru 1 894 20140430021833 0
+robot 1 658 20140430161853 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 6 40149 0 0
+php 328 263421 0 0
+png 26 243679 0 0
+tif 1 571 0 0
+html 1 598 0 0
+js 18 390073 0 0
+jpg 28 247003 0 0
+gif 5 6177 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+winlong 9 7
+winxp 8 8
+ios_iphone 4 2
+win7 369 292
+win95 3 3
+wince 3 3
+win8 8 7
+win8.1 7 7
+Unknown 2 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+msie6.0 1 1
+safari7.0 4 2
+firefox28.0 327 253
+opera12.16 6 6
+opera19.0.1326.59 2 2
+firefox26.0 5 5
+chrome34.0.1847.131 3 2
+firefox21.0 6 6
+msie5.5 3 3
+msie3.02 3 3
+chrome32.0.1700.107 11 10
+chrome32.0.1700.102 3 3
+chrome30.0.1599.13014 4 4
+chrome30.0.1599.12785 3 3
+chrome33.0.1750.117 3 3
+chrome32.0.1700.76 4 4
+chrome34.0.1847.116 10 6
+msie10.0 1 1
+chrome33.0.1750.146 5 5
+msie9.0 1 1
+opera18.0.1284.68 1 1
+opera20.0.1387.64 1 1
+opera19.0.1326.63 1 1
+Unknown 2 1
+firefox27.0 2 2
+opera12.15 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_unstablepenguin) 20140429201426
+visionutils/0.2 20140430170926
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_unstablepenguin) 20140429201426
+visionutils/0.2 20140430170926
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 34 35
+From1 0 0
+From2 1 1
+From3 245 307
+From4 50 70
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://mail.digitusmarketing.nl 235 283
+http://kinonew-online.net 3 3
+http://drevrus.biz 3 3
+http://mail.digitusmarketing.nl 2 2
+http://semalt.semalt.com/crawler.php 1 1
+http://www.techlila.com 1 1
+http://mail.digitusmarketing.nl/skins/larry/styles.css 0 12
+http://mail.digitusmarketing.nl/skins/larry/mail.css 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 2 1263
+404 416 234028
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 126
+/hoe-je-berichten-van-anderen-uitgelicht-maakt-op-jouw-pagina/ 1 -
+/wp-content/uploads/2013/01/coupon-bowling-enschede.pdf 2 -
+/robots.txt 36 -
+/diensten/zoekmachine-adverteren/ 1 https://www.google.nl/
+/diensten/Facebook-pagina/ 1 -
+/wp-content/uploads/2012/09/Google-Nederlandsche-Inkoopkantoor-Slider.jpg 1 -
+/hoe-je-kunt-zien-wanneer-je-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken 1 -
+/contact 2 -
+/wp-content/uploads/2014/03/TabLocationnew.png 1 -
+/wp-content/uploads/2012/09/kingswok-logo-klein.jpg 1 -
+/diensten/adverteren-op-facebook/promoted-posts/ 1 -
+/feed/ 5 -
+/contact/ 2 -
+/wp-content/themes/theme1663/js/alles.min.js 1 -
+/wp-content/uploads/2013/10/Facebook-bedrijfspagina-vrienden-uitnodigen3.jpg 1 -
+/category/facebook/page/3/ 1 -
+/portfolio-view/ 1 -
+/feed/atom/ 1 -
+/wp-content/uploads/2012/08/Digitus-Marketing-Logo-Header.png 2 -
+/wp-content/uploads/2012/09/Pizzeria-valentino.jpg 5 https://www.google.nl/
+/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt/ 37 http://www.digitusmarketing.nl/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt/
+/author/parsifal-tritsch 1 -
+/wp-includes/js/swfobject.js 1 -
+/facebook/facebook-vriendschapspaginas 1 -
+/wp-content/uploads/2013/10/Facebook-bedrijfspagina-vrienden-uitnodigen1.jpg 1 https://www.google.nl/
+/cyberpester-wordt-met-hulp-van-facebook-fans-flink-aangepakt/ 3 -
+/wp-content/uploads/2013/11/begging-for-likes-307x192.jpg 1 -
+/diensten/social-media-marketing/facebook-fanpage 2 -
+/xmlrpc.php 1 -
+/portfolio-view/pizzeria-valentino/ 1 https://www.google.nl/
+/category/social-media/page/3/ 1 -
+/portfolio-view/suntime-zonnestudio/ 1 -
+/portfolio-view/chinthai/ 1 -
+/diensten/adverteren-op-facebook/sponsored-stories/ 3 -
+/author/parsifal-tritsch/ 2 -
+/facebook-vrienden-uitnodigen-bedrijfspagina/ 141 http://www.digitusmarketing.nl/facebook-vrienden-uitnodigen-bedrijfspagina/
+/wp-content/uploads/2013/02/Voorbeeld-zoek-in-alle-vrienden.jpg 3 -
+/wp-content/uploads/2012/09/inkoopkantoor-logo-klein.jpg 1 -
+/blog/page/3/ 1 -
+/diensten/Zoekmachine-Adverteren 1 -
+/portfolio/ontwikkelingen/page/2/ 1 -
+/wp-content/uploads/2013/10/Facebook-bedrijfspagina-vrienden-uitnodigen2.jpg 1 https://www.google.nl/
+/wp-content/uploads/2012/08/Digitus-Marketing-Logo-50.png 1 -
+/internet-marketing-tips.php 1 -
+/author/parsifal-tritsch/page/2/ 1 -
+/diensten/adverteren-op-facebook/page-post-ads 1 -
+/praktijk-voorbeeld-waar-een-succesvolle-facebook-tijdlijn-actie-toe-kan-leiden/+ParsifalTritsch 1 -
+/portfolio-view/het-nederlandsche-inkoopkantoor/ 1 -
+/page-sitemap.xml 1 -
+/category/social-media/page/4/ 1 -
+/wp-content/uploads/2013/10/Stap-3.jpg 1 -
+/diensten/adverteren-op-facebook/promoted-posts 1 -
+/diensten/ontwerp-advertenties/ 1 -
+/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 2 -
+/gratis-tips/internet-marketing-tips 1 -
+/blog/page/4/ 1 -
+/image/twitter.png 2 -
+/wp-includes/js/comment-reply.js 1 -
+/blog/page/2/ 1 -
+/wp-content/uploads/2013/11/begging-for-likes-140x100.jpg 1 -
+/diensten/linkbuilding/ 1 -
+/diensten/Adverteren-op-Facebook/ 1 -
+/wp-content/themes/theme1663/js/jquery.nivo.slider.js 2 -
+/wp-content/uploads/2013/03/beheerdersrollen-hairworld.jpg 1 -
+/wp-login.php 27 -
+/wp-content/uploads/2012/09/bedrijfspagina.png 1 -
+/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook/ 3 -
+/wp-content/uploads/2013/10/email-bericht.jpg 1 -
+/facebook/facebook-vrienden-uitnodigen-bedrijfspagina 3 -
+/portfolio-sitemap.xml 1 -
+/blog/page/5/ 1 -
+/portfolio-view/anytime-fitness/ 1 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 1 -
+/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel/ 6 -
+/wp-content/uploads/2012/09/creeren.png 1 -
+/wp-content/uploads/2013/10/handelend-als.jpg 1 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage 1 -
+/category/facebook/page/4/ 1 -
+/praktijk-voorbeeld-waar-een-succesvolle-facebook-tijdlijn-actie-toe-kan-leiden/ 1 -
+/author/jeroen-venderbosch/ 1 -
+/diensten/Facebook-pagina 1 -
+/wp-content/uploads/2012/09/megafono_256.png 1 -
+/hoe-je-kunt-zien-wanneer-je-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken/ 1 -
+/wp-content/uploads/2012/03/Facebook-fanpage-vind-ik-leuk.jpg 1 http://image-search.kik.com/
+/wp-content/uploads/2013/10/email-contacten-1.jpg 1 -
+/facebook-vriendschapspaginas/ 2 -
+/blog/ 2 -
+/category/social-media/page/2/ 1 -
+/author/parsifal-tritsch/feed/ 1 -
+/wp-content/uploads/2012/09/valentino-logo-klein.jpg 1 -
+/facebook/facebook-speelt-een-sleutelrol-in-hoe-mensen-nieuws-meekrijgen-en-delen 2 -
+/wp-content/themes/theme1663/css/normalize.css 1 -
+/diensten/meer-volgers-op-twitter/ 1 -
+/wp-content/uploads/2012/11/Facebook-logo-140x100.jpg 1 -
+/portfolio-view/the-bombay-spice/ 2 -
+/portfolio-view/hartman-haarmode/ 1 -
+/wp-content/uploads/2012/09/Logo-super-klein.jpg 1 -
+/wp-content/uploads/2012/09/chinthailogo-super-klein.jpg 1 -
+/facebook-fanpage-offerte 1 -
+/category/facebook/ 1 -
+/wp-content/uploads/2013/03/blokkeringen-beheren.jpg 1 -
+/wp-content/plugins/contact-form-7/includes/css/styles.css 2 -
+/referenties/ 1 -
+/hoe-je-berichten-van-anderen-uitgelicht-maakt-op-je-pagina/ 5 -
+/diensten/adverteren-op-facebook/regular-ads/ 3 -
+/wp-content/uploads/2014/02/prettige-dag-cavia.jpg 1 -
+/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage/ 3 -
+/diensten/ontwerp-visitekaartjes/ 1 -
+/category/facebook/page/2/ 1 -
+/administrator/index.php 1 -
+/wp-content/themes/theme1663/js/jquery.prettyPhoto.js 1 -
+/diensten/Ontwerp-Logo-en-Huisstijl 1 -
+/diensten/adverteren-op-facebook/ 1 -
+/facebook-speelt-een-sleutelrol-in-hoe-mensen-nieuws-meekrijgen-en-delen/ 3 -
+/wp-content/uploads/2012/09/ziesta-logo-klein.jpg 1 -
+/diensten/adverteren-op-facebook/page-post-ads/ 2 -
+/tag/persoonlijk-profiel/ 2 -
+/wp-content/uploads/2013/04/vind-ik-leuks-door-pagina.jpg 3 -
+/portfolio-view/the-bombay-spice 1 -
+/wp-content/uploads/2012/11/Facebook-logo-307x192.jpg 1 -
+/diensten/google-plus-pagina/ 1 -
+/wp-content/uploads/2012/06/slide2.jpg 1 -
+/index.php 3 -
+/wp-content/uploads/2012/11/Meer-apps.jpg 1 -
+/sitemap.xml.gz 1 -
+/portfolio/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 21
+82.75.157.160 255 307 727505 20140430171158
+91.200.13.31 35 35 31290 20140430232807
+193.150.120.14 6 6 5250 20140430102616
+162.243.170.66 4 4 2856 20140430074654
+91.200.13.20 4 4 3576 20140430234453
+91.200.13.87 4 4 3576 20140430153430
+91.200.13.18 3 3 2682 20140430134437
+5.18.58.43 3 3 2682 20140430125805
+82.75.255.104 3 27 303753 20140429145942
+84.87.32.208 2 4 29884 20140429195714
+67.20.90.135 1 1 249 20140429210153
+198.211.96.53 2 2 1428 20140429233444
+62.163.51.181 1 2 14942 20140429214227
+217.121.180.78 1 2 14942 20140430133651
+8.35.200.47 1 1 658 20140429201426
+189.11.111.171 1 2 14942 20140429164302
+192.151.152.202 1 1 894 20140430225319
+157.55.252.30 1 1 714 20140430170939
+209.191.189.194 1 1 677 20140429145122
+173.252.105.117 0 1 14229 
+83.81.236.57 1 2 14942 20140430185436
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20140429 268 342 1093525 12
+20140430 62 71 98146 22
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 4
+30s-2mn 1
+15mn-30mn 1
+0s-30s 28
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 328 263421 34 34
+/program/resources/blank.tif 1 571 0 0
+/skins/larry/watermark.html 1 598 0 0
+END_SIDER

@@ -1,0 +1,2862 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+# Last config file used to build this data file was /home/id00005/domains/digitusmarketing.nl/awstats/.data/awstats.digitusmarketing.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2045                
+POS_TIME 2721                
+POS_VISITOR 51091               
+POS_DAY 102723              
+POS_DOMAIN 3749                
+POS_LOGIN 3987                
+POS_ROBOT 4142                
+POS_WORMS 6366                
+POS_EMAILSENDER 6497                
+POS_EMAILRECEIVER 6640                
+POS_SESSION 103719              
+POS_SIDER 103933              
+POS_FILETYPES 6775                
+POS_DOWNLOADS 7181                
+POS_OS 7661                
+POS_BROWSER 8125                
+POS_SCREENSIZE 11021               
+POS_UNKNOWNREFERER 11095               
+POS_UNKNOWNREFERERBROWSER 12800               
+POS_ORIGIN 13663               
+POS_SEREFERRALS 13815               
+POS_PAGEREFS 13993               
+POS_SEARCHWORDS 15936               
+POS_KEYWORDS 16287               
+POS_MISC 2383                
+POS_ERRORS 16547               
+POS_CLUSTER 3843                
+POS_SIDER_404 16724               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150201001137 4774 1131254 15721170346813
+FirstTime 0
+LastTime 20150131235708
+LastUpdate 20150201001351 4774 0 4773 0 0
+TotalVisits 1267                
+TotalUnique 875                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1483                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 414 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 55 521 36810901 210 319 7591261
+1 26 193 15981827 193 274 3632861
+2 42 217 11859540 334 395 4859911
+3 65 171 6834137 192 269 4917830
+4 30 142 5897776 367 449 4987082
+5 30 74 3433957 552 645 8687230
+6 43 141 7925601 282 335 2478122
+7 38 366 24644294 388 587 23387439
+8 115 981 131655661 414 594 17429899
+9 175 1110 716702420 381 688 23475714
+10 528 2809 258451296 354 821 25267890
+11 867 4354 1311278993 401 1201 33229319
+12 1123 5163 1483999968 438 904 23133670
+13 1141 6892 1819186936 583 856 8557654
+14 1520 7347 1461312440 403 681 15346268
+15 1822 8357 2962159541 631 946 13843349
+16 1284 5772 567608593 412 782 36400855
+17 1251 6482 1657959716 652 1096 36326927
+18 223 1313 242751852 250 511 17217353
+19 209 1658 385222224 260 459 14174580
+20 361 2382 145344457 290 445 9645621
+21 466 3195 3883423630 425 680 14253326
+22 316 2076 926900867 316 516 12912268
+23 143 1049 208711875 358 469 5039555
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 11873 62765 18276058502
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 56
+googlebot 1287 8187901 20150131233705 431
+phantom 722 46576466 20150131123434 0
+bingbot 573 25915455 20150131224102 59
+facebook 484 141725720 20150131224136 0
+mj12bot 367 3744137 20150131142854 134
+bot[\s_+:,\.\;\/\\-] 316 3163903 20150131164426 78
+crawl 299 5866869 20150131015337 18
+yandex 296 13332474 20150131185357 43
+vagabondo 256 8256448 20150129234204 8
+baiduspider 158 5006449 20150130225124 0
+commons\-httpclient 9 411440 20150130183017 0
+no_user_agent 95 10375546 20150131231258 1
+spider 7 65960 20150130132734 4
+seznambot 58 8865097 20150128211533 10
+bingpreview 110 8204912 20150127071126 0
+php 1 4322 20150115203023 0
+[\s_+:,\.\;\/\\-]bot 3 12337 20150127223834 2
+mail\.ru 80 1984954 20150130111349 33
+msnbot 1 426 20150101110122 1
+ips\-agent 36 1228728 20150119140206 3
+curl 5 3503 20150129183625 0
+^java\/[0-9] 88 5717865 20150129174723 0
+proximic 4 49800 20150131231139 2
+ahrefsbot 23 200974 20150131222950 10
+digger 3 22198 20150114013540 2
+linkdex\.com 18 233379 20150124120049 2
+sift 4 44377 20150129174723 0
+yahoocachesystem 1 11404 20150112044054 0
+360spider 13 43944 20150131231758 6
+titan 1 5887 20150124054909 0
+surveybot 6 18729 20150129020433 3
+twitterbot 48 1491836 20150130150334 27
+^mozilla\/5\.0$ 1 5816 20150101083728 0
+msnbot\-media 2 46140 20150107001726 1
+nutch 5 12926 20150122052425 3
+mediapartners\-google 2 12415 20150122141836 0
+exabot 24 147781 20150120170825 10
+webcollage 1 840098 20150101224926 0
+ia_archiver 4 86354 20150131171826 1
+googlebot\-image 148 22906267 20150128185512 0
+mojeekbot 4 12478 20150125161642 2
+libwww 2 43286 20150127002644 0
+metauri 8 165749 20150129174725 0
+betabot 14 95903 20150119080601 3
+slurp 55 762384 20150131185455 12
+unknown 53 22514 20150131204944 53
+^mozilla\/4\.0$ 8 616021 20150117154924 0
+inagist 3 120359 20150129174723 0
+robot 5 25585 20150106075309 2
+python 10 86954 20150129174723 3
+wordpress 1 291 20150122195413 0
+favicon 42 297956 20150131124814 0
+archive\.org_bot 79 2676244 20150131113641 30
+spbot 152 1069808 20150125083029 2
+abonti\.com 55 445432 20150101152200 1
+netcraft 1 21382 20150108153248 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+eot 186 5266261 0 0
+css 9385 72433221 0 0
+png 24898 1161875123 0 0
+dib 9 232270 0 0
+ttf 18 501176 0 0
+pdf 100 32795432 0 0
+woff 440 13583941 0 0
+php 3899 267864787 0 0
+mp4 2271 15734407120 0 0
+xml 2 5820 0 0
+jpg 3395 583952897 0 0
+js 8252 206204858 0 0
+jpeg 22 1301449 0 0
+Unknown 7321 49690983 0 0
+svg 2503 140075092 0 0
+gif 64 5868072 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 9
+/uploads/ebooks/De-Spiekbrief.pdf 82 0 22806164
+/videos/Welkom-op-deze-pagina.mp4 55 0 1913297356
+/uploads/ebooks/De-Basis-Van-Een-Succesvolle-Facebook-Pagina-In-16-Stappen.pdf 12 0 8690710
+/videos/eee.mp4 11 0 3836400
+/videos/www.mp4 11 0 5235968
+/videos/qqq.mp4 10 0 3924080
+/pdf_maker/Factuur-basis-pakket.pdf 3 0 315320
+/uploads/ebooks/Succesvolle-Tijdlijnacties.pdf 1 0 637214
+/pdf_maker/facturen/1/8115170328-1.pdf 1 0 103523
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 27
+linuxandroid 4840 531
+macosx6 142 29
+winxp 864 325
+winlong 500 81
+ios_iphone 3858 336
+win2000 1 1
+linuxgentoo 1 1
+winunknown 2 2
+win2003 16 14
+win8 410 55
+linuxdebian 4 0
+macosx9 867 136
+ios_ipad 2029 147
+macosx7 133 15
+unix 10 2
+java 12 11
+winnt 6 2
+macosx5 146 21
+linuxubuntu 162 109
+linux 319 64
+win7 45143 9358
+winme 1 1
+macosx 919 129
+macosx4 2 2
+win8.1 2026 265
+Unknown 267 196
+macosx8 85 40
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 144
+safari7.0.3 14 4
+chrome11.0.661.0 1 1
+firefox28.0 28 20
+firefox3.6 3 3
+chrome34.0.1847.137 3 2
+firefox3.0.1 3 3
+firefox2.0.0.1 1 1
+safari5.0.2 1 1
+msie8.0 516 100
+chrome11.0.696.34 1 1
+chrome39.0.2171.65 60 7
+msie7.0 42 29
+msie5.01 1 1
+chrome39.0.2171.96 6 2
+firefox10.0.1 9 9
+chrome32.0.1700.107 339 18
+chrome35.0.1916.114 12 6
+chrome36.0.1985.143 1610 117
+firefox33.0 9 5
+firefox25.0 1 1
+netscape5.0 4 4
+chrome37.0.0.0 8 0
+chrome10.0.601.0 1 1
+safari5.1.9 51 6
+prism 16 6
+safari 288 41
+safari7.0 484 62
+firefox5.0 1 1
+firefox4.0.1 1 1
+chrome38.0.2125.104 13 0
+android 961 99
+opera27.0.1689.54 79 11
+chrome28.0.1500.95 4 4
+chrome36.0.1985.125 1 1
+firefox24.0 27 7
+firefox3.5.3 1 1
+iphone 2480 159
+chrome33.0.0.0 61 0
+chrome26.0.1410.65 1 1
+chrome15.0.861.0 1 1
+chrome38.0.2125.122 66 6
+chrome34.0.1847.116 4 0
+msie5.0 1 1
+chrome28.0.1500.52 2 2
+msie9.0 215 52
+firefox3.0.8 5 5
+chrome39.0.2171.93 699 116
+firefox3.0.2 1 1
+firefox3.6.14 1 1
+iceweasel 4 0
+firefox3.6.2 7 0
+safari7.1.2 181 21
+chrome35.0.1916.141 27 3
+chrome39.0.2171.59 37 3
+chrome28.0.1500.71 30 30
+safari6.1.5 25 3
+nokia 1 0
+chrome35.0.1916.153 172 12
+firefox3.0.6 2 2
+firefox22.0 23 17
+chrome25.0.1364.172 25 3
+chrome11.0.696.12 2 2
+chrome39.0.2171.99 4188 688
+firefox3.6.8 40 33
+msie6.0 159 159
+chrome40.0.2214.94 67 13
+chrome40.0.2214.91 1193 169
+firefox10.0 8 8
+firefox26.0 6 6
+chrome28.0.1500.94 368 35
+chrome5.0.375.99 1 1
+safari10.3.0.1418 4 0
+chrome39.0.2171.95 6399 1500
+firefox4.0 4 4
+firefox18.0 2 2
+chrome38.0.2125.111 71 6
+opera26.0.1656.60 48 18
+firefox34.0 19816 5254
+chrome28.0.1500.72 6 6
+firefox23.0 1 0
+chrome37.0.2062.120 28 4
+chrome39.0.2171.71 7 2
+chrome38.0.2125.509 4 0
+safari6.2 16 0
+chrome28.0.1500.63 8 8
+chrome34.0.1847.131 10 5
+chrome1.0.154.48 6 3
+firefox21.0 9 9
+lg\- 29 3
+safari6.0 26 25
+firefox29.0 14 4
+firefox12.0 1 1
+safari7.0.6 94 12
+chrome14.0.824.0 1 1
+safari6.0.5 11 6
+chrome10.0.648.0 1 1
+mozilla 335 82
+chrome18.0.1025.142 1 1
+chrome40.0.2214.89 1005 76
+chrome32.0.1700.76 38 4
+chrome41.0.2272.16 7 3
+safari8.0.2 299 41
+firefox3.6.3 1 1
+chrome40.0.2214.93 2495 452
+firefox10.0.2 4 2
+firefox3.0.10 2 0
+firefox35.0 10477 1092
+firefox15.0.1 3 3
+chrome21.0.1180.89 1 1
+chrome37.0.2062.124 16 2
+opera12.17 2 2
+firefox15.0 4 4
+firefox3.0.9 1 1
+chrome41.0.2251.0 23 3
+opera9.00 1 1
+chrome12.0.742.112 97 97
+safari6.1.6 102 11
+firefox31.0 71 7
+firefox13.0.1 4 4
+firefox6.0.2 1 1
+chrome13.0.782.112 5 5
+firefox16.0 146 21
+chrome10.0.648.204 7 7
+chrome30.0.1599.66 1 1
+safari8.0 2793 229
+safari7.1.3 49 8
+chrome30.0.1599.101 33 10
+Unknown 185 150
+firefox11.0 13 0
+safari7.1 11 3
+chrome30.0.0.0 1652 197
+firefox3.5.6 1 1
+firefox17.0 17 8
+chrome27.0.1453.110 10 10
+safari5.1.7 60 10
+msie11.0 1150 240
+chrome31.0.1650.23 12 5
+firefox5.0.1 4 4
+msie10.0 265 32
+safari5.1 6 2
+netscape11.0 1 1
+chrome27.0.1453.116 32 32
+firefox3.5 2 2
+firefox3.6.13 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 28
+visionutils/0.2 20150130112048
+Mozilla/5.0_(Android;_Tablet;_rv:35.0)_Gecko/35.0_Firefox/35.0 20150128191658
+Mozilla/5.0_(BB10;_Kbd)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.3.0.1418_Mobile_Safari/537.35_ 20150125113252
+Ruby 20150128085408
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20150103232948
+MailChimp.com 20150131140039
+Xenu_Link_Sleuth/1.3.8 20150105200736
+Mollie.nl_HTTP_client/1.0 20150131215949
+Mozilla/11.0 20150119140538
+Crowsnest/0.5_(_http://www.crowsnest.tv/) 20150127165336
+Mozilla/5.0_() 20150127165357
+Mozilla/5.0_(Android;_Tablet;_rv:34.0)_Gecko/34.0_Firefox/34.0 20150131104437
+Mozilla/5.0_(compatible;_ExaleadCloudView/5;) 20150129094552
+Mozilla/2.0_(compatible;_crw) 20150123165458
+Mozilla/5.0_(compatible;_Embedly/0.2;__http://support.embed.ly/) 20150127165346
+WhatsApp/2.11.634_WP7/7.10.8862_Device/NOKIA-Lumia_710-H112.1402.2.1 20150122203407
+jack 20150123124716
+Disqus/1.0 20150123122814
+Mozilla/5.0_(compatible;_Lipperhey_SEO_Service;_http://www.lipperhey.com/) 20150131144445
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20150115051345
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20150109053312
+Mozilla/5.0_(Android;_Mobile;_rv:35.0)_Gecko/35.0_Firefox/35.0 20150128211208
+Go_1.1_package_http 20150126202415
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_getak-proxy) 20150107135329
+newsme/1.0;_feedback@news.me 20150123130422
+Mozilla/5.0_(compatible;_Embedly/0.2;_snap;__http://support.embed.ly/) 20150127165349
+Mozilla/5.0_(Android;_Mobile;_rv:34.0)_Gecko/34.0_Firefox/34.0 20150127215414
+GigablastOpenSource/1.0 20150127020143
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 18
+visionutils/0.2 20150130112048
+Ruby 20150128085408
+MailChimp.com 20150131140039
+Xenu_Link_Sleuth/1.3.8 20150105200736
+Mollie.nl_HTTP_client/1.0 20150131215949
+Crowsnest/0.5_(_http://www.crowsnest.tv/) 20150127165336
+Apache-HttpClient/4.2.2_(java_1.5) 20150129175608
+Microsoft_Office_Word_2013 20150129093346
+jack 20150123124716
+Apache-HttpClient/4.3.5_(java_1.5) 20150119144757
+Apache-HttpClient/4.1.2_(java_1.5) 20150128052810
+Disqus/1.0 20150123122814
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20150109053312
+Go_1.1_package_http 20150126202415
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_getak-proxy) 20150107135329
+newsme/1.0;_feedback@news.me 20150123130422
+Google-HTTP-Java-Client/1.17.0-rc_(gzip) 20150129174725
+GigablastOpenSource/1.0 20150127020143
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 4012 5239
+From1 1 3
+From2 234 492
+From3 555 2861
+From4 7071 54170
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 229 485
+bing 4 6
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 41
+http://digitusmarketing.us7.list-manage.com/subscribe/confirm 183 490
+http://m.facebook.com 85 185
+https://www.facebook.com 48 48
+http://semalt.semalt.com/crawler.php 46 46
+http://l.facebook.com/l.php 33 33
+http://iborazant.us3.list-manage.com/subscribe/confirm 32 32
+http://buttons-for-website.com 26 26
+http://facebook.us7.list-manage.com/subscribe/confirm 19 19
+http://l.facebook.com/lsr.php 17 18
+http://www.link-plaatsen.com 10 10
+http://woobox.com/73ay53 0 46
+http://t.co/mHbi5RfkYo 1 1
+http://facebook-pictures.drippic.com/bovenstaande-voorbeeldkeukens-zijn-niet-te-bezichtigen-in-onze/bossmakeukens.nl*media*27542*lokatie-039.jpg/ 0 1
+http://woobox.com/mah37n 0 79
+http://m.facebook.com 4 19
+http://digitusmarketing.us7.list-manage.com/subscribe/post 0 5
+http://www.bedrijvenstek.nl/id-52622746/ 1 1
+http://m.facebook.com/l.php 6 6
+http://moderator.startpagina.be/index.php 1 1
+http://iborazant.us3.list-manage1.com/subscribe/confirm 1 1
+http://iborazant.us3.list-manage2.com/subscribe/confirm 1 1
+http://www.hetinkoopkantoor.nl 1 1
+http://www.hetinkoopkantoor.nl/links.php 1 1
+http://woobox.com/yv48nq 0 1714
+https://m.facebook.com 4 4
+http://www.digitusmarketing.us7.list-manage.com/subscribe/post 0 3
+http://www.suntimezonnestudio.nl 1 1
+http://www.crchealth.com/wp-content/themes/MichaelCanthony/download.php 1 1
+https://www.facebook.com 5 5
+http://www.facebook.com/l.php 3 3
+http://fb.me/1WgrVGrv1 2 2
+http://anglerz.com/kunt-alles-krijgen-als-bekeken.html 0 1
+http://lm.facebook.com/l.php 4 4
+http://anticrawler.org 1 1
+http://www.domain2008.com 2 2
+http://www.vinden.nl 1 1
+http://www.techlila.com 10 10
+https://woobox.com/app/143103275748075/tab 0 8
+http://lm.facebook.com/lsr.php 2 2
+http://digitusmarketing.us7.list-manage.com/subscribe 0 26
+https://business.facebook.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+digitus+marketing 4
+valkuil 1
+facebook+tijd+uitschakelen 1
+bericht+promoten+facebook+kosten 1
+ergernissen+candy+crush+saga+soda 1
+diamond+dash+blokkeren+facebook 1
+facebook+vragen+over+online+zijn 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 21
+digitus 4
+marketing 4
+facebook 4
+candy 1
+over 1
+promoten 1
+vragen 1
+valkuil 1
+ergernissen 1
+kosten 1
+zijn 1
+tijd 1
+crush 1
+uitschakelen 1
+saga 1
+online 1
+bericht 1
+soda 1
+dash 1
+diamond 1
+blokkeren 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 1 501
+401 6 37036
+302 488 546209
+405 19 228893
+500 791 21288329
+404 3493 7309937
+301 3305 2142992
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 568
+/js/lib/fckeditor/editor/fckeditor.html 2 -
+/static/scripts/ajax/FCKeditor/editor/fckeditor.html 2 -
+/diensten/Google-Plus-pagina 3 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanp 1 -
+/facebook/facebook-vriendschapspaginas/feed 1 -
+/diensten/ontwerp-logo-en-huisstijl 4 -
+/ckeditor/ckfinder/core/connector/php/connector.php 1 -
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/tijdlijnacties/user/videos 1 -
+/portfolio-view/kings-wok/feed 1 -
+/wp-content/themes/MichaelCanthony/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/FR0_theme/down.php
+/images/kerstspecial/kerstspecial-ro-bg.png) 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/diensten/adverteren-op-facebook/sponsored-stories 4 -
+/uploads/images/media/Bericht 1 -
+/diensten/social-media-onderhoud 2 -
+/facebook-vrienden-uitnodigen-bedrijfspagina 126 http://www.digitusmarketing.nl/facebook-vrienden-uitnodigen-bedrijfspagina/
+/wp-content/themes/felis/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/epic/includes/download.php
+/editor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.digitusmarketing.nl/editor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/g 1 -
+/xmlrpc.php 2 -
+/feed/atom 1 -
+/portfolio-view/toons-eten/feed 1 -
+/doenload/spiekbrief 1 -
+/kerstspecial/user 2 -
+/gratis-tips.php 1 -
+/ckeditor/ckfinder/core/connector/aspx/connector.aspx 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 3 -
+/diensten/Zoekmachine-Optimalisatie 5 -
+/includes/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/diensten/Social-Media-Onderhoud 1 -
+/portfolio-view/pizzeria-valentino 2 -
+/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden/1%20Toplinks%20link%20berichten%20voorbeeld 15 http://www.digitusmarketing.nl/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden/edit
+/portfolio-view/adwin-ak/feed 1 -
+/wp-content/themes/FR0_theme/down.php 1 http://www.digitusmarketing.nl/wp-content/plugins/wp-filemanager/incl/libfile.php
+/diensten/adverteren-op-facebook/promoted-posts 2 -
+/wp-content/themes/yakimabait/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/urbancity/lib/scripts/download.php
+/download/reset.css 15 http://www.digitusmarketing.nl/download/spiekbrief
+/apple-touch-icon-152x152-precomposed.png 1 -
+/wp-content/plugins/simple-download-button-shortcode/simple-download-button_dl.php 1 http://www.digitusmarketing.nl/wp-content/plugins/plugin-newsletter/preview.php
+/$wp-content$/themes/parallelus-salutation/framework/utilities/download/getfile.php 1 -
+/wp-content/uploads/2013/03/beheerdersrollen-hairworld.jpg 2 -
+/home/feed 6 -
+/dbadmin/index.php 3 -
+/index.php/uploads/images/cases/77296072-6817-4944-a7a0-07be82e167bb.jpg 2 -
+/uploads/images/media/xandi 1 -
+/common/htmlarea/editor/fckeditor.html 2 -
+/index.php/uploads/images/posts/Facebook%20ik%20wil%20dit%20niet%20zien.png 2 -
+/HTMLEditor/editor/fckeditor.html 2 -
+/wp-content/uploads/2012/03/Facebook-fanpage-vind-ik-leuk.jpg 13 -
+/author/jeroen-venderbosch/feed 2 -
+/wp-content/themes/parallelus-mingle/framework/utilities/download/getfile.php 1 http://www.digitusmarketing.nl/wp-content/themes/markant/download.php
+/internet-marketing-tips 3 -
+/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 2 -
+/twitter-tool.php 1 -
+/facebook-vriendschapspaginas/feed 4 http://www.digitusmarketing.nl/facebook-vriendschapspaginas/feed/
+/html/js/editor/fckeditor/editor/fckeditor.html 2 -
+/wp-content/themes/fusion/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/modular/lib/scripts/dl-skin.php
+/category/facebook/feed 1 -
+/portfolio-view/het-nederlandsche-inkoopkantoor 1 -
+/uploads/images/posts/People-First.png&cfs=1&upscale=1&sx=0&sy=0&sw=1200&sh=628 5 -
+/category/facebook 4 -
+/uploads/images/media/Whatsapp 2 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/diensten/Adverteren-op-LinkedIn 4 -
+/portfolio-view/de-pyramiden/feed 1 -
+/portfolio-view/suntime-zonnestudio 2 -
+/admin/1%20Toplinks%20link%20berichten%20voorbeeld 10 http://www.digitusmarketing.nl/admin/blog
+/wp-content/themes/churchope/lib/downloadlink.php 1 http://www.digitusmarketing.nl/wp-content/themes/authentic/includes/download.php
+/library/editor/fckeditor/editor/fckeditor.html 2 -
+/images/site/dia-lb.png 9 http://www.digitusmarketing.nl/css/main.css
+/images/kerstspecial) 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/diensten/adverteren-op-facebook 8 -
+/uploads/users/2/dankjewel.png 1 -
+/wp-content/themes/epic/includes/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/corporate_works/downloader.php
+/Admin/fCKeditor/editor/filemanager/connectors/test.html 3 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/html/proudphufah/admin/fckeditor/editor/fckeditor.html 2 -
+/diensten/ontwerp-visitekaartjes 3 -
+/portfolio-view/pizzeria-romy 4 -
+/scripts/fckeditor/editor/fckeditor.html 2 -
+/db/include/class/fckeditor/editor/fckeditor.html 2 -
+//app/etc/local.xml 1 -
+/index.php/uploads/images/posts/CALL%20TO%20ACTIONN!.png 4 -
+/wp-content/themes/markant/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/lote27/download.php
+/diensten/website-statistieken 1 -
+/category/linkbuilding 1 -
+/wp-content/themes/awake/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/persuasion/lib/scripts/dl-skin.php
+/_engine/fckeditor/editor/fckeditor.html 2 -
+/portfolio-view/hartman-haarmode/feed 1 -
+/assets/includes/fckeditor/editor/fckeditor.html 2 -
+/js/],_default:l.htmlSerialize 6 -
+/fckeditor/editor/filemanager/connectors/aspx/upload.aspx 1 -
+/images/site/dia-r.png 9 http://www.digitusmarketing.nl/css/main.css
+/category/uncategorized 1 -
+/wp-content/plugins/plugin-newsletter/preview.php 1 http://www.digitusmarketing.nl/wp-content/plugins/pica-photo-gallery/picadownload.php
+/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/diensten/meer-volgers-op-twitter/feed 1 -
+/diensten/linkbuilding/feed 2 -
+/diensten/google-analytics/feed 1 -
+/category/facebook/facebook-fanpage 2 -
+/diensten/social-media-marketing/adverteren-op-youtube 3 -
+/images/icon/down-arrow-white.png 3 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/diensten/adverteren-op-facebook/regular-ads/feed 1 -
+/css/fonts/icomoon.svg 1 http://www.digitusmarketing.nl/tijdlijnacties/user
+/index.php/uploads/images/users/2/parsifal.png 1 -
+/apple-touch-icon.png 37 -
+/facebook-seminar-lienden/s%5C 1 -
+/admin/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/adverteren-op-twitter.php 1 -
+/diensten/adverteren-op-twitter/feed 2 -
+/succesvol 1 -
+/diensten/ontwerp-advertenties 3 -
+/wp-content/themes/NativeChurch/download/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/MichaelCanthony/download.php
+/facebook-timeline 1 -
+/linkbuilding-uitbesteden.php 1 -
+/facebook/facebook-speelt-een-sleutelrol-in-hoe-mensen-nieuws-meekrijgen-en-delen 3 -
+/wp-content/plugins/wp-db-backup/readme.txt 1 -
+/index.php/uploads/images/cases/Plaatje%20suntime%20pasen.png 3 -
+/facebook/seminar-lienden 1 -
+/wp-content/themes/elegance/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/fusion/lib/scripts/dl-skin.php
+/diensten/adverteren-op-facebook/regular-ads 2 -
+/wp-content/uploads/2013/11/begging-for-likes.jpg 68 -
+/AWT/editor/fckeditor.html 2 -
+/diensten/zoekmachine-adverteren/feed 1 -
+/assets/js/fckeditor/editor/fckeditor.html 2 -
+/apple-touch-icon-precomposed.png 21 -
+/subl://open 20 -
+/inurl-/fckeditor/editor/fckeditor.html 2 -
+/sitemap_index.xml 1 -
+/portfolio-view/ziesta-bbq-restaurant 2 -
+/admin/fckeditor/editor/filemanager/connectors/asp/upload.asp 1 -
+/wp-includes/pomo/so.php 1 http://digitusmarketing.nl/wp-includes/pomo/so.php
+/videos/Welkom-thumb.png 15 http://www.digitusmarketing.nl/tijdlijnacties
+/facebook/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook 3 -
+/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/kerstspecial/salespage 1 -
+/news/fckeditor/editor/fckeditor.html 2 -
+/admin/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/pdf_maker/factuur-basis-pakket.pdf 1 -
+/hoe-je-kunt-zien-wanneer-je-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken 4 -
+/contact 3 -
+/uploads/images/posts/whatsapp+op+pc+plaatje.png 43 -
+/site/modules/fckeditor/fckeditor.html 2 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/adverteren-op-youtube.php 1 -
+/admin/wp-login.php 1 -
+/wp-content/plugins/chenpress/FCKeditor/editor/fckeditor.html 2 -
+/kerstspecial/user/login 1 -
+/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden/1%20Toplinks%20voorbeeld 2 http://www.digitusmarketing.nl/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden/edit
+/fckeditor/jscripts/editor/fckeditor.html 2 -
+/diensten/adverteren-op-facebook/promoted-posts/feed 1 -
+/js/ckeditor/skins/moono/editor_gecko.css 482 http://www.digitusmarketing.nl/admin/users
+/facebook-speelt-een-sleutelrol-in-hoe-mensen-nieuws-meekrijgen-en-delen 1 -
+/cyberpester-wordt-met-hulp-van-facebook-fans-flink-aangepakt 5 -
+/wp-content/plugins/dukapress/lib/dp_image.php 1 http://www.digitusmarketing.nl/wp-content/plugins/db-backup/download.php
+/wp-content/themes/SMWF/inc/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/Newspapertimes_1/download.php
+/uploads/images/posts/publiek 1 -
+/$wp-content$/themes/parallelus-mingle/framework/utilities/download/getfile.php 1 -
+/diensten/Twitter-pagina 2 -
+/blogscript/fckeditor/editor/fckeditor.html 2 -
+/facebook/getpakket 6 http://www.digitusmarketing.nl/concepten/facebook/ad-pakketten
+/wp-content/themes/parallelus-salutation/framework/utilities/download/getfile.php 1 http://www.digitusmarketing.nl/wp-content/themes/parallelus-mingle/framework/utilities/download/getfile.php
+/uploads/images/posts/People-First.png&cfs=1&sx=0&sy=0&sw=1200&sh=627 4 -
+/diensten/ontwerp-logo-en-huisstijl/feed 1 -
+/wp-content/plugins/filedownload/download.php 1 http://www.digitusmarketing.nl/wp-content/plugins/dukapress/lib/dp_image.php
+/tag/facebook/feed 2 -
+/images/site/dia-l.png 9 http://www.digitusmarketing.nl/css/main.css
+/facebook/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel 2 -
+/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel 10 -
+/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/admin/fckeditor/editor/filemanager/upload/asp/upload.asp 1 -
+/uploads/images/media/AF 1 -
+/facebook/seminar/lienden 1 -
+/diensten/adverteren-op-facebook/page-post-ads/feed 1 -
+/jsincludes/FCKeditor/editor/fckeditor.html 2 -
+/wp-content/themes/lote27/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/linenity/functions/download.php
+/de-facebook-timeline 1 -
+/author/parsifal-tritsch/feed 1 -
+/wp-admin/admin-ajax.php 8 -
+/diensten/adverteren-op-linkedin 2 -
+/wp-content/themes/ypo-theme/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/yakimabait/download.php
+/uploads/images/media/Wie 2 -
+/cart/admin/htmleditor/editor/fckeditor.html 2 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/portfolio-view/toons-eten 2 -
+/diensten/website/feed 1 -
+/data/fckeditor/editor/fckeditor.html 2 -
+/wp-content/uploads/2012/09/Logo-super-klein.jpg 1 http://image.baidu.com/i
+/portfolio-view/pizzeria-valentino/feed 1 -
+/fckeditor/editor/filemanager/upload/asp/upload.asp 1 -
+/diensten/google-maps 2 -
+/videos/Welkom-op-deze-pagina.mp4 1 http://www.digitusmarketing.nl/tijdlijnacties
+/section/wp-login.php 1 -
+/js/===c)&&(b.defaultValue=a.defaultValue)}}n.extend({clone:function(a,b,c){var 6 -
+/tel:+31850030256 2 -
+/tijdlijnacties/user/1/videos 1 -
+/Editor/editor/filemanager/connectors/test.html 3 -
+/paginas/fckeditor/editor/fckeditor.html 2 -
+/facebook-vriendschapspaginas 3 -
+/diensten/Adverteren-op-YouTube 1 -
+/salespage 1 -
+/js/!=typeof 6 -
+/diensten/Ontwerp-Visitekaartjes 1 -
+/diensten/social-media-marketing/facebook-fanpage%C3%82%C2%A0 5 -
+/blog/fysiotherapie-kleinman-zit-jij-wel-eens-langer-dan-een-uur-achtereen-op-je-computer/wp-login.php 2 -
+/facebook-fanpage-pakketten 2 -
+/js/krte/editor/fckeditor.html 2 -
+/uploads/images/posts/People 3 -
+/diensten/facebook-pagina/feed 1 -
+/diensten/Adverteren-op-Twitter 2 -
+/https:/www.facebook.com/FysiotherapieKleinman 4 -
+/tag/facebook-bedrijfspagina 1 -
+/diensten/ontwerp-posters-en-flyers 1 -
+/diensten/linkbuilding 1 -
+/linkedin-adverteren.php 2 -
+/diensten/ontwerp-visitekaartjes/feed 2 -
+/facebook/facebook-speelt-een-sleutelrol-in-hoe-mensen-nieuws-meekrijgen-en-delen/feed 1 -
+/kerstspecial/afrekenen 2 -
+/kerstspecial/login 1 http://www.digitusmarketing.nl/tijdlijnacties/afrekenen
+/images/sales/advertentie-kosten-1 1 http://www.digitusmarketing.nl/tijdlijnacties
+/fonts/icomoon.eot),%20url(http://www.digitusmarketing.nl/fonts/icomoon.eot 27 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/app/webroot/js/fckeditor/editor/fckeditor.html 2 -
+/kcfinder/browse.php 1 -
+/index.php/uploads/images/posts/Fans%20online%20digitus.png 6 -
+/portfolio-view/het-nederlandsche-inkoopkantoor/feed 1 -
+/diensten/Zoekmachine-Adverteren 1 -
+/wp-content/themes/jarida/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/felis/download.php
+/cms/HTMLEditor/editor/fckeditor.html 2 -
+/tijdlijnacties/) 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/linkpartners.php 2 -
+/admin/view/javascript/fckeditor/editor/fckeditor.html 2 -
+/index.php/uploads/images/cases/10003293_418755611601470_1014583133_n.png 2 -
+/page-sitemap.xml 1 -
+/register/fckeditor/editor/fckeditor.html 2 -
+/apple-touch-icon-120x120.png 10 -
+/wp-content/themes/trinity/lib/scripts/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/tess/download.php
+/fa%5C 1 -
+/joomla/Medkorp/mambots/editors/fckeditor/editor/fckeditor.html 2 -
+/wp-content/backup-db 1 -
+/diensten/adverteren-op-facebook/feed 1 -
+/contact.php 2 -
+/https://www.facebook.com/FysiotherapieKleinman 6 -
+/category/social-media/page/4 1 -
+/website-statistieken.php 1 -
+/facebook-seminar-lienden/10 1 -
+/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt 3 -
+/portfolio-view/coiffure-lena/feed 1 -
+/wp-content/plugins/xcloner-backup-and-restore/readme.txt 1 -
+/site/wp-login.php 1 -
+/wp-content/uploads/2012/03/FacebookTimeline.jpg 2 -
+/asetrack/includes/fckeditor/editor/fckeditor.html 2 -
+/uploads/images/media/Suntime 1 -
+/includes/fckeditor/editor/filemanager/connectors/asp/upload.asp 1 -
+/wp-content/themes/corporate_works/downloader.php 1 http://www.digitusmarketing.nl/wp-content/themes/churchope/lib/downloadlink.php
+/index.php/categorie 4 -
+/modules/fckeditor/fckeditor/editor/fckeditor.html 2 -
+/images/kerstspecial/schaduw-1 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/wp-content/themes/TheLoft/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/SMWF/inc/download.php
+/diensten/zoekmachine-marketing/linkbuilding-uitbesteden 3 -
+/sitemap.html 1 -
+/category/facebook/page/2 1 -
+/$wp-content$/plugins/wp-filemanager/incl/libfile.php 1 -
+/uploads/images/media/FB%252520Pagina%252520onzichtbaar%252520maken.png 1 -
+/wp-content/plugins/fckeditor-for-wordpress-plugin/fckeditor/editor/fckeditor.html 2 -
+/reset.css 239 http://www.digitusmarketing.nl/download/spiekbrief
+/category/zoekmachine-marketing 1 -
+/wp-content/themes/linenity/functions/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/jarida/download.php
+/diensten/linkedin-pagina/feed 1 -
+/uploads/images/posts/Fans 1 -
+/portfolio-view/beautysalon-lily 2 -
+/diensten/zoekmachine-marketing/bedrijf-op-google-maps 1 -
+/tijdlijnacties/c 1 -
+/css/fonts/icomoon.ttf 1 http://www.digitusmarketing.nl/tijdlijnacties/user
+/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/seminars 14 -
+/images/kerstspecial/kerstspecial) 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/kerstspecial/voornaam 3 http://www.digitusmarketing.nl/kerstspecial/afrekenen
+/author/admin/feed 1 -
+/wp-content/uploads/2012/11/Facebook-logo-307x192.jpg 8 -
+/wp-content/themes/persuasion/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/echelon/lib/scripts/dl-skin.php
+/offerte-aanvragen 1 -
+/over_ons.php 1 -
+/adverteren-op-linkedin.php 1 -
+/uploads/images/posts/KNOOP%20DAN%20LINK.png&cfs=1 1 -
+/referenties 4 -
+/dhtml_editor/editor/fckeditor.html 2 -
+/portfolio/page/2 2 -
+/administrator/php/editor/fckeditor.html 2 -
+/admin.php 1 -
+/lib/uploadify/uploadify.swf 1 http://digitusmarketing.nl/lib/uploadify/uploadify.swf
+/includes/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/comments/feed 5 http://www.digitusmarketing.nl/comments/feed/
+/portfolio-view/the-bombay-spice/feed 1 -
+/wp-content/plugins/db-backup/download.php 1 http://www.digitusmarketing.nl/wp-content/plugins/ajax-store-locator-wordpress_0/sl_file_download.php
+/author/parsifal-tritsch 1 -
+/facebook/facebook-vriendschapspaginas 7 -
+/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 http://www.digitusmarketing.nl/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/admin/includes/rte/editor/fckeditor.html 2 -
+/resources/fckeditor/editor/fckeditor.html 2 -
+/nyet.gif 10 -
+/includes/uploadify/uploadify.swf 1 http://digitusmarketing.nl/includes/uploadify/uploadify.swf
+/images/) 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt/feed 5 http://www.digitusmarketing.nl/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt/feed/
+/uploads/images/posts/Fysiotherapie 2 -
+/wat-betekent-het-nieuwe-design-van-facebook-paginas-voor-tab-apps 1 -
+/diensten/facebook-pagina 5 -
+/admin/fckeditor/editor/filemanager/connectors/aspx/upload.aspx 1 -
+/php/fckeditor/editor/fckeditor.html 2 -
+/internet-marketing-tips.php 3 -
+/diensten/adverteren-op-facebook/page-post-ads 2 -
+/ks/sessie/1.11.0.jquery-ui.js 4 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/portfolio 2 -
+/images/kerstspecial/kerstspecial-) 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/diensten/linkedin-pagina 2 -
+/index.php/https:/www.facebook.com/FysiotherapieKleinman 1 http://www.digitusmarketing.nl/index.php/blog/fysiotherapie-kleinman-zit-jij-wel-eens-langer-dan-een-uur-achtereen-op-je-computer
+/diensten/Linkedin-pagina 3 -
+/diensten/ontwerp-posters-en-flyers/feed 1 -
+/admin/uploadify/uploadify.swf 1 http://digitusmarketing.nl/admin/uploadify/uploadify.swf
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 1 http://www.digitusmarketing.nl/wp-content/plugins/filedownload/download.php
+/wp-login.php 730 -
+/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage 1 -
+/contact/feed 6 http://www.digitusmarketing.nl/contact/feed/
+/images/sales/advertentie-kosten-3 1 http://www.digitusmarketing.nl/tijdlijnacties
+/Manage/Include/fckeditor/editor/fckeditor.html 2 -
+/wp-admin/ms-head.php 1 http://digitusmarketing.nl/wp-admin/ms-head.php
+/diensten/Facebook-pagina 1 -
+/portfolio-view/stegge-mode 2 -
+/apple-touch-icon-114x114-precomposed.png 2 -
+/Backend/FCKeditor/editor/fckeditor.html 2 -
+/10-redenen-waarom-je-geen-like-share-en-win-actie-moet-doen 22 -
+/v1.png 177 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 2 -
+/uploads/images/media/Tijdlijn 1 -
+/index.php/uploads/images/cases/omslag%20xandi.png 2 -
+/wp-content/themes/infocus/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/ypo-theme/download.php
+/uploads/images/media/Kosten 1 -
+/facebook/facebook-vrienden-uitnodigen-bedrijfspagina/feed 1 -
+/includes/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/diensten/twitter-pagina/feed 1 -
+/kerstspecial 4 -
+/fckphp/editor/fckeditor.html 2 -
+/fronteiranorte/editor/editor/fckeditor.html 2 -
+/wp-content/themes/Newspapertimes_1/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/NativeChurch/download/download.php
+/image/DMSocialMedia.png 2 -
+/www..nl/images/site/seminar/background.jpg 1 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/CFIDE/scripts/ajax/FCKeditor/editor/fckeditor.html 2 -
+/portfolio-view/pizzeria-romy/feed 1 -
+/adverteren-op-hyves.php 2 -
+/portfolio-view/the-bombay-spice 2 -
+/uploads/images/posts/Cover.png&cfs=1&sx=0&sy=0&sw=1163&sh=608 2 -
+/main/inc/lib/fckeditor/editor/fckeditor.html 2 -
+/category/social-media/page/2 1 -
+/portfolio-view/adwin-ak 2 -
+/portfolio-view/suntime-zonnestudio/feed 1 -
+/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook 11 -
+/blog/page/2 1 -
+/wordpress/wp-login.php 1 -
+/includes/fckeditor/editor/filemanager/upload/asp/upload.asp 1 -
+/categorie 41 -
+/diensten/google-plus-pagina/feed 2 -
+/myadmin/index.php 3 -
+/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook/feed 5 http://www.digitusmarketing.nl/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook/feed/
+/insides/hoe-je-facebook-vrienden-kunt-uitnodigen-om-fan-te-worden-van-jouw-facebook-pagina 6 -
+/facebook-vrienden-uitnodigen-bedrijfspagina/feed 4 http://www.digitusmarketing.nl/facebook-vrienden-uitnodigen-bedrijfspagina/feed/
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-content/themes/infocus2/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/infocus/lib/scripts/dl-skin.php
+/wp-content/uploads/2012/11/Facebook-logo.jpg 6 -
+/uploads/images/media/Xandi 1 -
+/admin/Uitgelichte%20Video%20info%20gedeelte%20Marco%20Polo%20voorbeeld 1 http://www.digitusmarketing.nl/admin/blog
+/author/admin 1 -
+/wp-content/plugins/akismet/akismet.php 1 http://digitusmarketing.nl/wp-content/plugins/akismet/akismet.php
+/mambots/editors/fckeditor/editor/fckeditor.html 2 -
+/wp-content/themes/dejavu/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/myriad/lib/scripts/dl-skin.php
+/pma/index.php 3 -
+/uploads/images/media/tab-app 1 -
+/include/fckeditor/editor/fckeditor.html 2 -
+/uploads/images/media/Immanuel 1 -
+/diensten/Webshop 3 -
+/uploadify/uploadify.swf 1 http://digitusmarketing.nl/uploadify/uploadify.swf
+/a 1 -
+/https%3A/www.facebook.com/FysiotherapieKleinman 1 -
+/portfolio-view/coiffure-lena 2 -
+/uploads/images/media/winnaar 1 -
+/wp-content/plugins/lightbox-pop/iframe.php 1 -
+/diensten/website 2 -
+/facebook/facebook-vrienden-uitnodigen-bedrijfspagina 56 -
+/wp-content/plugins/wp_module/wp-conf.php 1 http://digitusmarketing.nl/wp-content/plugins/wp_module/wp-conf.php
+/diensten/adverteren-op-twitter 3 -
+/post-sitemap.xml 1 -
+/plugins/HTMLeditor/FCKeditor/editor/fckeditor.html 2 -
+/v2.png 177 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/core/php/fckeditor/editor/fckeditor.html 2 -
+/images/site/dia-rb.png 8 http://www.digitusmarketing.nl/css/main.css
+/zoekmachine-adverteren.php 1 -
+/dfpjcfchqrqsld.html 1 -
+/over-ons 6 -
+/facebook-fanpage-12-redenen-om-op-vind-ik-leuk-te-klikken 4 -
+/diensten/Linkbuilding 1 -
+/js/).length,l.html5Clone= 6 -
+/admin/templates/fckeditor/editor/fckeditor.html 2 -
+/3-redenen-waarom-ondernemers-geen-gebruik-maken-van-facebook 1 -
+/uploads/images/media/Bedank 1 -
+/includes/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/category/social-media/feed 2 -
+/uploads/images/media/Social 1 -
+/wp-content/themes/antioch/lib/scripts/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/acento/includes/view-pdf.php
+/simple-backup 1 -
+/js/).length,l.htmlSerialize=!!b.getElementsByTagName( 6 -
+/phppath/cgi_wrapper 1 -
+/wp-content/plugins/wp-filemanager/incl/libfile.php 1 http://www.digitusmarketing.nl/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php
+/includes/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/facebook/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel/feed 1 -
+/inc/uploadify/uploadify.swf 1 http://digitusmarketing.nl/inc/uploadify/uploadify.swf
+/images/kerstspecial/) 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/uploads/images/media/Tab 1 -
+/diensten/zoekmachine-adverteren 38 http://www.digitusmarketing.nl/
+/diensten/webshop 1 -
+/tag/facebook/page/2 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/gaga5.html 1 -
+/diensten/adverteren-op-facebook/sponsored-stories/feed 1 -
+/wp-content/themes/echelon/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/infocus2/lib/scripts/dl-skin.php
+/diensten/webshop/feed 1 -
+/de-eerste-indruk-van-jouw-website 1 -
+/diensten/twitter-pagina 1 -
+/tag/persoonlijk-profiel 2 -
+/diensten/Website 2 -
+/css/fonts/icomoon.woff 1 http://www.digitusmarketing.nl/tijdlijnacties/user
+/tijdlijnacties/.../images/kerstspecial/recensies.png 3 -
+/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php 1 http://www.digitusmarketing.nl/wp-content/plugins/simple-download-button-shortcode/simple-download-button_dl.php
+/includes/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/index.php/uploads/images/posts/People-First.png 1 -
+/images/seminar/background.jpg 7 -
+/meer-volgers-op-twitter.php 1 -
+//index.php 5 -
+/wp-content/themes/method/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/elegance/lib/scripts/dl-skin.php
+/community/mambots/editors/fckeditor/editor/fckeditor.html 2 -
+/wp-content/themes/construct/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/dejavu/lib/scripts/dl-skin.php
+/diensten/ontwerp-advertenties/feed 1 -
+/uploads/images/media/Facebook 3 -
+/extensions/FCKeditor/fckeditor/editor/fckeditor.html 2 -
+/js/uploadify/uploadify.swf 1 http://digitusmarketing.nl/js/uploadify/uploadify.swf
+/apple-touch-icon-152x152.png 1 -
+/blog/admin/FCKeditor/editor/fckeditor.html 2 -
+/tag/persoonlijk-profiel/feed 1 -
+/author/jeroen-venderbosch 2 -
+/admin/produtos/fckeditor/editor/fckeditor.html 2 -
+/pub/mambots/editors/fckeditor/editor/fckeditor.html 2 -
+/manage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.digitusmarketing.nl/manage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/portfolio-view/ziesta-bbq-restaurant/feed 1 -
+/portfolio-view/kings-wok 2 -
+/wp-content/plugins/pica-photo-gallery/picadownload.php 1 http://www.digitusmarketing.nl/wp-content/plugins/google-mp3-audio-player/direct_download.php
+/diensten/adverteren-op-youtube/feed 1 -
+/js/).html()||a.find( 6 -
+/wp-content/themes/tess/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/parallelus-salutation/framework/utilities/download/getfile.php
+/praktijk-voorbeeld-waar-een-succesvolle-facebook-tijdlijn-actie-toe-kan-leiden 1 -
+/plugins/uploadify/uploadify.swf 1 http://digitusmarketing.nl/plugins/uploadify/uploadify.swf
+/portfolio-view/chinthai/feed 1 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage 2 -
+/uploads/images/media/Resultaat 1 -
+/diensten 2 http://www.digitusmarketing.nl/facebook/facebook-vriendschapspaginas
+/js/)[this.options.html 6 -
+/facebook-fanpage-offerte 1 -
+/kerst.user 1 http://www.digitusmarketing.nl/kerstspecial/user/forgotpassword/fc6390533ce8269ab459fcc8b3e91df7b4c2396d
+/category/online-marketing 1 -
+/wp-content/uploads/maink.php 1 http://digitusmarketing.nl/wp-content/uploads/maink.php
+/img/slide-2.jpg 2 -
+/multicms/packages/fckeditor/editor/fckeditor.html 2 -
+/gallery/fckeditor/editor/fckeditor.html 2 -
+/wp-content/themes/authentic/includes/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/antioch/lib/scripts/download.php
+/wp-content/uploads/2012/09/pyramiden-logo-klein.jpg 1 http://image.baidu.com/i
+/adminweb/util/fckeditor/editor/fckeditor.html 2 -
+/tag/facebook 5 -
+/editor/editor/fckeditor.html 2 -
+/administrator/index.php 2 -
+/images/kerstspecial/schad 1 http://www.digitusmarketing.nl/tijdlijnacties/concept
+/wp-content/themes/myriad/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/method/lib/scripts/dl-skin.php
+/includes/fckeditor/editor/filemanager/connectors/aspx/upload.aspx 1 -
+/js/,data:b}).done(function(a){e=arguments,g.html(d 6 -
+/videos/Welkom-op-deze-pagina.appleuniversal.mp4 1 http://www.digitusmarketing.nl/tijdlijnacties
+/js/sessie/seminar-lienden.js 1 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/portfolio-view/de-pyramiden 1 -
+/wp-content/themes/acento/includes/view-pdf.php 1 http://www.digitusmarketing.nl/wp-content/themes/TheLoft/download.php
+/sitemap.xml.gz 1 -
+/wp-content/themes/modular/lib/scripts/dl-skin.php 1 http://www.digitusmarketing.nl/wp-content/themes/awake/lib/scripts/dl-skin.php
+/javascripts/fckeditor/editor/fckeditor.html 4 -
+/cms/uploadify/uploadify.swf 1 http://digitusmarketing.nl/cms/uploadify/uploadify.swf
+/diensten/social-media-marketing/facebook-fanpage%C2%A0&quot 16 -
+/blog//app/etc/local.xml 1 -
+/facebook/get-pakket 1 http://www.digitusmarketing.nl/concepten/facebook/ad-pakketten
+/facebook/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook/feed 1 -
+/wp-content/uploads/2012/09/hartman-logo-klein.jpg 1 http://image.baidu.com/i
+/includes/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/classifieds/submit/FCKeditor/editor/fckeditor.html 2 -
+/diensten/zoekmachine-optimalisatie/feed 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/diensten/social-media-marketing/facebook-fanpage/facebook-fanpage-prijzen 4 -
+/Editor/editor/filemanager/browser/default/connectors/test.html 3 -
+/diensten/social-media-onderhoud/feed 1 -
+/wp-content/plugins/wpstorecart/css/wpsc-checkout.css 1 -
+/uploads/images/posts/People%20First.png 8 -
+/wp-content/uploads/2013/02/Voorbeeld-zoek-in-alle-vrienden.jpg 2 -
+/uploads/images/media/WhatsApp 1 -
+/util/FCKeditor/editor/fckeditor.html 2 -
+/admin/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/wp-content/plugins/wp-insert/fckeditor/editor/fckeditor.html 2 -
+/netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css 1 -
+/apple-touch-icon-114x114.png 2 -
+/internet-marketing-diensten.php 1 -
+/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.digitusmarketing.nl/editor/filemanager/browser/default/connectors/asp/connector.asp
+/wp-content/uploads/2012/11/Privacyinstellingen.jpg 6 -
+/portfolio-view/stegge-mode/feed 1 -
+/apple-touch-icon-120x120-precomposed.png 10 -
+/portfolio-view/beautysalon-lily/feed 1 -
+/includes/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/portfolio-view/hartman-haarmode 2 -
+/diensten/social-media-marketing/adverteren-op-facebook 1 -
+/security.php 1 -
+/diensten/meer-volgers-op-twitter 3 -
+/download/css/main.css 15 http://www.digitusmarketing.nl/download/spiekbrief
+/gateweb/scripts/fckeditor/editor/fckeditor.html 2 -
+/news_script/fckeditor/editor/fckeditor.html 2 -
+/www.digitusmarketing.nl/images/site/seminar/background.jpg 7 http://www.digitusmarketing.nl/facebook-seminar-lienden
+/conepten/facebookcampagnes 1 -
+/diensten/social-media-marketing/google-plus 1 -
+/mijn-facebook-vraag 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.digitusmarketing.nl/webmanage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/wp-content/themes/urbancity/lib/scripts/download.php 1 http://www.digitusmarketing.nl/wp-content/themes/trinity/lib/scripts/download.php
+/portfolio-view/chinthai 1 -
+/diensten/adverteren-op-linkedin/feed 1 -
+/portfolio/feed 5 http://www.digitusmarketing.nl/portfolio/feed/
+/wp-content/sedlex/backup-scheduler 1 -
+/ckeditor/ckfinder/core/connector/asp/connector.asp 1 -
+/images/sales/advertentie-kosten-2 1 http://www.digitusmarketing.nl/tijdlijnacties
+//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css 1 -
+/zoekmachine-optimalisatie-tips 1 -
+/adverteren-op-facebook.php 2 -
+/cdn-images.mailchimp.com/embedcode/classic-081711.css 1 -
+/fckeditor/editor/filemanager/connectors/asp/upload.asp 1 -
+/wp-content/plugins/ajax-store-locator-wordpress_0/sl_file_download.php 1 http://www.digitusmarketing.nl/wp-content/force-download.php
+/wp/wp-login.php 1 -
+/diensten/social-media-marketing/meer-volgers-op-twitter 1 -
+/wp-content/force-download.php 1 http://www.digitusmarketing.nl/wp-admin/admin-ajax.php
+/diensten/google-analytics 3 -
+/diensten/Google-Analytics 1 -
+/diensten/zoekmachine-optimalisatie 1 -
+/public/fckeditor/editor/fckeditor.html 2 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage/feed 1 -
+/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden/Uitgelichte%20Video%20info%20gedeelte%20Marco%20Polo%20voorbeeld 4 http://www.digitusmarketing.nl/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden/edit
+/admin/classes/components/formattedTextArea/fckeditor/editor/fckeditor.html 2 -
+/tag/facebook-bedrijfspagina/feed 1 -
+/v1/plugins/editors/fckeditor/editor/fckeditor.html 2 -
+/diensten/Adverteren-op-Facebook 3 -
+/wp-content/uploads/2012/10/Coupon-Toons-Eten.pdf 5 -
+/control/editor/fckeditor.html 2 -
+/css/)%20no-repeat%20scroll%20left%20center%20rgba(0,%200,%200,%200 8 http://www.digitusmarketing.nl/css/main.css
+/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel/feed 4 http://www.digitusmarketing.nl/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel/feed/
+/category/social-media 2 -
+/includes/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/wp-content/uploads/2012/09/stegge-logo-klein.jpg 1 http://image.baidu.com/i
+/diensten/google-plus-pagina 4 -
+/waarom-een-facebook-bedrijfspagina-in-plaats-van-persoonlijk-profiel 1 -
+/diensten/adverteren-op-youtube 2 -
+/diensten/google-maps/feed 1 -
+/referenties/feed 5 http://www.digitusmarketing.nl/referenties/feed/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1483
+82.75.157.160 8473 39052 7900654827 20150131235708
+213.238.175.29 117 117 4654708 20150103174808
+192.99.149.88 106 106 3428068 20150114122341
+94.23.40.23 96 96 3169954 20150130111220
+145.131.137.140 45 324 27931816 20150129093347
+77.245.85.230 42 42 29672 20150131214753
+31.160.223.238 39 274 159837815 20150129174314
+173.192.104.148 34 34 101655 20150131140039
+80.101.225.176 29 222 13967337 20150126160409
+92.111.178.231 29 222 509771317 20150127090057
+77.249.174.154 12 108 10666636 20150122195521
+80.61.33.111 0 4 250072 
+66.249.84.176 0 1 118536 
+77.163.205.220 2 8 1137506 20150131125320
+54.92.33.249 1 1 11409 20150127165336
+84.241.210.247 8 46 2960940 20150131020958
+213.197.63.132 3 11 1459610 20150126105857
+82.170.143.98 0 4 250070 
+82.169.195.108 2 29 1713768 20150118210517
+86.92.142.214 0 2 57049 
+50.28.48.158 3 3 22214 20150129180417
+62.234.104.133 1 4 62129 20150105193805
+176.10.98.132 1 1 5885 20150124115635
+94.209.36.17 0 4 250071 
+217.69.133.169 2 2 11639 20150124000330
+82.74.215.27 5 33 1674468 20150130132443
+199.30.228.143 2 37 1683444 20150103145841
+77.164.57.106 0 4 250071 
+173.210.210.247 0 1 45751 
+77.250.73.225 0 4 250072 
+62.159.241.123 6 26 736829 20150116152917
+82.72.168.37 0 4 250071 
+84.241.214.155 0 4 232633 
+46.4.101.88 11 11 70513 20150119144549
+24.114.59.96 0 1 45751 
+62.145.205.92 0 4 250072 
+83.161.67.27 0 4 250070 
+212.204.156.96 3 3 17640 20150128200353
+82.75.136.252 0 4 250072 
+82.75.219.52 0 4 250072 
+209.19.180.153 1 1 9100 20150131041343
+86.88.222.63 3 21 1797895 20150105212450
+64.120.51.10 1 1 6146 20150115082438
+122.3.174.70 0 1 45751 
+86.95.19.99 0 4 250071 
+94.226.66.34 14 147 4763727 20150101234139
+88.159.236.116 0 1 54830 
+62.140.132.79 1 21 2565261 20150127144043
+82.74.159.74 0 4 250070 
+83.128.216.56 3 30 959900 20150115093819
+81.205.30.235 0 1 45751 
+178.19.108.221 4 4 26450 20150108151436
+77.174.121.134 3 118 413842441 20150130090355
+62.194.82.15 1 9 1484546 20150128195649
+77.172.171.222 3 30 959834 20150126161542
+92.111.211.48 3 29 956619 20150128150632
+109.235.37.39 0 1 68515 
+80.100.39.113 3 30 959799 20150119165024
+84.83.230.114 3 23 748184 20150105184716
+193.226.34.229 6 6 39566 20150115230942
+216.126.45.9 3 35 1998182 20150124185509
+145.117.85.19 4 31 988124 20150112162009
+145.131.143.220 3 24 1601861 20150120141853
+77.174.61.202 0 4 250071 
+82.75.168.73 0 4 250072 
+54.162.88.156 1 1 9041 20150123130957
+82.72.44.104 4 38 2154917 20150105221851
+83.87.221.13 3 24 1601884 20150120111226
+82.72.33.39 5 49 3341464 20150105214014
+192.77.254.76 1 1 7299 20150115033221
+82.74.200.81 2 12 1771992 20150128162532
+46.144.143.78 8 53 2105462 20150107144934
+82.157.216.216 0 1 126694 
+77.163.186.153 3 25 1462229 20150127154418
+213.247.64.26 5 24 50560437 20150127155048
+82.192.74.175 17 17 613317 20150131144445
+84.81.24.21 4 25 2255774 20150123161714
+109.131.126.75 1 1 735290 20150105202450
+82.75.134.138 0 4 250070 
+121.217.131.128 0 1 45751 
+80.60.86.159 0 1 126694 
+82.74.155.32 0 4 250071 
+66.249.93.186 0 2 237072 
+77.166.183.217 4 27 290836037 20150129163945
+82.75.12.111 2 38 1747663 20150115134820
+89.234.68.102 6 6 165219 20150110051321
+31.13.100.119 0 2 2148093 
+94.214.158.26 0 4 250070 
+84.106.35.213 17 92 8972462 20150130214711
+193.226.34.227 4 4 26362 20150119101416
+67.205.74.205 1 1 5832 20150103232948
+84.194.162.112 1 1 735290 20150113121308
+83.86.19.80 0 4 250070 
+62.24.181.134 0 1 96731 
+37.0.83.206 3 43 3274614 20150128154317
+84.104.52.21 3 36 2995300 20150123005542
+92.109.6.198 0 4 250071 
+82.75.246.235 1 5 1354717 20150127220934
+84.80.159.63 0 4 250071 
+82.161.93.8 3 30 959799 20150116114525
+201.29.211.19 2 24 802037 20150115230433
+84.82.255.95 0 4 250071 
+217.123.238.107 0 1 816935 
+82.173.213.90 0 3 115200 
+86.149.130.97 0 1 118536 
+85.151.14.16 3 41 2155341 20150103110058
+77.250.175.68 0 4 250069 
+87.123.66.247 0 1 11460 
+86.85.205.232 0 2 446961 
+82.75.45.13 0 4 250072 
+213.127.186.226 12 12 6954014 20150129165157
+178.0.118.225 0 1 169687 
+86.81.92.168 1 10 1456394 20150128191644
+66.102.6.203 0 1 118536 
+64.233.173.216 0 1 118536 
+77.251.67.235 3 37 2142581 20150123163011
+83.163.181.15 0 4 250071 
+82.75.64.238 1 1 735290 20150115135719
+193.201.224.186 1 1 21448 20150126142604
+188.201.181.90 1 10 1242071 20150125165050
+82.72.245.98 4 45 3410073 20150122223427
+188.207.75.164 2 32 4624697 20150121123042
+82.74.149.192 0 4 250072 
+84.30.58.85 0 1 45751 
+77.162.167.85 0 4 250069 
+85.151.238.22 3 41 2155570 20150127084720
+80.65.102.250 0 1 21033 
+54.167.249.147 1 1 5821 20150120024824
+188.88.64.169 3 37 2142444 20150109130438
+86.94.75.115 0 4 250072 
+217.123.47.10 3 45 2405536 20150129175523
+81.164.199.180 4 36 1869844 20150113213153
+77.166.78.184 2 18 2324378 20150129163934
+82.72.31.158 3 19 735386 20150120170739
+195.211.154.174 4 4 31280 20150108101044
+54.177.254.205 1 1 30408 20150125020103
+31.151.244.233 0 4 250072 
+91.135.65.68 1 1 5893 20150120235520
+212.178.121.172 4 47 2132515 20150112115653
+84.107.86.171 0 4 250070 
+84.26.236.90 0 1 118536 
+84.26.210.110 0 4 250072 
+77.245.85.229 21 21 14820 20150131215949
+173.252.114.113 0 1 107049 
+31.151.1.194 2 5 892234 20150130084623
+92.69.242.2 3 3 87930 20150124145205
+62.210.83.113 2 12 256532 20150130200443
+83.86.46.183 2 19 519976 20150110224628
+82.72.231.130 0 4 250070 
+84.30.92.220 0 1 840135 
+83.163.2.178 7 26 96001741 20150129131404
+95.45.254.124 5 5 143494 20150126142311
+95.97.253.186 3 24 1601894 20150130171130
+50.57.190.50 2 3 190253 20150114144005
+219.77.55.16 1 2 11933 20150101022336
+81.205.171.206 3 30 959835 20150126204719
+82.171.228.181 3 26 4317230 20150129091543
+94.214.250.43 7 53 1903451 20150107183736
+84.82.129.186 0 1 139733 
+84.24.173.45 0 4 250071 
+82.73.43.3 0 4 250071 
+84.241.146.30 0 4 250071 
+91.200.12.65 18 18 183369 20150127162625
+82.74.220.221 1 10 1147068 20150125160740
+109.135.5.70 0 1 1277180 
+212.187.63.100 0 3 115200 
+213.125.142.106 0 1 147937 
+59.88.191.126 2 29 818750 20150113060443
+78.21.35.141 0 1 17994 
+62.140.132.5 0 1 107049 
+91.243.222.119 2 50 2847717 20150123142909
+37.153.236.243 11 96 3746168 20150123125629
+182.69.93.117 7 65 3183200 20150120034825
+179.185.134.10 2 27 785962 20150105165913
+77.163.58.249 0 4 250071 
+65.52.242.216 1 1 11410 20150122175810
+217.123.158.254 0 5 357118 
+217.123.153.105 0 4 250071 
+82.74.171.161 0 4 250071 
+213.125.8.218 3 28 867643 20150128081437
+217.120.117.67 7 60 153625801 20150129135321
+77.164.118.151 0 4 250071 
+187.123.241.39 2 29 1689171 20150121172914
+82.74.139.120 0 1 107049 
+54.185.146.175 1 1 8239 20150118015523
+87.195.205.5 3 30 959826 20150127142028
+84.28.166.166 0 1 21033 
+77.166.159.166 3 30 959697 20150112212054
+87.208.27.249 3 41 2155472 20150130204713
+77.162.255.117 1 10 1147060 20150125215010
+213.109.124.23 3 41 2155318 20150106121134
+150.70.97.116 1 1 42464 20150127165423
+93.186.187.50 4 35 1759518 20150129115101
+84.80.15.77 4 26 206613047 20150127142414
+213.10.124.241 2 11 1216615 20150131162627
+77.66.121.238 3 3 20365 20150127020143
+92.69.224.17 0 4 250071 
+84.25.65.244 0 1 132490 
+77.251.78.221 3 29 1072750 20150117194458
+199.30.228.129 0 4 92058 
+62.140.132.187 3 36 3118696 20150123172544
+82.74.144.67 3 21 1449318 20150123192536
+54.198.122.232 3 3 32889 20150129174731
+193.216.46.42 2 10 1147117 20150127124440
+212.123.132.180 0 4 250071 
+84.107.250.5 3 41 2155337 20150112222627
+80.57.99.49 0 4 250070 
+82.75.132.228 0 4 250071 
+107.178.200.41 0 1 1022 
+84.241.208.26 0 4 250069 
+87.123.84.65 0 1 46120 
+77.164.61.64 0 4 250071 
+178.11.179.107 3 41 2155447 20150114001034
+54.80.252.188 1 8 132524 20150127041821
+83.83.169.230 0 4 250071 
+82.174.255.251 0 3 115201 
+217.120.206.247 3 9 1450000 20150129211242
+195.3.144.101 1 1 5881 20150112205932
+83.161.65.150 0 3 115201 
+62.145.204.6 0 4 250071 
+92.69.215.20 0 4 250070 
+79.141.163.15 1 1 5873 20150114221259
+62.205.80.94 0 1 45589 
+178.218.223.147 1 1 21487 20150121141536
+54.198.167.61 1 10 340716 20150111215650
+31.13.100.113 0 2 186316 
+216.126.45.11 3 35 1950392 20150124085236
+86.92.238.152 0 4 250070 
+83.160.60.22 2 8 1137506 20150127165712
+31.151.6.48 0 1 441525 
+84.106.42.102 5 25 389950006 20150126152125
+84.241.214.139 0 4 250069 
+66.249.81.228 0 1 23610 
+86.81.4.165 3 36 3118687 20150123154336
+86.85.116.66 3 25 1462220 20150123124440
+213.125.191.42 3 24 1364768 20150115143446
+217.123.131.213 0 4 250070 
+23.20.122.37 1 1 5828 20150126202415
+187.78.172.6 2 13 242823 20150122204154
+54.188.129.127 1 1 5829 20150120183145
+74.216.38.66 3 24 1601989 20150130173343
+82.74.145.27 7 80 211690403 20150128234624
+84.82.186.36 1 10 1147064 20150130195039
+54.198.102.152 1 10 340720 20150105122652
+209.66.70.253 3 9 477076 20150128153837
+88.198.210.14 1 1 21489 20150113164922
+189.27.68.140 2 23 355965 20150106214428
+217.123.133.214 1 12 1706110 20150127220743
+195.169.168.149 0 1 816935 
+83.162.251.13 2 21 1300770 20150123140800
+199.19.249.196 9 15 1505821 20150123085156
+38.100.21.64 9 11 493050 20150116190343
+81.30.77.21 0 4 250072 
+94.208.25.17 0 1 332472 
+192.199.243.213 1 1 2410 20150115100815
+85.150.165.182 3 20 1588991 20150130195652
+54.144.49.252 1 1 5821 20150111215512
+84.26.97.51 0 4 250072 
+82.74.226.43 0 4 250070 
+46.44.131.116 0 4 250071 
+173.252.105.119 0 2 923984 
+84.241.151.87 4 30 30512803 20150129130026
+94.229.61.217 0 4 250072 
+193.216.39.44 1 1 735290 20150131235001
+171.4.248.250 0 4 250072 
+195.240.153.237 1 8 1456046 20150127165055
+121.205.199.208 1 1 21390 20150107232859
+82.75.155.242 3 9 2242153 20150127182619
+82.75.248.103 3 20 1588993 20150131010531
+5.104.115.199 0 4 250072 
+191.233.84.241 1 1 8211 20150121083422
+62.140.132.66 7 15 264535 20150108180631
+82.74.226.116 0 4 250071 
+107.178.200.145 0 1 79789 
+145.94.170.96 0 1 126694 
+84.241.208.1 0 4 250071 
+83.161.144.40 0 1 816935 
+77.251.161.180 3 29 870810 20150112131518
+94.213.238.171 3 26 946798 20150104121245
+82.75.254.230 3 28 1605252 20150128140307
+84.85.51.161 0 1 139733 
+68.234.17.28 1 1 9563 20150115100816
+192.99.150.55 4 4 26464 20150113171851
+77.174.7.7 2 11 1457227 20150130130626
+185.10.104.130 2 3 32035 20150105063550
+86.94.157.132 0 4 250071 
+72.20.63.101 1 1 23936 20150115100816
+187.39.159.49 2 23 330643 20150106151602
+82.168.167.118 3 41 2155334 20150106234353
+46.44.143.197 9 61 5817399 20150115140333
+83.81.37.10 2 2 1470580 20150105133222
+83.117.212.10 3 37 2142444 20150105171801
+178.85.25.71 0 4 250071 
+83.98.231.7 0 4 250072 
+77.166.141.117 3 4 645682 20150126102140
+84.26.168.169 3 37 2140378 20150104211910
+82.74.152.254 10 73 4444546 20150123211800
+63.141.226.226 1 1 21390 20150117030457
+37.1.104.195 5 25 389739453 20150127133653
+188.202.1.2 7 88 2436674 20150128195835
+62.140.132.41 0 4 250071 
+213.46.123.181 0 4 250069 
+84.84.202.77 11 80 4959321 20150105173843
+89.191.220.154 0 2 531565 
+31.186.228.24 0 1 4805 
+84.106.183.142 6 74 4284858 20150105105632
+83.81.204.225 0 4 250071 
+87.149.69.91 8 82 3409737 20150129161303
+80.61.213.131 0 1 68831 
+86.82.46.247 5 24 220473400 20150127134424
+5.9.48.162 1 1 11358 20150127165505
+212.121.105.180 3 30 959838 20150127132841
+77.172.203.214 0 4 250072 
+217.122.238.186 3 30 959707 20150112163224
+82.75.8.115 1 12 2013745 20150126161006
+87.208.23.223 3 41 2155335 20150105214342
+83.163.237.85 5 44 2042716 20150106140806
+188.207.80.62 0 4 250069 
+94.214.116.153 2 197 107867391 20150130215348
+46.249.44.212 0 1 1669544 
+198.252.44.13 7 7 149772 20150121151458
+213.10.209.148 0 4 250071 
+82.75.184.183 1 10 1454700 20150125224748
+81.30.70.109 0 4 250070 
+82.74.140.87 0 4 250071 
+89.205.224.160 1 10 1147060 20150128005331
+49.149.88.231 2 25 741859 20150104094714
+91.138.134.246 2 24 516572 20150117092650
+80.57.217.18 7 56 115218175 20150130175739
+94.208.129.209 0 4 250071 
+91.219.76.90 4 24 776714 20150116144628
+95.128.94.132 3 33 2265959 20150123171246
+92.69.214.77 0 3 143023 
+198.50.136.245 1 1 5886 20150127200153
+148.251.178.227 1 1 21820 20150131215411
+90.145.112.65 3 24 1601895 20150131142611
+91.239.174.84 2 10 1147107 20150125142753
+95.97.114.2 5 37 4657278 20150130164439
+162.244.15.124 6 6 39685 20150114142638
+195.241.251.29 3 36 3118679 20150123194400
+62.140.132.89 0 4 250072 
+84.83.43.238 0 4 250071 
+86.81.42.164 0 4 250070 
+198.57.183.36 1 1 8184 20150108174152
+54.241.198.78 6 6 4470 20150129174725
+192.199.247.5 1 1 5813 20150114130409
+77.165.229.95 0 4 250071 
+112.198.79.23 1 1 5879 20150108031045
+84.29.208.177 2 9 1142310 20150129124622
+83.84.42.223 0 4 250070 
+195.154.250.39 2 2 22114 20150128205610
+86.93.172.149 0 3 115201 
+80.101.107.130 0 1 107049 
+200.79.184.193 2 22 772209 20150123161639
+187.20.58.69 2 32 1722637 20150116170215
+195.154.226.90 1 1 5885 20150123030734
+191.243.0.5 2 27 737202 20150129132933
+41.140.207.250 2 28 2073633 20150122211925
+178.85.45.170 0 4 250071 
+188.251.15.70 2 26 2590655 20150122152445
+94.226.132.230 3 41 2155344 20150110224543
+79.141.163.13 1 1 5873 20150115063909
+182.248.150.15 1 1 5885 20150131052331
+83.162.231.7 4 26 163148974 20150125131140
+94.214.10.193 3 23 748183 20150107224939
+213.127.158.78 3 25 1810904 20150119150845
+82.72.129.159 0 4 250072 
+184.73.25.20 0 1 11404 
+94.215.31.218 0 4 250070 
+107.178.200.36 0 1 17974 
+82.170.146.171 8 75 7756121 20150130193423
+66.55.150.184 2 2 13256 20150131213347
+80.113.7.234 0 4 250071 
+173.252.113.118 0 1 211955 
+177.154.111.242 2 44 1728112 20150117072856
+77.167.102.127 3 48 2440514 20150130001805
+84.232.222.108 0 1 45751 
+84.107.111.230 2 9 1142312 20150128081701
+89.99.202.105 0 1 11460 
+79.110.18.116 1 1 5828 20150110021339
+94.215.159.18 0 4 250071 
+86.93.28.59 0 4 250071 
+173.252.114.117 0 1 384181 
+173.208.97.171 1 1 5817 20150117015732
+83.117.0.219 0 4 250071 
+188.207.86.104 0 4 250071 
+84.84.68.45 0 1 107049 
+82.171.196.225 0 4 250071 
+188.236.117.93 5 47 4102298 20150114144005
+212.121.111.124 2 29 2874071 20150123111712
+82.151.55.18 3 23 748317 20150129154456
+62.131.36.169 3 21 1798033 20150130084035
+62.140.132.59 0 4 250072 
+46.144.241.166 0 4 250072 
+82.74.224.179 0 4 250070 
+84.107.80.70 0 8 500141 
+94.213.185.10 4 28 1284709 20150106102209
+185.49.14.200 1 1 5889 20150131011600
+94.214.17.146 0 4 250069 
+94.124.138.61 0 1 33729 
+94.208.91.237 3 41 2155333 20150104163253
+91.183.45.123 3 30 959892 20150120100900
+187.54.29.191 2 29 1525511 20150124202255
+82.171.88.6 0 1 132490 
+94.229.49.51 0 4 250070 
+62.194.91.2 1 9 1768480 20150129201352
+160.83.30.200 2 2 1470580 20150108095044
+39.32.219.105 0 1 118536 
+195.240.114.42 2 23 1605698 20150116083326
+185.12.217.240 5 43 2214943 20150106115309
+82.74.153.136 0 4 250070 
+188.207.120.228 3 36 3118675 20150123075336
+143.176.26.209 2 29 1896840 20150112124403
+62.140.132.212 4 39 3182033 20150123100435
+54.204.112.36 1 1 11350 20150129101847
+83.87.147.226 0 1 27847 
+23.94.222.89 1 1 5874 20150115033216
+90.145.30.60 4 20 2344551 20150123081637
+201.251.10.125 1 7 96809 20150118184416
+213.10.124.167 3 37 2142449 20150105103607
+82.74.170.24 0 4 250070 
+77.163.10.242 0 4 250070 
+93.40.94.239 2 29 2261376 20150107161644
+92.69.246.134 0 4 250071 
+84.30.203.143 0 1 126694 
+193.239.186.50 0 1 816935 
+95.45.252.3 5 6 250469 20150126142258
+82.74.210.174 0 4 250070 
+84.104.60.100 0 4 250072 
+86.93.155.101 0 1 332472 
+213.125.110.85 0 4 250072 
+90.129.251.108 0 4 250072 
+83.81.34.166 0 1 11460 
+83.162.230.88 0 4 250071 
+191.251.11.115 2 29 1680793 20150118205615
+82.74.233.252 0 8 500142 
+31.151.130.210 0 4 250071 
+145.50.39.8 0 1 241377 
+213.52.176.10 0 2 559052 
+77.174.181.121 0 4 250072 
+82.157.79.203 3 40 2152121 20150105224211
+86.85.189.34 0 4 250071 
+157.56.198.206 0 4 972356 
+84.86.2.188 1 10 1147063 20150127224438
+66.249.81.180 0 1 5546 
+80.101.80.74 1 9 1142260 20150131122119
+66.220.159.117 0 1 384181 
+54.176.140.199 1 1 30408 20150125021102
+83.83.233.23 4 25 1679341 20150130180956
+82.192.74.5 12 15 392923 20150117190148
+84.87.18.235 3 23 748323 20150126142944
+84.28.37.28 0 1 20010 
+82.75.160.146 7 25 620728 20150106230740
+84.196.36.54 0 1 68831 
+186.244.1.19 2 23 355882 20150104194117
+82.75.169.97 3 10 1454801 20150125175302
+84.87.42.180 3 23 748288 20150101203625
+201.24.68.112 2 24 1263449 20150128200113
+82.72.246.174 3 21 1592206 20150130175726
+95.96.78.7 0 1 332472 
+192.187.99.195 1 1 5872 20150105022547
+82.161.66.144 0 1 107049 
+82.72.48.105 0 4 250071 
+83.84.230.66 11 77 4946094 20150105200056
+77.248.110.98 4 48 2290085 20150124222046
+83.87.63.136 0 1 82791 
+54.144.193.56 1 1 5820 20150114213424
+217.123.200.114 6 70 4149817 20150105214344
+86.81.145.123 0 4 250070 
+46.129.117.199 4 49 2687115 20150122232834
+199.192.73.25 1 1 23932 20150115100816
+175.44.52.142 2 2 16573 20150115202201
+84.30.78.250 5 17 317384006 20150129210550
+87.195.41.124 2 6 999287 20150124224550
+54.166.168.129 1 1 10184 20150130184855
+84.85.60.102 0 4 250071 
+198.211.99.41 8 14 184728 20150126065825
+178.84.90.176 0 5 123351 
+80.101.44.39 2 20 1323885 20150131204130
+82.74.146.23 0 4 250069 
+82.101.207.243 0 1 33729 
+54.204.161.95 1 1 11356 20150127171831
+84.104.15.10 0 4 250071 
+54.204.20.249 0 2 419221 
+145.118.63.94 0 2 767256 
+84.24.138.151 3 40 3131575 20150122192607
+82.73.159.80 1 10 1147058 20150128192156
+80.101.111.45 0 4 250071 
+31.13.100.115 0 3 1829212 
+83.247.11.31 5 55 3524778 20150128140521
+109.109.112.122 5 29 24256246 20150127144946
+77.173.255.162 0 1 21033 
+82.136.215.233 4 31 988126 20150102191034
+54.227.185.189 1 1 9037 20150123124109
+194.151.7.130 3 30 1379905 20150122170845
+181.196.153.53 2 24 496674 20150102221930
+54.185.190.140 3 3 17477 20150124035019
+62.131.205.193 0 4 250071 
+192.241.193.129 6 50 1691784 20150131231522
+198.208.251.23 4 26 1838382 20150114131405
+54.202.116.179 1 1 5813 20150118111941
+95.97.241.88 1 5 985361 20150120211343
+213.46.213.226 0 4 250071 
+92.69.249.151 0 1 68502 
+69.162.156.242 1 1 8232 20150115082438
+213.136.64.63 1 1 18824 20150112183746
+213.125.175.18 4 7 1207266 20150130093903
+94.214.220.70 3 37 2142435 20150105221045
+186.178.132.143 2 28 1584907 20150115165223
+17.142.151.182 1 1 11404 20150122185446
+50.17.173.39 1 1 12436 20150131204944
+192.241.233.251 7 63 3072150 20150124210808
+195.240.139.124 2 48 1944681 20150104124832
+92.69.253.194 0 4 250071 
+40.131.216.90 0 1 45751 
+86.85.3.91 0 1 147937 
+82.156.244.81 5 28 966680 20150124152640
+188.207.118.19 0 4 250072 
+198.50.177.37 2 2 13225 20150104050518
+69.162.141.208 1 1 8724 20150115082438
+82.169.228.173 0 4 250069 
+82.75.146.109 3 9 1140043 20150126153741
+62.234.156.97 2 28 1682911 20150109162555
+213.93.140.68 0 4 250072 
+94.213.59.193 0 1 102019 
+200.0.35.130 2 30 731760 20150122160033
+87.208.39.122 1 13 268217 20150128151222
+62.140.132.190 0 4 250071 
+198.199.82.115 8 18 301492 20150103141053
+84.84.231.228 0 2 245101 
+195.240.189.160 0 4 250072 
+87.208.1.126 7 29 350594485 20150130115705
+195.241.180.103 3 28 1069427 20150108104807
+72.8.165.48 1 1 5403 20150115203027
+83.161.216.169 14 94 7886513 20150130180330
+83.84.74.186 3 40 3131592 20150127171125
+81.83.145.69 3 20 1588989 20150130194830
+82.169.254.29 0 4 250071 
+188.218.147.37 2 23 1468883 20150122043413
+83.160.49.241 2 8 1007438 20150129215347
+217.123.161.248 0 4 250071 
+82.74.224.36 6 58 4888656 20150115155719
+217.136.23.104 0 4 508995 
+31.151.170.37 3 37 3502855 20150122214949
+83.83.219.38 0 4 250071 
+62.140.132.184 3 37 2142577 20150130084834
+92.110.0.177 0 4 250071 
+62.140.132.0 3 17 2285523 20150108215435
+62.140.132.200 0 4 250071 
+82.176.199.158 3 30 959705 20150109143854
+192.241.206.112 7 53 1845327 20150122180812
+82.74.158.86 5 48 4269069 20150125152133
+86.81.96.187 0 4 250070 
+84.241.212.90 0 1 45751 
+86.84.168.227 0 4 250072 
+82.74.207.133 0 4 250071 
+5.196.15.242 7 8 56105 20150107031227
+185.10.104.194 1 2 40253 20150104133341
+82.170.32.140 0 4 250072 
+54.185.197.216 1 1 5818 20150111022932
+82.75.206.3 0 4 250069 
+173.252.113.116 0 1 23610 
+212.178.64.166 2 8 1137500 20150129190644
+82.95.165.39 3 24 1601890 20150130204422
+150.70.97.112 1 1 44372 20150104191312
+79.193.141.138 0 1 816935 
+145.107.29.98 3 23 748284 20150114120150
+89.146.23.13 0 4 250072 
+178.85.201.106 0 4 250070 
+194.104.130.85 0 4 250070 
+86.82.121.118 6 59 2552207 20150121113544
+84.243.199.160 0 4 250070 
+86.95.161.190 9 71 5566848 20150112105306
+213.233.202.16 0 4 250072 
+84.29.219.218 0 4 250070 
+188.207.119.176 0 1 68502 
+24.132.5.39 1 2 1211695 20150130170843
+213.10.215.41 3 40 2152262 20150130182931
+81.206.254.252 0 4 250070 
+86.85.89.103 0 4 250070 
+87.210.106.33 2 10 1147118 20150127123210
+68.64.172.118 1 1 21489 20150112140146
+75.126.28.194 1 1 33560 20150123122814
+82.171.12.24 2 8 1137509 20150126211426
+62.140.132.189 0 4 250071 
+213.127.143.42 0 1 11460 
+82.75.197.156 0 4 250070 
+82.74.199.9 0 4 250071 
+192.185.82.251 10 10 28044 20150130163412
+84.241.214.240 0 4 250071 
+77.173.114.138 0 4 250071 
+144.76.182.48 2 2 11650 20150129174921
+31.13.100.116 0 3 2259077 
+82.75.175.97 3 36 3118674 20150123082430
+90.145.112.170 4 21 1599189 20150130172405
+201.95.188.30 2 23 1449109 20150127180601
+88.159.179.242 0 6 809124 
+83.117.107.22 2 11 1216567 20150130111347
+86.92.148.186 2 8 1137508 20150127125900
+94.213.32.38 0 4 250069 
+81.205.40.105 3 20 1588998 20150130173638
+83.85.73.228 3 41 2155469 20150125120034
+84.27.2.38 0 4 250071 
+77.169.225.25 3 9 1449998 20150126165708
+213.125.212.130 8 60 5574145 20150105152532
+180.76.4.201 1 1 16060 20150120235410
+92.69.226.211 4 28 2109124 20150125104000
+82.75.147.122 0 4 250070 
+31.149.218.14 2 12 1463455 20150129114303
+188.207.64.164 0 4 250072 
+107.21.253.49 0 2 403027 
+107.178.200.48 0 1 33732 
+50.18.91.166 1 1 33542 20150123130422
+145.116.16.72 3 41 2155471 20150130123157
+82.170.204.53 3 26 1258487 20150101100517
+84.105.9.89 0 4 250071 
+84.241.208.248 5 25 788771 20150107153255
+54.89.207.17 0 1 102015 
+82.176.218.159 2 2 11758 20150122152707
+191.37.160.37 2 23 954899 20150130004857
+98.118.182.29 0 1 118536 
+101.165.2.54 2 12 1137507 20150127215254
+77.170.183.65 0 6 230401 
+77.173.53.12 0 4 250071 
+208.117.14.100 1 1 5813 20150116191446
+217.27.227.152 1 11 1122587 20150127210130
+61.174.9.72 1 1 5820 20150109053312
+83.81.228.74 1 12 2255552 20150127135057
+195.241.251.253 6 6 2754291 20150118220729
+213.133.110.6 3 3 17496 20150115172039
+83.83.213.41 0 4 250071 
+54.147.231.195 1 1 5820 20150114213644
+217.123.205.35 3 23 1704197 20150130171115
+201.75.208.254 2 29 1554773 20150129020549
+86.86.198.39 0 4 250071 
+83.15.145.154 0 1 40009 
+143.176.6.9 0 1 241377 
+84.106.26.227 3 9 1450000 20150131005150
+178.224.171.110 0 1 147937 
+193.104.130.129 1 1 5849 20150129124200
+94.214.207.185 0 3 115201 
+82.75.121.69 0 1 132490 
+82.75.174.111 2 8 1137506 20150127232838
+85.56.59.112 2 28 1712232 20150101215650
+188.207.109.135 3 37 2142584 20150130080708
+212.178.101.202 3 30 1379963 20150127143110
+157.55.252.30 1 1 10191 20150130171242
+77.169.140.240 8 84 4367538 20150106101316
+94.215.164.53 3 41 2155339 20150107190040
+213.46.4.125 2 6 2178289 20150127090921
+80.101.228.53 4 56 2083393 20150103181923
+82.74.166.4 0 4 250072 
+85.191.124.188 2 2 1470580 20150126233217
+95.96.172.17 1 9 1143957 20150131104426
+86.88.164.2 0 4 250072 
+92.28.161.106 3 23 748184 20150102225715
+82.72.152.13 2 5 892242 20150128145141
+54.147.244.248 4 10 225686 20150128081423
+62.140.132.225 2 9 1449943 20150127204714
+81.242.99.72 0 1 441525 
+104.152.208.62 2 2 13221 20150110004005
+188.207.82.246 0 4 250070 
+82.156.49.154 3 41 2155337 20150107222002
+195.241.185.244 6 29 1343263 20150122233443
+188.203.182.190 0 4 250070 
+46.22.182.129 0 1 816935 
+82.75.83.126 0 4 250070 
+84.24.182.211 9 62 5591480 20150128201041
+107.178.200.57 1 1 5815 20150107124601
+77.167.177.220 0 4 250070 
+84.241.210.95 0 1 121708 
+50.28.51.253 2 2 1416 20150130171001
+82.75.151.149 9 46 387986272 20150130114713
+82.95.183.117 2 11 1789178 20150126224159
+84.87.50.19 3 37 2142570 20150126223505
+77.162.244.183 8 57 238642452 20150128094147
+62.131.243.28 0 4 250071 
+82.75.113.195 1 10 1147055 20150128080648
+198.199.84.198 0 2 139675 
+213.109.114.106 3 38 2145667 20150105213752
+37.0.87.68 7 35 2366817 20150108104015
+82.72.160.122 0 4 250071 
+82.74.128.80 0 4 250070 
+81.165.86.20 0 1 21033 
+86.94.179.191 0 1 107049 
+50.57.190.90 0 1 254388 
+199.233.238.228 1 1 9813 20150115203025
+65.52.240.20 2 2 21584 20150129174728
+54.161.106.59 1 1 10124 20150131221130
+149.210.146.196 1 1 44327 20150129233925
+213.109.121.129 3 41 2155435 20150106090204
+77.167.119.43 0 2 110395 
+83.160.122.200 0 4 250069 
+86.94.156.24 0 4 250072 
+212.123.200.82 2 6 999291 20150129124531
+212.78.215.229 3 23 748384 20150113120538
+79.98.117.65 2 29 1971026 20150127213726
+82.74.50.14 3 37 2142431 20150105155758
+77.165.146.141 0 4 250070 
+84.86.117.202 6 28 231885242 20150128195557
+94.213.178.3 3 37 2142541 20150116193736
+89.99.76.230 1 12 1258802 20150128163832
+178.224.247.125 3 37 2142453 20150105130247
+217.123.155.39 0 1 126694 
+95.97.70.60 4 31 988232 20150114160828
+82.75.188.28 2 8 1137501 20150131170036
+95.96.80.207 0 4 250071 
+92.254.79.131 0 4 250070 
+87.212.125.119 0 4 250070 
+77.162.219.237 8 63 4851104 20150131190353
+163.158.176.70 0 4 250071 
+195.240.98.69 1 1 5884 20150124124248
+201.93.206.228 2 27 1646735 20150108052849
+92.69.227.24 0 4 250071 
+83.82.6.53 0 4 250072 
+82.74.138.231 0 3 181347 
+80.60.242.201 8 28 390036363 20150127171441
+86.85.58.138 0 1 33729 
+185.10.104.132 2 2 14631 20150112065851
+94.215.28.63 3 25 1810793 20150112212801
+198.50.25.177 1 1 5878 20150122162237
+50.57.104.33 1 1 34249 20150114144005
+84.86.93.189 0 4 250071 
+84.27.6.132 0 1 1277180 
+192.199.247.40 1 1 10189 20150115203207
+77.163.127.66 0 1 69504 
+82.95.99.80 2 10 1147110 20150127123836
+82.74.168.24 4 44 2997984 20150129195453
+80.60.100.99 3 13 2029689 20150127172102
+86.90.43.33 0 4 250071 
+85.150.242.181 0 1 26754 
+37.74.219.253 2 8 1137509 20150127123012
+107.20.48.28 2 2 23784 20150129181800
+213.125.78.11 0 5 384940 
+82.72.142.169 0 5 357119 
+92.69.217.108 0 4 250071 
+80.61.54.154 0 4 250070 
+82.74.145.47 0 4 250069 
+151.74.242.56 2 28 2347760 20150117140408
+188.205.140.62 0 4 250072 
+216.126.45.6 6 70 3947561 20150124135412
+145.131.148.125 6 60 1919494 20150104164835
+87.209.53.12 0 4 250069 
+84.30.173.37 4 46 3182580 20150130074338
+195.240.174.149 23 87 66903907 20150126194636
+84.246.0.178 0 4 250071 
+62.24.181.135 2 2 195299 20150102225911
+82.168.210.25 1 10 1273925 20150130214017
+84.85.138.39 0 4 250071 
+82.75.192.18 3 9 1319937 20150125112156
+84.85.254.191 2 8 1137508 20150125090726
+72.20.49.232 1 1 10796 20150115100816
+85.229.45.70 2 2 13220 20150107153407
+77.164.69.95 3 25 1462207 20150123141207
+217.166.253.171 0 4 250072 
+84.24.77.155 3 29 956582 20150116085949
+193.191.168.81 0 1 816935 
+80.187.112.199 0 1 107049 
+86.89.88.148 0 1 241377 
+77.165.176.79 0 4 250070 
+81.206.89.45 3 36 3118677 20150122213304
+82.173.191.6 0 4 250071 
+86.93.8.79 0 8 500141 
+186.218.8.63 2 25 1485846 20150101224205
+92.69.219.192 3 37 2142437 20150102150223
+77.174.237.230 3 22 1245596 20150104201148
+62.195.93.149 0 1 33729 
+2.227.50.220 2 29 2200259 20150119084241
+86.82.21.10 0 1 114013 
+178.229.132.12 3 36 3118670 20150122212706
+66.249.93.180 0 2 237072 
+83.81.229.110 11 68 5057427 20150130175952
+77.163.176.192 1 12 2013744 20150125080717
+81.164.92.98 0 2 123278 
+82.74.143.105 4 16 387980718 20150129173203
+66.249.92.44 1 1 5876 20150115051345
+199.233.239.184 1 1 9805 20150115203026
+150.70.97.124 1 1 42472 20150122201714
+150.70.173.10 1 1 33544 20150123125618
+82.75.84.147 3 20 1531893 20150109213926
+78.181.58.131 0 1 441525 
+91.219.111.211 0 4 9176 
+54.166.158.1 1 1 11359 20150127165627
+86.92.192.7 3 41 2155465 20150125162021
+77.179.211.235 2 40 2115991 20150110215223
+144.76.185.173 1 1 34396 20150124184437
+87.213.129.7 2 18 1704496 20150127143730
+62.194.45.39 0 4 250071 
+95.97.156.38 0 4 250071 
+92.226.177.113 0 2 673096 
+162.244.15.230 1 1 5876 20150117221301
+83.232.110.58 3 19 638846 20150115135330
+77.160.90.46 0 4 9175 
+74.112.131.246 2 2 20512 20150123123456
+188.202.119.137 0 4 250070 
+188.207.72.95 4 25 160222690 20150127132721
+82.74.154.159 0 1 252116 
+180.76.4.232 1 1 16060 20150131054715
+82.72.161.154 0 4 250070 
+68.192.155.1 1 7 98464 20150110190201
+150.70.97.113 1 1 21487 20150126014331
+145.97.230.161 3 30 959696 20150112145209
+82.75.140.116 11 87 6749909 20150125231434
+92.69.223.107 3 21 1449314 20150123125429
+77.171.87.163 0 3 115200 
+212.187.44.94 3 30 959800 20150116210709
+54.160.180.216 0 1 21683 
+84.25.15.219 0 1 332472 
+77.166.120.238 0 2 179196 
+46.44.183.208 2 8 1137504 20150127083648
+84.241.197.230 0 4 250072 
+64.71.205.1 1 1 9107 20150129041711
+195.64.79.194 0 4 250072 
+94.23.149.100 8 8 52887 20150106101136
+187.60.184.132 2 27 970351 20150106003740
+109.140.186.210 3 37 2142574 20150127160857
+82.75.150.160 6 31 59091080 20150129175158
+212.123.162.236 0 4 250072 
+84.82.61.226 8 65 2045782 20150110002112
+54.160.156.171 1 1 11406 20150122175821
+162.223.28.252 1 1 4511 20150115100817
+82.75.144.162 3 15 2039300 20150129102142
+84.241.200.204 3 19 735285 20150107153435
+213.93.101.4 3 30 959799 20150113162203
+83.163.165.229 0 2 581258 
+209.19.180.172 1 1 9099 20150130041832
+213.133.97.216 1 1 21452 20150103235703
+84.86.46.40 0 1 107049 
+23.22.237.114 1 1 10136 20150130184850
+81.204.227.24 13 59 2317786 20150131235140
+77.163.21.147 0 4 250071 
+87.123.125.182 0 2 534683 
+84.106.173.174 2 30 986251 20150105201018
+54.160.169.96 0 1 159954 
+62.210.84.249 2 12 256513 20150115213518
+213.126.93.162 0 4 250071 
+85.150.243.164 3 25 1810936 20150130221630
+46.244.49.210 3 41 2155333 20150105213838
+186.6.6.141 2 15 171094 20150116224722
+94.210.116.44 3 29 956624 20150123223405
+65.52.246.161 1 1 10858 20150122164335
+86.91.173.15 0 4 250071 
+23.96.208.137 3 3 31913 20150127165255
+82.75.150.127 13 131 8090044 20150123171154
+85.150.239.36 1 1 735290 20150103113042
+86.84.180.215 0 1 45751 
+85.150.80.70 0 4 250071 
+217.121.142.95 0 1 252116 
+216.46.12.66 0 1 45751 
+62.140.132.216 1 7 141950 20150126085903
+77.251.105.80 0 4 250072 
+82.74.133.64 0 1 33729 
+81.204.70.76 2 8 1137508 20150127123644
+82.75.185.30 0 8 500144 
+177.47.163.6 2 16 284259 20150105195914
+89.205.224.247 0 4 250072 
+92.110.108.104 0 4 250071 
+173.213.96.145 2 2 13233 20150116023308
+82.173.137.95 2 8 1137504 20150128085925
+54.163.99.95 1 1 5815 20150114213625
+77.61.60.201 2 34 4629109 20150122161204
+82.74.136.22 0 5 357118 
+62.210.75.104 2 12 256533 20150122065823
+81.207.225.184 0 4 250071 
+128.140.134.24 3 29 1347031 20150125202436
+82.75.133.131 0 4 250070 
+82.204.105.253 3 29 870711 20150113103436
+84.84.138.209 3 10 1454805 20150129185525
+54.237.250.191 0 1 5546 
+84.196.140.128 3 25 1810796 20150107164554
+178.119.253.45 3 41 2155484 20150128114229
+85.150.113.100 0 1 45751 
+192.199.246.208 1 1 7297 20150115082438
+86.94.227.11 3 24 1601988 20150130205021
+217.123.157.199 5 16 1709933 20150128210627
+145.91.128.180 3 29 870821 20150106110053
+82.75.153.169 0 1 107049 
+195.240.128.175 0 4 250071 
+80.57.213.182 3 30 959698 20150110143824
+86.92.218.90 0 1 40487 
+83.160.95.4 1 13 1056074 20150106110922
+157.55.39.34 3 3 141336 20150101174454
+31.201.25.168 0 4 250071 
+78.22.160.144 3 40 3131608 20150123161712
+178.118.128.207 4 41 3209033 20150122220527
+81.165.211.20 0 1 11460 
+83.117.69.189 0 1 126694 
+82.75.216.240 9 64 3811684 20150112163514
+83.87.245.71 0 3 77882 
+83.160.80.148 4 25 1468106 20150123143838
+77.170.94.1 1 14 1342268 20150119200317
+104.40.146.231 1 1 5821 20150114122530
+62.140.132.22 6 43 2283267 20150105192849
+86.80.179.189 4 14 2034557 20150129234415
+77.164.128.232 0 4 250070 
+84.27.105.244 3 24 1602003 20150130180655
+145.87.1.10 3 40 3131672 20150123075152
+88.159.239.126 3 19 1594515 20150111150311
+208.117.14.233 1 1 12091 20150115203024
+212.123.174.244 0 4 250071 
+81.206.13.151 0 1 26754 
+84.27.233.130 0 1 26754 
+67.196.55.4 1 1 5816 20150114153115
+192.99.170.80 3 3 64465 20150119131529
+82.72.227.33 0 4 250071 
+83.82.41.231 0 4 250071 
+195.241.155.237 0 4 250071 
+31.186.228.170 0 1 3347 
+81.205.113.86 0 6 809121 
+82.75.156.196 1 10 1242076 20150127213721
+86.85.149.101 0 4 250070 
+89.234.68.105 6 6 165209 20150103050607
+94.215.229.117 0 4 250070 
+77.249.6.126 0 4 250072 
+107.178.200.44 1 1 5819 20150107135329
+62.45.165.222 0 1 816935 
+87.208.145.231 14 100 479242786 20150129202231
+64.71.207.182 1 10 1104578 20150128072529
+86.80.78.89 1 1 735290 20150112192523
+83.83.123.11 3 40 3131573 20150122210306
+62.41.28.178 2 8 1137503 20150127152754
+179.232.133.68 2 28 1511590 20150108111926
+194.151.205.210 0 4 250071 
+195.169.166.102 0 4 9176 
+62.195.60.173 0 4 250072 
+217.123.148.54 0 4 250070 
+87.208.73.179 1 10 1241709 20150131085022
+86.91.138.179 3 23 1598679 20150130173840
+84.29.6.20 2 2 1470580 20150109162756
+62.207.96.198 0 4 250071 
+91.97.239.42 3 29 1072643 20150107224730
+92.69.254.214 0 4 183702 
+83.83.252.80 2 9 1142316 20150128105022
+112.207.152.211 2 37 1519058 20150125130530
+81.83.0.241 3 40 3131573 20150122201526
+195.154.181.152 15 15 449622 20150112092018
+31.201.46.203 3 41 2155436 20150102070310
+87.249.112.26 7 108 7581533 20150127094532
+107.178.200.52 0 1 1761 
+82.74.148.97 4 30 2800656 20150130192219
+82.169.254.3 8 51 2634152 20150129192525
+81.204.239.114 4 25 1818574 20150128083746
+81.206.61.148 3 23 748317 20150130112904
+77.172.30.250 0 1 33729 
+192.34.58.199 8 18 301491 20150110221808
+83.82.122.95 3 23 748181 20150101194920
+62.140.132.42 1 9 1484542 20150128090437
+83.163.98.91 3 24 1601896 20150130213810
+54.221.169.145 1 1 21502 20150121211956
+149.210.178.81 1 1 44331 20150129183644
+145.103.248.228 0 1 21880 
+54.185.175.201 1 1 5833 20150123055802
+172.245.134.232 2 2 13238 20150115044743
+199.195.140.230 1 1 42489 20150128052707
+192.87.54.45 0 1 205584 
+199.101.95.219 1 1 7100 20150115100817
+178.251.122.26 3 25 1810800 20150106160203
+5.35.248.25 2 45 1791125 20150112104323
+188.207.127.53 0 4 250072 
+90.145.174.177 8 82 6563441 20150123131632
+5.9.65.117 1 1 5830 20150128085408
+184.189.232.242 2 43 1832388 20150122142255
+62.234.106.122 9 66 3332585 20150114113355
+82.72.152.125 0 4 250070 
+62.45.232.245 2 9 1137507 20150126145559
+178.85.130.137 0 4 250070 
+77.249.7.89 1 17 2314586 20150122210540
+31.149.39.129 3 30 959902 20150114115036
+213.127.238.50 3 29 956584 20150114143320
+188.162.228.18 0 1 45751 
+143.176.27.65 0 7 393095 
+77.164.11.168 0 2 57049 
+83.80.169.40 0 4 250071 
+87.208.173.215 0 4 250072 
+82.72.33.35 3 41 2155337 20150105215523
+54.204.245.205 1 1 5812 20150114213536
+150.70.97.122 1 1 4985 20150127152923
+82.168.124.49 0 4 250072 
+77.166.206.206 4 24 38830564 20150127191803
+90.145.51.86 3 23 748286 20150114131104
+90.128.174.184 0 4 250071 
+82.75.14.121 4 26 765765 20150126124031
+77.161.211.211 23 23 16911670 20150130132352
+85.150.222.188 7 34 68271867 20150130145004
+86.93.167.24 1 1 735290 20150114224833
+212.121.119.50 0 4 250072 
+62.195.70.179 3 23 1758914 20150112221409
+77.173.164.179 0 4 250071 
+213.126.3.26 0 4 250072 
+188.201.150.41 0 4 250071 
+5.39.99.40 2 2 11672 20150112164407
+54.238.238.39 1 1 11408 20150122175904
+31.7.56.36 1 1 5877 20150123062038
+213.125.79.218 1 1 9866 20150119133245
+82.75.113.229 2 7 1002634 20150130172100
+177.204.92.21 1 1 5875 20150118221825
+82.74.158.145 0 4 9176 
+145.53.172.38 0 4 250072 
+83.162.229.170 2 9 1142314 20150126131450
+86.88.142.226 3 10 1295606 20150131094045
+204.44.82.185 1 1 5875 20150120021319
+82.72.175.177 4 41 3147873 20150130201603
+92.63.87.3 1 1 5818 20150105000857
+205.185.205.36 0 1 308 
+82.172.144.2 4 24 303064752 20150127121115
+80.101.89.4 0 4 250070 
+80.56.211.89 0 1 26754 
+82.75.148.79 2 35 1884799 20150109145727
+94.225.65.123 3 29 870817 20150122110507
+188.207.93.110 0 4 250071 
+145.53.160.177 2 8 1137507 20150127135213
+141.135.15.246 0 2 581258 
+82.74.178.3 6 57 5684139 20150126145633
+95.18.94.178 2 40 1794716 20150123071156
+86.89.62.230 2 42 1731725 20150127223824
+89.213.26.110 2 29 2485672 20150107130820
+87.210.132.158 0 4 250072 
+205.185.205.46 0 3 926 
+82.75.163.10 0 4 250069 
+85.150.69.231 0 1 33729 
+180.76.4.146 1 1 16060 20150109074556
+89.98.126.82 3 23 748180 20150109110958
+84.105.110.93 6 44 2243375 20150121210509
+92.64.26.194 0 4 250071 
+123.125.160.217 1 1 5814 20150106043648
+77.94.242.193 0 3 115199 
+82.72.223.13 0 10 639820 
+54.145.127.197 1 1 5820 20150105115530
+93.196.103.126 0 1 107049 
+24.132.162.52 0 4 250072 
+62.131.80.52 0 3 143023 
+212.129.39.182 10 10 64672 20150124220556
+86.89.122.167 3 21 2298418 20150103112402
+117.169.1.114 2 2 13125 20150106170752
+54.225.9.23 2 2 18151 20150123124716
+83.86.213.155 0 1 816935 
+84.85.105.161 3 25 1810796 20150105173011
+81.207.243.186 1 10 1147062 20150130225351
+84.196.247.96 0 1 45589 
+78.23.23.134 3 40 3131561 20150123085309
+54.242.158.161 1 1 9036 20150124034017
+62.140.132.47 0 3 115201 
+82.72.52.51 3 41 2155434 20150105215300
+77.12.58.58 1 2 97761 20150118142704
+83.85.40.169 3 29 956480 20150101170112
+86.82.22.215 4 38 2154919 20150105213144
+86.95.85.217 6 45 2054607 20150118161433
+31.13.100.118 0 1 93158 
+192.241.218.246 7 59 2822081 20150123190505
+79.197.217.60 1 1 35883 20150118142704
+5.11.41.230 2 21 407957 20150113003503
+80.112.158.11 1 1 21452 20150119140538
+37.0.85.243 0 4 250069 
+84.243.200.227 8 81 4259163 20150126103600
+62.140.132.20 0 4 250070 
+198.27.82.13 1 1 12463 20150129174743
+72.8.169.22 1 1 9178 20150115100816
+87.214.80.164 3 23 1248915 20150116201209
+145.86.248.14 3 25 1880225 20150123153115
+27.132.240.210 2 29 1566833 20150126014153
+185.10.104.195 4 8 102330 20150119174010
+173.252.105.117 0 1 93158 
+82.74.225.189 8 28 98980504 20150126235937
+217.199.26.253 0 1 82791 
+85.151.119.190 0 1 816935 
+82.170.86.224 0 4 250072 
+83.163.42.204 0 4 250072 
+42.116.63.95 0 1 45751 
+217.121.16.254 0 2 424748 
+31.13.100.112 0 2 32998 
+82.169.211.123 8 75 4412419 20150130170740
+84.29.221.100 3 41 2155543 20150122104127
+81.30.72.12 0 4 250071 
+84.28.148.84 0 4 250071 
+84.24.150.144 2 2 1271765 20150107190609
+189.238.250.72 2 16 196452 20150107235020
+89.98.98.30 7 27 4169805 20150129104640
+189.27.228.15 2 41 1610181 20150121104915
+188.207.90.251 3 37 2142575 20150130173818
+41.136.84.4 1 7 99852 20150130170257
+217.114.110.162 20 151 7626970 20150126135348
+83.162.231.164 3 36 3118683 20150124080018
+155.133.19.224 2 2 13221 20150112163616
+188.207.101.110 0 4 250072 
+84.241.200.19 0 4 250070 
+217.120.124.179 1 14 1492139 20150127110753
+177.96.214.61 2 41 1640972 20150123002525
+83.87.175.201 0 1 332472 
+189.32.100.230 2 40 1563156 20150104230828
+212.187.73.183 3 41 2155568 20150127190059
+80.113.194.66 4 27 1287018 20150115100242
+104.143.12.42 4 4 85612 20150122085156
+178.85.250.75 0 1 107049 
+193.226.34.226 2 2 13185 20150118001831
+87.211.5.146 0 4 143021 
+217.121.247.162 1 6 896991 20150130213027
+54.242.61.208 1 1 21489 20150112200739
+81.205.9.219 1 17 2314684 20150120191211
+195.241.212.32 1 10 1454693 20150125082351
+62.140.132.33 0 4 250070 
+217.120.22.246 5 31 2848681 20150131085724
+89.218.186.165 1 1 5848 20150131111620
+192.99.119.145 1 1 5878 20150116121035
+212.45.46.37 1 1 5877 20150124082256
+86.85.63.6 0 1 82791 
+17.142.151.92 1 1 12493 20150129174823
+110.142.244.146 1 1 21448 20150105200620
+84.241.213.47 4 24 1271824 20150124210526
+84.27.121.40 1 10 1147061 20150124223637
+92.68.130.61 0 1 82791 
+50.28.32.145 1 1 10152 20150130171006
+82.75.198.135 0 3 115201 
+23.20.177.174 0 1 93102 
+41.249.134.28 2 40 1581710 20150106203842
+80.89.226.130 0 4 250071 
+84.85.175.195 2 8 1137500 20150130015943
+83.85.123.50 0 2 883050 
+217.123.146.242 0 4 250070 
+80.60.29.70 0 1 205584 
+83.84.9.207 0 1 82791 
+84.80.230.28 0 4 250069 
+82.74.147.194 0 4 250070 
+82.74.153.161 0 1 107049 
+179.176.171.153 2 29 1523772 20150110203355
+180.76.4.225 1 1 16060 20150114075132
+84.241.197.36 0 4 250070 
+88.7.174.94 2 29 2632369 20150122195920
+92.108.161.242 0 4 250072 
+143.176.21.193 2 8 1137506 20150125093709
+86.89.7.58 0 4 250071 
+68.71.158.196 1 1 2416 20150115100815
+54.91.113.248 4 9 181589 20150129175421
+217.123.82.77 4 27 1286911 20150104222532
+92.225.52.175 0 1 21739 
+204.44.85.174 2 2 13249 20150131124907
+217.120.18.120 0 1 59342 
+87.208.164.28 4 24 26915721 20150128230857
+95.97.148.2 9 108 4140572 20150121100451
+81.30.41.41 8 62 2025486 20150116090638
+82.75.237.216 0 4 250071 
+145.76.62.81 0 4 250070 
+94.214.254.199 3 27 1256412 20150126171302
+87.209.161.193 4 41 3209034 20150122220438
+82.72.131.38 5 44 4612701 20150103005406
+62.145.206.160 0 4 250071 
+130.89.65.219 4 23 35163785 20150127124841
+86.87.110.95 0 4 250069 
+82.75.169.117 7 83 4388394 20150130133138
+54.197.168.201 1 1 11354 20150122211953
+122.170.52.245 2 33 740645 20150117080932
+83.81.242.197 3 26 1258486 20150109150923
+143.176.25.126 6 41 1785553 20150102142420
+178.132.211.134 5 5 35912 20150130150333
+89.99.132.126 0 4 250071 
+150.70.173.9 1 1 36450 20150114115223
+77.165.188.113 21 142 19659923 20150130080649
+83.163.224.107 3 30 959802 20150120104827
+213.46.109.192 4 21 1599191 20150130183021
+82.74.161.242 4 24 776712 20150113190216
+84.107.38.38 9 100 346634219 20150124225233
+82.170.123.175 1 11 1238221 20150126115623
+77.160.88.54 2 27 1992273 20150127132249
+77.163.39.243 0 4 250072 
+192.255.79.151 1 1 5876 20150115205816
+145.48.176.239 0 1 415032 
+81.205.42.136 0 1 241377 
+77.170.46.34 0 1 332472 
+84.84.140.40 0 1 107049 
+94.214.192.52 0 1 107049 
+141.135.255.14 0 4 250071 
+79.118.59.95 2 50 2847443 20150101041902
+62.140.132.28 3 36 3118699 20150124080606
+193.24.92.54 3 40 2152227 20150121130543
+54.81.155.94 1 1 11363 20150129101849
+87.195.224.150 5 34 1120900 20150113181525
+181.29.250.139 2 35 1156698 20150109151449
+84.25.217.33 3 40 3131580 20150124194747
+213.46.136.114 0 1 11460 
+201.79.216.162 2 31 390445 20150102042709
+213.126.5.178 3 30 959801 20150120151659
+50.16.145.195 2 2 24990 20150129175736
+92.38.25.145 1 1 5875 20150117201114
+83.161.242.40 0 4 250070 
+82.75.215.234 4 43 3778484 20150122205705
+50.23.193.18 20 20 59261 20150129160147
+80.60.174.203 0 4 250071 
+77.250.217.107 3 24 1601897 20150131102124
+23.239.78.125 2 2 11757 20150127215414
+54.162.89.97 1 1 12431 20150129175734
+89.146.42.150 3 28 1605245 20150129085859
+74.119.161.16 0 5 384943 
+213.148.246.159 3 37 2142536 20150114002502
+92.110.160.113 3 29 882524 20150127224632
+54.82.186.26 1 10 340829 20150120024904
+84.241.201.98 0 1 107049 
+77.166.156.101 0 4 250072 
+192.241.225.199 0 4 250069 
+84.241.209.59 0 2 110395 
+104.236.243.224 1 1 21502 20150129081046
+62.45.242.163 9 66 5983650 20150127165748
+77.174.144.171 0 1 107049 
+213.126.82.162 0 1 57920 
+37.230.212.74 1 1 5838 20150109165215
+54.92.140.50 1 1 21489 20150119144755
+82.72.132.88 0 4 250070 
+94.214.56.24 0 1 69504 
+82.74.220.12 9 85 2956050 20150127202249
+84.29.183.49 0 4 250071 
+213.10.222.249 0 4 9176 
+84.25.223.47 0 1 5546 
+82.72.140.195 0 4 250072 
+84.28.190.167 0 1 102071 
+145.53.132.103 0 1 107049 
+91.227.229.4 1 1 735290 20150123085156
+83.83.28.80 20 54 7212669 20150127123049
+87.6.102.83 2 29 2252313 20150116125943
+79.25.91.102 2 41 2177651 20150128191001
+217.112.119.202 2 6 1138193 20150127164752
+92.109.53.105 0 4 250072 
+84.107.71.99 1 10 1147061 20150127112218
+74.112.131.243 1 1 11408 20150122175904
+83.27.247.88 0 1 45751 
+31.186.228.86 0 1 134871 
+54.225.104.196 0 2 39018 
+145.52.152.126 3 25 1810894 20150119114416
+94.215.165.83 3 41 2155576 20150125192712
+212.187.86.52 4 16 45374273 20150129222126
+37.153.224.49 0 4 250070 
+188.207.94.174 3 20 1588992 20150131173519
+84.27.22.243 3 26 1258481 20150109105214
+24.132.241.202 0 1 118536 
+84.86.44.75 6 47 3224459 20150130194004
+54.83.138.126 1 1 11351 20150124042715
+84.25.116.214 0 3 115199 
+64.62.134.170 2 2 85054 20150128052811
+181.198.86.168 2 26 747562 20150114200555
+62.140.132.211 1 7 49387 20150119161914
+194.150.14.140 19 20 176171 20150129094552
+82.75.161.200 0 4 250071 
+205.197.242.167 0 1 105924 
+173.252.105.115 0 2 267059 
+80.65.107.178 0 1 107049 
+213.127.158.2 2 8 1137507 20150128115020
+84.241.213.65 3 40 3131581 20150123022440
+86.80.133.60 0 7 393094 
+77.163.42.9 0 8 500142 
+94.210.148.187 0 1 332472 
+89.99.34.129 0 4 250072 
+66.249.84.182 0 1 118536 
+31.201.164.223 0 4 250069 
+82.75.136.242 1 14 2265165 20150125121255
+213.148.247.166 0 4 250072 
+217.123.133.166 0 4 250071 
+62.195.223.64 2 2 1470580 20150120183102
+66.249.93.183 0 2 237072 
+54.221.198.105 1 3 64933 20150127165346
+83.85.143.117 3 20 1588993 20150130200515
+84.26.195.247 0 4 250071 
+82.217.131.18 0 4 250069 
+217.120.77.205 0 1 139733 
+17.142.148.12 1 1 9087 20150123123459
+77.171.44.60 3 37 2142438 20150105105116
+79.197.194.81 0 2 857567 
+82.72.241.225 2 5 892234 20150130013317
+87.210.67.13 4 31 988130 20150113093506
+83.85.62.27 0 4 250070 
+82.75.201.158 20 120 154717511 20150129185259
+50.28.34.133 2 2 12074 20150123124945
+92.109.254.58 0 4 250070 
+89.98.214.87 0 1 107049 
+213.46.124.123 3 30 959806 20150116021620
+83.162.209.230 8 49 5266254 20150131091709
+86.82.208.122 6 570 407539493 20150128144849
+87.208.189.188 0 8 500142 
+82.74.144.158 8 74 5842955 20150122220027
+31.202.241.245 1 1 21433 20150113142746
+82.74.171.39 0 4 9175 
+90.142.68.144 1 1 2532 20150128164440
+165.231.1.136 1 1 5882 20150124015522
+77.163.218.232 0 4 250072 
+77.168.146.216 0 4 250071 
+212.76.31.205 1 1 21390 20150120064304
+77.165.237.94 3 30 959935 20150124153159
+83.117.158.11 0 4 250071 
+82.74.182.125 0 1 107049 
+173.252.113.112 0 1 384181 
+77.248.251.202 0 4 169974 
+82.75.195.211 0 3 445781 
+94.210.210.100 4 30 2089292 20150110160216
+108.62.156.198 1 1 2407 20150115100817
+80.101.225.112 7 50 3406505 20150128115915
+64.120.51.196 1 1 9813 20150115203024
+82.74.56.129 3 41 2155335 20150105104428
+82.75.175.200 0 1 3291 
+77.172.182.19 2 8 1137508 20150129090958
+46.44.161.78 2 8 1137505 20150127135258
+50.57.64.198 0 1 1900 
+83.83.30.170 1 1 1104646 20150105140220
+77.172.78.128 0 4 250071 
+178.188.190.246 0 4 250072 
+86.95.124.65 2 8 1137506 20150124224744
+82.75.157.25 0 4 250070 
+145.53.148.210 0 4 250071 
+62.194.174.11 5 33 391087351 20150128144006
+62.140.132.201 0 4 250072 
+92.63.87.7 1 1 5829 20150131072738
+82.72.34.21 0 4 250071 
+74.112.131.244 1 1 11414 20150127165357
+80.61.87.36 0 4 250070 
+84.107.183.48 4 27 1750445 20150101144647
+83.82.18.73 3 37 2142429 20150107193711
+46.129.9.68 6 82 4311086 20150122102718
+74.91.37.143 1 1 10126 20150115100816
+82.75.214.194 3 24 1839066 20150130172024
+187.85.168.102 2 36 1234334 20150102142934
+92.66.86.1 12 92 7114423 20150130172338
+17.142.152.153 1 1 11412 20150127165354
+84.24.234.193 0 4 250072 
+31.160.26.73 3 30 959700 20150105164259
+217.123.174.166 0 28 1750497 
+83.87.187.118 2 9 1142312 20150125160422
+37.57.25.225 1 1 21390 20150101025614
+190.222.164.43 2 22 1565658 20150112092035
+54.89.61.205 1 1 9031 20150123142959
+94.122.187.181 2 41 2287739 20150120185433
+62.205.65.103 0 1 59342 
+62.195.230.58 3 41 2155454 20150122190821
+62.194.221.30 0 4 250072 
+94.214.94.199 0 4 250071 
+77.166.187.120 1 10 1147067 20150129181724
+213.125.30.234 7 79 41167899 20150128131042
+66.249.84.170 0 1 118536 
+83.81.208.87 0 1 219164 
+84.84.20.155 0 4 250071 
+82.75.29.102 3 36 3118675 20150123065035
+69.162.131.82 1 1 10477 20150115203024
+80.101.222.129 4 15 102404802 20150130115013
+186.55.184.252 2 29 1512835 20150119163512
+82.157.165.38 0 1 20010 
+84.26.148.78 0 1 11460 
+94.215.160.20 0 4 250070 
+177.194.160.198 2 29 1616814 20150127022507
+189.68.201.89 2 23 1470523 20150115150241
+108.62.82.62 1 1 5883 20150123065617
+212.45.46.64 3 26 1258501 20150113084301
+86.87.76.90 0 1 45589 
+84.241.200.228 0 4 250072 
+62.195.162.174 3 26 946943 20150130082321
+185.10.104.131 2 2 13151 20150102063003
+82.168.81.106 1 11 1701307 20150127223121
+89.234.68.87 5 5 143342 20150110060801
+173.208.177.59 1 1 5884 20150129104624
+80.69.77.2 4 19 22317549 20150131231418
+110.5.107.165 0 1 45695 
+84.106.59.229 0 4 250072 
+54.204.20.250 0 1 27090 
+82.72.36.78 3 41 2155338 20150104225016
+86.83.242.221 5 50 2046173 20150122141834
+208.101.7.43 1 1 19420 20150120181023
+89.99.35.79 3 40 3131585 20150123012613
+69.162.140.191 1 1 9563 20150115203206
+23.91.25.52 2 2 42976 20150128000352
+84.194.76.136 3 30 959796 20150103154545
+83.86.206.74 0 2 53739 
+84.80.175.170 0 4 250070 
+95.97.49.227 2 9 1142311 20150129063441
+46.4.113.114 0 1 1259 
+77.164.44.193 0 4 250070 
+82.74.158.41 2 9 1142311 20150130152206
+89.99.234.209 0 4 250071 
+149.210.189.216 10 10 7120 20150129211648
+82.75.165.58 0 4 250070 
+64.233.172.184 0 2 237072 
+217.121.159.90 0 1 840135 
+213.126.105.203 0 4 250071 
+94.212.127.68 0 1 441525 
+94.212.7.236 0 1 398717 
+92.69.218.15 4 26 2526384 20150130180722
+212.178.200.133 1 1 1104646 20150120112113
+54.91.35.43 0 1 68459 
+91.200.12.43 8 8 71707 20150127193248
+62.210.75.243 16 35 743944 20150126105839
+91.200.12.69 22 22 202632 20150131183352
+82.74.221.94 0 4 250072 
+77.173.88.252 0 3 115200 
+92.110.114.7 0 2 1633870 
+92.110.33.11 2 8 1137504 20150129151749
+82.176.227.197 3 41 2155434 20150102105145
+83.163.217.134 5 29 981435 20150102121840
+188.207.154.66 0 4 250072 
+86.98.31.186 2 28 1752370 20150107182107
+83.87.222.158 3 41 2155337 20150103103147
+82.74.193.35 24 169 338190966 20150130175351
+89.98.105.109 0 1 40487 
+66.249.81.225 0 1 107049 
+41.78.17.251 2 24 2228536 20150126175538
+145.131.154.57 0 4 250072 
+82.74.185.40 0 4 250070 
+37.74.148.19 0 2 446961 
+54.221.199.147 0 2 41953 
+82.75.140.254 0 4 250072 
+86.86.5.70 1 1 11410 20150122205718
+54.161.5.213 0 1 384125 
+54.166.16.188 2 7 164376 20150129175608
+80.112.208.130 3 24 1601896 20150130181151
+82.161.118.179 0 4 250071 
+83.85.181.7 3 17 494300 20150101164258
+80.95.169.59 9 79 3976353 20150105125958
+184.173.90.200 1 1 19274 20150123115841
+95.97.239.18 3 40 3131577 20150122192913
+217.123.147.85 2 11 1313019 20150125110149
+62.210.189.96 2 7 134149 20150111222935
+213.197.35.174 0 4 250072 
+50.97.234.250 1 1 11409 20150127174014
+80.56.54.100 1 1 719 20150105200736
+82.74.155.115 0 4 9176 
+81.206.204.28 2 5 83865 20150119195907
+83.128.197.1 0 1 11460 
+31.186.228.91 0 1 107049 
+187.59.104.223 2 29 1710204 20150124123900
+54.80.8.82 0 1 109603 
+212.232.25.223 1 1 5874 20150120052827
+188.207.120.229 0 4 250071 
+62.140.132.43 0 4 250071 
+94.214.105.121 3 23 748184 20150112210441
+86.99.159.84 2 36 1233325 20150101090012
+77.250.90.74 0 4 250071 
+86.87.85.130 1 9 1142258 20150128211157
+92.110.24.65 10 87 4445079 20150127220910
+82.72.224.105 0 3 115200 
+85.151.100.60 0 1 147937 
+84.27.169.160 0 4 250072 
+93.186.197.177 1 1 21487 20150122072253
+217.123.186.168 0 4 250070 
+54.82.116.202 3 3 76797 20150121034501
+83.81.44.25 3 36 3118679 20150123012010
+77.172.166.134 10 124 6543967 20150130122938
+71.83.104.81 0 1 45751 
+31.13.100.117 0 1 102071 
+107.178.200.49 0 1 1314 
+150.129.141.81 0 1 45751 
+188.207.120.141 0 2 559052 
+80.61.154.176 0 1 97016 
+82.74.157.188 4 48 2231139 20150127143502
+80.101.85.81 0 4 250070 
+82.72.89.102 3 23 748305 20150122232256
+84.86.219.32 0 4 250071 
+94.215.166.85 0 4 250070 
+77.174.187.206 0 1 107049 
+94.214.51.185 0 1 132490 
+82.75.91.61 3 36 3118674 20150123082451
+178.85.159.24 3 23 748275 20150105095231
+62.140.132.37 3 21 1798008 20150121173048
+217.123.128.179 0 4 250071 
+84.241.211.70 0 4 250071 
+62.131.67.88 0 6 809123 
+84.27.236.101 3 9 1450000 20150129140206
+213.118.42.124 4 41 3209026 20150122202525
+24.132.198.6 2 8 1137506 20150130094907
+195.240.180.245 0 4 250071 
+173.252.113.114 0 2 516671 
+217.119.236.154 0 4 250070 
+81.18.251.46 9 61 3102804 20150128114123
+66.249.81.177 0 1 45589 
+222.88.236.236 2 2 13121 20150111005601
+94.215.232.152 1 10 1220345 20150129190418
+77.161.42.64 3 37 2142432 20150104194745
+82.157.10.94 0 4 250070 
+84.35.239.123 3 45 2543380 20150120101908
+188.92.57.18 0 4 250071 
+72.20.49.39 1 1 4317 20150115203024
+94.229.59.102 0 4 250069 
+82.74.170.179 0 4 250072 
+62.145.202.184 0 1 33729 
+77.174.42.239 3 30 959832 20150125182444
+217.121.190.60 3 22 1245690 20150120181800
+83.86.78.209 2 10 1147116 20150129161024
+86.82.8.88 2 18 2323295 20150121104311
+92.63.88.43 1 1 5837 20150117164453
+83.82.71.193 4 23 1254953 20150129140206
+82.74.218.137 0 1 107049 
+50.18.102.132 2 2 1478 20150123123357
+173.252.79.113 0 1 160010 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150101 51 451 20595765 21
+20150102 281 1132 34045448 19
+20150103 1061 3219 85196462 20
+20150104 220 1029 37093595 26
+20150105 574 2695 119386930 58
+20150106 395 1577 54306281 29
+20150107 364 1527 47427799 31
+20150108 760 1443 46620378 18
+20150109 464 1351 38383602 24
+20150110 55 318 14282099 18
+20150111 53 92 3601945 14
+20150112 482 1920 50000423 39
+20150113 443 2054 39758361 27
+20150114 531 2589 56118570 38
+20150115 614 2167 111534627 69
+20150116 353 2480 165147711 29
+20150117 375 2022 35087956 23
+20150118 44 162 13923211 19
+20150119 255 999 50837471 28
+20150120 350 2186 89702731 38
+20150121 252 1704 112947716 27
+20150122 521 3029 215112657 67
+20150123 517 2973 155733853 70
+20150124 214 1703 3506495903 40
+20150125 77 863 543723142 34
+20150126 289 2597 2564690124 54
+20150127 312 2804 3576896016 105
+20150128 410 2724 2407540876 64
+20150129 470 5207 2015854800 85
+20150130 427 3682 1604854958 92
+20150131 659 4066 459157092 41
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 34
+5mn-15mn 38
+2mn-5mn 51
+30s-2mn 54
+15mn-30mn 19
+0s-30s 1037
+30mn-1h 34
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 178
+/js/scripts.js.php 2187 103999423 5 99
+/kerstspecial/afrekenen 1231 4436980 9 3
+/facebook-seminar-lienden 996 6931285 49 32
+/ 982 6978348 356 264
+/fonts/icomoon.woff 440 13583941 0 228
+/concepten/facebook/getpakket 383 416267 1 3
+/tijdlijnacties/concept 316 3380928 2 4
+/tijdlijnacties 311 2510277 34 8
+/facebook-seminar-lienden/plekken 311 244447 0 9
+/uploads/ebooks/pdf_server.php 285 156603195 56 151
+/admin/kerstspecial 2 805629 0 0
+/tijdlijnacties/user/2/videos 2 10600 0 0
+/php/DQRecentComments.php 194 55457 0 1
+/blog/hoe-je-facebook-laat-weten-welke-berichten-je-niet-wilt-zien 21 319562 16 5
+/tags/Computer 1 11913 0 0
+/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden 38 423453 1 0
+/tags/online 3 37192 1 1
+/admin/blog 46 1281425 0 1
+/kerstspecial/user/50/order 2 9772 0 0
+/blog/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt 11 213285 6 1
+/blog/nieuwe-post 1 5513 0 1
+/blog 96 1482587 18 14
+/kerstspecial/user/login 9 18068 0 0
+/tags/bedrijfspagina 2 60124 1 0
+/kerstspecial/user/1/videos 2 10594 0 0
+/tijdlijnacties/user/108/ebook/download 2 9664 0 0
+/tijdlijnacties/user 81 434143 0 0
+/tags/adverteren 3 103061 0 1
+/kerstspecial/user 48 245341 0 1
+/admin/blog/zo-installer-je-whatsapp-op-je-computer 11 98515 0 0
+/uploads/images/media/Wie%20gaat%20er%20winnen.dib 9 232270 1 3
+/blog/de-1-valkuil-voor-facebook-paginabeheerders 60 706293 47 11
+/ebooks 45 463012 4 12
+/tijdlijnacties/user/login 15 27491 1 0
+/download/spiekbrief 268 615851 159 51
+/categorie/LinkedIn 3 14579 1 2
+/tijdlijnacties/user/forgotpassword/ad28ee346cd60013ebef5329aa094772c9818b98 1 2227 0 0
+/kerstspecial/user/2/ebook/download 1 4919 0 0
+/admin/media/create 29 68900 0 0
+/tags/Facebook%20search 1 27955 0 0
+/tags/like%20share%20en%20win 1 42781 1 0
+/tijdlijnacties/registreer 9 9315 0 0
+/workshops 107 1428926 7 47
+/tags/call%20to%20action 1 27957 0 0
+/blog/facebook-test-koop-nu-knop-met-de-mogelijkheid-om-direct-te-kopen-zonder-facebook-te-verlaten 5 143930 1 1
+/admin/blog/zo-installeer-je-whatsapp-op-je-computer/edit 5 22959 0 0
+/tags/call%20to%20action%20knop 2 35099 0 0
+/tags/knoop%20nu%20knop 1 11559 0 0
+/kennismaken 66 645970 3 18
+/tags/facebook%20tab 2 35069 0 0
+/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden 108 1498395 86 40
+/facebook-seminar-lienden/betalen 80 82893 0 0
+/tags/omslagfoto 2 56977 0 0
+/tijdlijnacties/user/2/ebook/download 1 4915 0 0
+/kerstspecial/user/50/ebook/download 1 4923 0 0
+/cases/eerste-paasdag-gesloten 5 107836 1 1
+/kerstspecial/user/forgotpassword/0391871005234a8209bda19dc5d0d8f6b9638801 2 5121 0 0
+/facebook-seminar-lienden/succes 177 474511 0 2
+/admin/blog/zo-installer-je-whatsapp-op-je-computer/edit 8 36565 0 0
+/in/loggen 41 77763 1 0
+/tijdlijnacties/user/forgotpassword 5 8671 0 0
+/workshops/facebook-advertenties-opzetten-meten-en-optimaliseren 6 169495 1 0
+/tags/actie 2 79728 1 1
+/kerstspecial/user/48/videos 1 5301 0 0
+/kerstspecial 45 248426 5 0
+/tags/%20Facebook%20contentstrategie 3 62547 0 0
+/tags/statistieken 1 27945 0 0
+/admin/blog/een-van-facebooks-beste-updates-tot-nu-toe-de-call-to-action-knop/edit 1 5622 0 0
+/facebook-seminar-lienden/gegevens 247 221218 1 3
+/fonts/icomoon.eot 186 5266261 0 23
+/admin/workshops 2 20092 0 0
+/tijdlijnacties/user/1/videos 76 415249 0 1
+/kerstspecial/registreer 104 99906 0 0
+/admin/blog/create 3 9596 0 0
+/blog/hoe-je-kunt-zien-wanneer-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken 61 1211130 17 21
+/admin/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden/edit 23 154454 0 0
+/kerstspecial/user/forgotpassword/58fb7b2040dbc91f1df82808689b7d4b2f629764 2 5199 0 0
+/facebook-seminar-lienden/ohoh 12 9136 0 0
+/blog/zo-installeer-je-whatsapp-op-je-computer 58 681503 39 24
+/admin/media 42 132467 0 0
+http://www.digitusmarketing.nl/workshops 1 7302 0 1
+/facebook-seminar-lienden/webhook 24 16950 16 15
+/blog/hoe-jij-je-voorbereid-op-facebook-marketing-in-2015 32 624500 21 4
+/blog/waar-een-succesvolle-facebook-tijdlijn-actie-toe-kan-leiden 24 488434 13 4
+/blog/hoe-je-facebook-vrienden-kunt-uitnodigen-om-fan-te-worden-van-jouw-facebook-pagina 85 1557181 54 11
+/tags/Facebook 7 1262545 0 1
+/tags/Facebook%20berichten 3 80273 0 0
+/kerstspecial/user/81/ebook/download 2 9848 0 0
+/tags/browser 1 11915 0 0
+/kerstspecial/user/66/order 2 9879 0 0
+/tags/sell%20something 1 27949 0 0
+/tijdlijnacties/user/forgotpassword/eede86c376ec9d876b0d03298e2195d6f5193002 1 2227 0 0
+/cases/hoe-vrij-je-je-kunt-bewegen-in-een-antony-morato-jeans 14 221456 2 1
+/admin/workshops/ik-heb-een-facebook-pagina-en-nu/edit 1 5442 0 0
+// 1 5884 0 0
+/blog/facebook-update-facebook-introduceert-save 5 167332 1 0
+/categorie/Facebook 13 1142922 3 2
+/tags/youtube 1 27947 0 0
+/tags/berichten%20Facebook%20later%20bekijken 1 12056 0 0
+/cases 58 1026774 2 6
+/tags/fans 2 79841 0 0
+/tags/Nieuwsoverzicht 1 13327 0 0
+/kerstspecial/webhook 35 24718 13 13
+/tijdlijnacties/user/1/order 4 23030 0 0
+/tags/web 1 11897 0 0
+/tijdlijnacties/login 8 10153 0 0
+/kerstspecial/login 138 158264 0 2
+/tags/koop%20dan 1 11553 0 0
+/kerstspecial/user/forgotpassword/22ae825f5bd9287f8e91baf138b33ef87a64026c 3 7716 0 0
+/cases/facebook-campagne-uw-glasvezeladviseur-is-actief-in-uw-woonplaats 15 184075 7 4
+/tijdlijnacties/user/109/ebook/download 6 29163 0 0
+/kerstspecial/user/forgotpassword/97b4d8975963a4ccbfbeef722587070c30ca4c50 1 2563 0 0
+/tags/uitnodigen 1 18609 0 0
+/tags/zijn 2 32889 0 0
+/facebook-seminar-lienden/webhooktientje 1 706 0 1
+/tijdlijnacties/webhook 3 2118 2 2
+/tags/Facebook%20test%20pagina 1 17222 0 0
+/admin/users 285 824677 0 0
+/tags/likes 1 17021 0 0
+/tags/einddatum 1 27943 0 0
+/kerstspecial/user/1/order 1 5760 0 0
+/facebook-seminar-lienden/def-gegevens 35 26990 0 0
+/facebook-seminar-lienden/tientjebetalen 2 1884 0 0
+/tags/Social%20media 1 31823 0 0
+/kerstspecial/betalen 16 15080 0 0
+/blog/een-van-facebooks-beste-updates-tot-nu-toe-de-call-to-action-knop 37 562471 8 4
+/ons-bureau 99 1507693 4 10
+/blog/zo-installer-je-whatsapp-op-je-computer 3 37628 1 1
+/facebook-seminar-lienden/10 20 174442 2 1
+/workshops/de-basis-van-een-succesvolle-facebook-pagina 13 251805 0 2
+/tags/WhatsApp 1 11907 0 0
+/cases/pagina-make-over-en-advies 3 82848 0 0
+/concepten/facebook/ad-pakketten 250 851628 3 0
+/tijdlijnacties/user/108/videos 2 11234 0 0
+/kerstspecial/user/2/videos 1 5298 0 0
+/tags/test%20pagina 2 21653 1 1
+/blog/10-redenen-waarom-je-geen-like-share-en-win-actie-moet-doen 36 659697 25 4
+/fonts/icomoon.ttf 18 501176 0 13
+/tags/Facebook%20bedrijfspagina 2 85898 0 0
+/kerstspecial/user/50/videos 1 5304 0 0
+/cases/facebook-campagne-anytime-fitness 13 153592 4 2
+/categorie/Ergonomie 7 69056 2 4
+/tags/advertentiestrategie 4 52541 2 2
+/feed/rss.php 54 160916 36 36
+/kerstspecial/user/1/ebook/download 3 14767 0 0
+/categorie/Youtube 3 14518 2 1
+/facebook-seminar-lienden/return 6 3345 0 0
+/blog/6-tips-om-te-voorkomen-dat-je-wordt-afgeleid-op-facebook 126 1825182 104 22
+/tags/Facebook%20pagina 4 102595 1 1
+/tags/succesvolle 2 41651 0 0
+/php/GetComments.php 195 55745 0 0
+/categorie/Twitter 3 14519 1 1
+/tijdlijnacties/user/1/ebook/download 12 58460 0 0
+http://www.digitusmarketing.nl/ 1 5819 1 0
+/tijdlijnacties/user/109/videos 12 67459 0 0
+/tijdlijnacties/betalen 9 8496 0 0
+/tags/Ik%20wil%20dit%20niet%20zien 2 17197 1 2
+/tags/Facebook%20voor%20beginners 1 17053 0 0
+/admin/blog/zo-installeer-je-whatsapp-op-je-computer 1 8900 0 0
+/tags/facebook%20video 1 27955 0 0
+/categorie/Google 3 14498 1 1
+/tags/Fysiotherapie 2 31885 0 1
+/kerstspecial/user/forgotpassword/fc6390533ce8269ab459fcc8b3e91df7b4c2396d 2 5114 0 0
+/blog/fysiotherapie-kleinman-zit-jij-wel-eens-langer-dan-een-uur-achtereen-op-je-computer 5 177482 0 0
+/tags/Installeren 3 19267 0 2
+/kerstspecial/user/forgotpassword 11 22803 0 0
+/tijdlijnacties/afrekenen 49 273376 0 0
+/tags/tijdlijn%20actie 1 58605 0 0
+/seminars 1 762 0 0
+/tags/save 1 12002 0 0
+/tags/campagne 1 32850 0 0
+/tijdlijnacties/user/108/order 2 9850 0 0
+/admin 42 133388 0 0
+/kerstspecial/user/registreer 2 4248 0 0
+/tags/werkhouding 2 31888 1 0
+/tags/vrienden 1 25848 0 0
+/tags/wanneer 2 32895 0 0
+/tags/Facebook%20content%20strategie 1 2475 1 1
+END_SIDER

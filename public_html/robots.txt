@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /jandje
+Disallow: /member
+Disallow: /uploads/ebooks

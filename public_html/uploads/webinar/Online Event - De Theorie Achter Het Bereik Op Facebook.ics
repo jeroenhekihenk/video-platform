@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20151109T155312Z
+DESCRIPTION:Wij verheugen ons al op het online event!\n\n \n\nHoud je mailb
+	ox in de gaten\, we sturen je tijdig een email met daarin alle informatie 
+	dat nodig is om het online event bij te wonen.\n\n \n\nWe zien je snel!\n\
+	n \n\n- Parsifal Tritsch en Rogier van Voorst\n\n
+DTEND;TZID="W. Europe Standard Time":20151118T210000
+DTSTAMP:20151104T162916Z
+DTSTART;TZID="W. Europe Standard Time":20151118T193000
+LAST-MODIFIED:20151109T155312Z
+LOCATION:http://www.digitusmarketing.nl/superboost/webinar
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=nl:Online Event - De Theorie Achter Het Bereik Op Facebook
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000306A5B452617D101000000000000000
+	01000000091345C9A65BB93468DD01FFABC787AFE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="nl"><FONT FACE="Calibri"
+	>Wij verheugen ons al op het</FONT></SPAN><SPAN LANG="nl"> <FONT FACE="Cal
+	ibri">online event</FONT></SPAN><SPAN LANG="nl"><FONT FACE="Calibri">!</FO
+	NT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl"><FONT FACE="Calibri">&nbsp\;<
+	/FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl"><FONT FACE="Calibri">Houd 
+	je mailbox in de gaten\, we sturen je tijdig een email met daarin alle inf
+	ormatie dat nodig is om het</FONT></SPAN><SPAN LANG="nl"> <FONT FACE="Cali
+	bri">online event</FONT></SPAN><SPAN LANG="nl"> <FONT FACE="Calibri">bij t
+	e wonen.</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl"><FONT FACE="Calib
+	ri">&nbsp\;</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl"><FONT FACE="Ca
+	libri">We zien je snel!</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl"><F
+	ONT FACE="Calibri">&nbsp\;</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl"
+	><FONT FACE="Calibri">- Parsifal Tritsch en Rogier van Voorst</FONT></SPAN
+	><SPAN LANG="nl"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

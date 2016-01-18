@@ -1,0 +1,745 @@
+AWSTATS DATA FILE 7.4 (build 20150714)
+# If you remove this file, all statistics for date 201601 will be lost/reset.
+# Last config file used to build this data file was /home/id00005/domains/digitusmarketing.nl/awstats/.data/awstats.digitusmarketing.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2045                
+POS_TIME 2720                
+POS_VISITOR 15689               
+POS_DAY 21717               
+POS_DOMAIN 3581                
+POS_LOGIN 3815                
+POS_ROBOT 3970                
+POS_WORMS 5222                
+POS_EMAILSENDER 5353                
+POS_EMAILRECEIVER 5496                
+POS_SESSION 21946               
+POS_SIDER 22152               
+POS_FILETYPES 5631                
+POS_DOWNLOADS 5936                
+POS_OS 5984                
+POS_BROWSER 6336                
+POS_SCREENSIZE 7699                
+POS_UNKNOWNREFERER 7773                
+POS_UNKNOWNREFERERBROWSER 7999                
+POS_ORIGIN 8220                
+POS_SEREFERRALS 8365                
+POS_PAGEREFS 8542                
+POS_SEARCHWORDS 9541                
+POS_KEYWORDS 9751                
+POS_MISC 2382                
+POS_ERRORS 9872                
+POS_CLUSTER 3671                
+POS_SIDER_404 10004               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160106235721 3846 940533 12216992982328
+FirstTime 0
+LastTime 20160106225917
+LastUpdate 20160107001341 3846 0 3846 0 0
+TotalVisits 108                 
+TotalUnique 84                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 182                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 174 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 17 991602 16 26 225417
+1 14 63 4253875 17 26 1180576
+2 10 10 135087 66 74 1220274
+3 22 87 8668769 41 56 289313
+4 0 0 0 26 47 192872
+5 1 1 5218 11 20 98143
+6 0 1 108014 35 38 259447
+7 4 40 3157023 24 37 136950
+8 3 11 1316826 21 37 316529
+9 23 49 1554707 50 62 385408
+10 25 399 9424255 36 68 605704
+11 50 757 14644093 39 144 2698337
+12 97 1284 14943927 71 200 4042738
+13 117 1508 21449287 72 174 1708033
+14 122 2188 18640418 34 91 888554
+15 118 1507 21791532 36 92 1597662
+16 121 1565 21124865 33 121 1886083
+17 62 650 14966956 30 70 3315361
+18 50 453 10659806 47 110 1689971
+19 11 81 4075703 300 323 2083853
+20 16 113 6965259 25 40 288905
+21 28 143 12752367 24 35 506901
+22 7 69 5987205 42 124 3187457
+23 3 58 5130831 19 26 122459
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 907 11054 202747625
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 30
+phantom 339 10221984 20160106161727 0
+bingbot 234 2166057 20160106192137 107
+mj12bot 179 1737986 20160106015209 25
+googlebot 117 873256 20160106235506 10
+facebook 54 4194680 20160106180030 0
+google[_+\s]web[_+\s]preview 46 2421022 20160104222357 0
+vagabondo 39 1016602 20160104020759 1
+slurp 29 158695 20160106164921 7
+yandex 26 163739 20160106121503 6
+googlebot\-image 22 3830032 20160106154409 0
+meanpathbot 3 9260 20160101205944 2
+no_user_agent 10 14696 20160106180512 1
+exabot 6 23976 20160106015034 3
+ia_archiver 2 33487 20160101154623 1
+y!j 6 29408 20160106235721 2
+seznambot 4 23244 20160106043416 2
+feedfetcher\-google 6 51655 20160106111709 0
+unknown 6 2207 20160106204226 6
+proximic 2 19147 20160106180542 1
+ahrefsbot 14 98130 20160106133346 0
+gigablastopensource 2 31164 20160104003936 1
+360spider 2 9055 20160103181210 1
+surveybot 2 8931 20160102144130 1
+favicon 9 63284 20160105173340 0
+adsbot-google 1 8647 20160106073926 0
+twitterbot 4 21484 20160101104632 2
+cfnetwork 16 138247 20160105101736 0
+baiduspider 9 63048 20160105223824 0
+msnbot\-media 4 21526 20160105084731 0
+crawl 3 106572 20160104132454 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 13 605435 0 0
+css 3662 22992770 0 0
+png 1526 99238656 0 0
+ttf 8 501122 0 0
+woff 22 1288467 0 0
+woff2 108 6108286 0 0
+php 154 8001014 0 0
+jpg 827 16576468 0 0
+js 4122 43137153 0 0
+Unknown 602 3967317 0 0
+gif 1 35162 0 0
+svg 9 295775 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 22
+linuxandroid 1107 67
+winlong 3 3
+macosx6 1 1
+macosx11 97 17
+winxp 113 36
+ios_iphone 290 27
+win2000 3 3
+win8 2 2
+macosx9 6 6
+ios_ipad 57 8
+unix 1 0
+winnt 7 7
+win98 3 3
+linuxubuntu 6 6
+linux 76 41
+win7 8807 587
+win16 2 2
+macosx10 155 35
+Unknown 6 3
+win8.1 109 25
+win10 202 27
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 68
+msie6.0 9 9
+chrome40.0.2214.115 6 6
+chrome34.0.1847.137 5 5
+chrome10.0.611.0 1 1
+chrome28.0.1467.0 1 1
+chrome28.0.1500.94 37 3
+chrome11.0.654.0 2 2
+chrome39.0.2171.95 2 2
+opera26.0.1656.60 1 1
+firefox34.0 5 5
+chrome5.0.342.1 31 31
+msie8.0 125 20
+chrome39.0.2171.65 1 1
+firefox43.0 4449 206
+msie7.0 5 4
+chrome47.0.2526.99 15 0
+chrome37.0.2062.120 7 7
+msie10.6 1 1
+opera9.0 3 3
+chrome32.0.1667.0 1 1
+chrome33.0.1750.152 3 3
+chrome34.0.1847.131 8 8
+firefox21.0 4 4
+opera9.01 3 3
+firefox29.0 1 1
+chrome35.0.1916.114 1 1
+chrome36.0.1985.143 129 21
+firefox25.0 1 1
+mozilla 2 2
+chrome47.0.2526.106 4362 332
+firefox14.0.1 1 1
+chrome42.0.2311.135 1 0
+chrome37.0.0.0 10 0
+chrome41.0.2228.0 6 6
+firefox36.0 4 4
+safari9.0.2 92 28
+safari 5 0
+chrome21.0.1180.89 1 1
+safari7.0 29 5
+chrome34.0.1847.76 5 0
+android 39 3
+chrome10.0.612.3 2 2
+safari8.0.6 8 0
+chrome46.0.2490.76 99 2
+chrome33.0.0.0 16 0
+iphone 106 0
+firefox0.10.1 2 2
+chrome47.0.2526.80 29 5
+chrome41.0.2272.101 5 5
+firefox3.5.8 2 2
+safari8.0 35 3
+msie9.0 22 10
+Unknown 6 3
+chrome47.0.2526.83 818 56
+chrome30.0.0.0 26 0
+opera8.00 5 5
+samsung 2 0
+chrome27.0.1453.110 2 1
+chrome28.0.1500.71 8 2
+msie5.5 3 3
+chrome38.0.2125.102 40 3
+safari5.1.7 8 3
+msie11.0 113 22
+safari9.0 218 34
+chrome45.0.2454.101 30 1
+chrome35.0.1916.153 20 5
+msie10.0 3 3
+opera34.0.2036.25 12 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+visionutils/0.2 20160106180034
+WhatsApp 20160106131611
+Photon/1.0 20160103145442
+Pinterest/0.2_(_http://www.pinterest.com/) 20160101220520
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+visionutils/0.2 20160106180034
+WhatsApp 20160106131611
+Photon/1.0 20160103145442
+Pinterest/0.2_(_http://www.pinterest.com/) 20160101220520
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 467 552
+From1 0 0
+From2 27 46
+From3 59 387
+From4 354 10069
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 25 44
+bing 1 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 27
+http://digitusmarketing.us7.list-manage.com/subscribe/confirm 11 11
+http://top1-seo-service.com/try.php 9 9
+http://pronekut.com 3 3
+http://fanoboi.com 3 3
+http://dentuled.net 3 3
+http://karadene.com 3 3
+http://cookingmeat.ru 3 3
+http://fanoboi.com 3 3
+http://fermersovet.ru 3 3
+https://www.facebook.com 3 3
+http://demarketinggroep.nl 2 2
+http://www.facebook.com/l.php 1 1
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+http://m.facebook.com 1 1
+http://woobox.com/ukvcap 0 3
+http://zdesoboi.com 2 2
+http://hundejo.com 1 1
+https://woobox.com/app/151302801744622/tab/ 0 16
+http://www.jeroenkramer.nl 2 2
+http://www.techlila.com 2 2
+https://woobox.com/app/1536039306713584/tab/ 0 8
+http://buttons-for-website.com 1 1
+http://l.facebook.com/lsr.php 1 1
+http://woobox.com/dgvu45 0 175
+https://business.facebook.com 0 5
+http://woobox.com/kos44g 0 121
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+digitusmarkteting.nl 1
+messenger+meldingen+uitschakelen 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+uitschakelen 1
+messenger 1
+digitusmarkteting.nl 1
+meldingen 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 244 317122
+500 2 3292
+301 246 149679
+404 178 790602
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 96
+/css/img/icon/status2x.png 1 http://www.digitusmarketing.nl/css/admin/responsive.css
+/diensten/social-media-marketing/facebook-fanpage%C2%A0&quot 7 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanp 2 -
+/diensten/social-media-marketing/adverteren-op-hyves 1 -
+/diensten/social-media-marketing/facebook-fanpage%C2%A0 1 -
+/css/images/digitus/backend/portlet-tray.png 1 http://www.digitusmarketing.nl/css/admin/style.css
+/https://www.facebook.com/Xandinl 1 -
+/https://www.facebook.com/digitusmarketing 1 -
+/comments/feed 2 -
+/uploads/images/posts/whatsapp+op+pc+plaatje.png 1 -
+/hoe-je-berichten-van-anderen-uitgelicht-maakt-op-je-pagina/feed 1 -
+/portfolio-view/pizzeria-romy 1 -
+/facebook/facebook-vriendschapspaginas 1 -
+/diensten/social-media-marketing/facebook-fanpage 2 -
+/css/data:application/x-font-ttf 6 http://www.digitusmarketing.nl/
+/uploads/images/media/Bedank%20pagina%20AF%20M.png 1 -
+/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook/feed 1 -
+/css/fonts/glyphicons-halflings-regular.ttf 1 http://www.digitusmarketing.nl/css/admin/bootstrap.min.css
+/facebook-vrienden-uitnodigen-bedrijfspagina/feed 2 -
+/index.php/images/cursussen/3/videocursus-cover.jpg 1 -
+/css/style.css 31 http://www.digitusmarketing.nl/7-fb-geheimen
+/diensten/adverteren-op-facebook/page-post-ads 2 -
+/css/img/icon/portlet-tray-2x.png 1 http://www.digitusmarketing.nl/css/admin/responsive.css
+/portfolio-view/pizzeria-valentino 1 -
+/images/site/seminar/Seminar-lienden-ad.png 2 -
+/index.php/tags/advertentiestrategie 1 -
+/index.php/tags/youtube 1 -
+/uploads/images/media/voorbeeld%20uitnodiging.png 2 http://www.bing.com/images/search
+/https://www.facebook.com/rogiervanV 1 -
+/https://www.facebook.com/Cookingathome 1 -
+/js/jquery.js 1 -
+/diensten/social-media-marketing/adverteren-op-twitter 2 -
+/tags/like%20share%20en%20win 4 -
+/gratis-tips/internet-marketing-tips 2 -
+/feed/atom/www.facebook.com/pages/create 1 -
+/https://www.facebook.com/CultuurinEnschede 1 -
+/index.php/tags/Facebook%20voor%20beginners 1 -
+/https://www.facebook.com/parsifal.tritsch 1 -
+/category/facebook/facebook-fanpage 1 -
+/diensten/social-media-marketing/adverteren-op-facebook 1 -
+/uploads/images/posts/People-First.png 1 -
+/facebook/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel 1 -
+/index.php/tags/call%20to%20action 1 -
+/index.php/tags/like%20share%20en%20win 1 -
+/wp-content/uploads/2012/10/weloveit.jpg 1 -
+/facebook/facebook-vrienden-uitnodigen-bedrijfspagina 2 -
+/https://www.facebook.com/Jvenderbosch 1 -
+/https://plus.google.com/+DigitusmarketingNl 1 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage 2 -
+/images/hr-pijk- 1 http://www.digitusmarketing.nl/7-fb-geheimen
+/css/fonts/glyphicons-halflings-regular.eot 3 http://www.digitusmarketing.nl/7-fb-geheimen
+/css/images/digitus/backend/noti-cross.png 1 http://www.digitusmarketing.nl/css/admin/style.css
+/portfolio/feed 1 -
+/10-redenen-waarom-je-geen-like-share-en-win-actie-moet-doen/feed 1 -
+/css/img/icon/noti-cross-2x.png 1 http://www.digitusmarketing.nl/css/admin/responsive.css
+/wp-content/uploads/2012/03/Facebook-fanpage-vind-ik-leuk.jpg 2 -
+/https://www.facebook.com/DuikschoolLieKieSang 1 -
+/uploads/images/posts/7-updates-bericht.png 1 -
+/facebook/facebook-speelt-een-sleutelrol-in-hoe-mensen-nieuws-meekrijgen-en-delen 1 -
+/uploads/images/media/2%20Toplinks%20voorbeeld.png 1 -
+/uploads/images/posts/valkuil.png 1 -
+/facebook-vriendschapspaginas/feed 1 -
+/workshops/facebook-advertenties-opzetten-meten-en-optimaliseren 1 -
+/index.php/images/blogposts/facebook-mobile.jpg 1 -
+/diensten/adverteren-op-facebook/regular-ads 1 -
+/category/online-marketing 1 -
+/images/hr-pijl-wit.png 3 -
+/wp-content/themes/linenity/functions/download.php 1 http://digitusmarketing.nl/wp-content/themes/linenity/functions/download.php
+/uploads/images/cases/77296072-6817-4944-a7a0-07be82e167bb.jpg 1 -
+/js/404.js 1 -
+/css/img/notification-alert.png 1 http://www.digitusmarketing.nl/css/admin/style.css
+/components/com_content/metadata.xml 4 -
+/https://www.facebook.com/ziestaBBQ 1 -
+/application/configs/application.ini 1 -
+/css/fonts/icomoon.eot 15 http://www.digitusmarketing.nl/
+/uploads/images/media/Bericht%20later%202.png 1 -
+/uploads/images/posts/Facebook+groepen.png 1 -
+/VPNO/webinar 1 -
+/css/404.css 1 -
+/uploads/images/media/Stap%201.jpg 1 -
+/index.php/images/blogposts/Carousel.png 1 -
+/https://www.facebook.com/HansDeBoersMentalCoach 1 -
+/css/img/pullup2x.png 1 http://www.digitusmarketing.nl/css/admin/responsive.css
+/index.php/tags/wanneer 1 -
+/css/fonts/glyphicons-halflings-regular.svg 1 http://www.digitusmarketing.nl/css/admin/bootstrap.min.css
+/css/fonts/glyphicons-halflings-regular.woff 1 http://www.digitusmarketing.nl/css/admin/bootstrap.min.css
+/index.php/images/cases/FCR%20Banner.png 1 -
+/index.php/tags/adverteren 2 -
+/css/img/icon/top-trayx2.png 1 http://www.digitusmarketing.nl/css/admin/responsive.css
+/images/hr-pijl-wit 1 http://www.digitusmarketing.nl/7-fb-geheimen
+/https://www.facebook.com/pages/Luna-Serena/351550194874598 1 -
+/uploads/images/posts/Cover.png 2 -
+/index.php/images/cursussen/4/videocursus-cover.jpg 1 -
+/facebook/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook 4 -
+/index.php/images/cases/Itoshii%20banner.png 1 -
+/diensten/website-resultaten/conversie-optimalisatie 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 182
+82.75.157.160 519 9091 85340087 20160106181051
+86.82.208.122 35 144 2586552 20160105153234
+188.165.234.52 31 31 801919 20160101162402
+149.202.79.125 19 19 138847 20160102095405
+45.55.229.140 19 19 139959 20160102153032
+145.74.152.2 17 59 5865930 20160102211546
+94.229.56.43 15 65 6584524 20160106175602
+185.87.106.118 14 61 7674916 20160103035537
+192.241.217.167 14 54 1193881 20160106180731
+77.249.175.177 12 47 3646096 20160102013358
+54.236.1.67 1 1 30795 20160101220520
+82.73.55.145 0 10 653905 
+82.136.221.120 0 5 326953 
+77.166.107.83 3 26 1084397 20160105164217
+62.194.125.183 0 1 203373 
+193.201.227.25 1 1 945 20160103200454
+178.62.116.142 2 2 1894 20160106225917 20160106225917 /
+65.55.211.244 0 1 8092 
+89.98.94.189 0 5 326953 
+92.110.206.172 3 19 1688697 20160103100903
+143.179.1.243 0 4 315146 
+83.161.149.49 0 8 1224435 
+62.145.204.6 0 5 326953 
+188.165.234.31 7 7 29875 20160106161727
+62.163.58.159 0 8 1224433 
+82.173.205.205 0 8 1224434 
+217.102.114.13 0 2 207666 
+46.19.216.242 5 22 766963 20160105153415
+31.13.100.113 0 1 95028 
+112.65.193.13 1 7 363424 20160105111246
+81.206.11.201 0 8 1224434 
+74.91.26.114 4 4 27931 20160106024207
+84.104.193.136 3 39 3210759 20160103231913
+192.0.118.178 0 1 45846 
+24.132.126.157 0 5 326953 
+85.144.31.175 0 1 310326 
+86.94.52.220 4 21 762139 20160106134359
+84.82.35.224 0 7 331087 
+31.13.109.122 0 1 95028 
+195.242.80.118 2 2 61628 20160102204852
+65.55.218.58 1 1 1560 20160102131307
+84.241.212.98 3 37 3443619 20160106151916
+86.92.105.48 0 5 326953 
+178.137.89.157 6 6 184790 20160105193345
+104.237.88.158 1 1 5292 20160106034857
+46.242.31.110 2 14 180729 20160106134617
+82.75.147.122 3 20 756759 20160106133437
+31.201.41.44 0 5 326953 
+5.132.55.55 0 13 551012 
+92.69.217.174 0 8 1224433 
+82.171.145.15 3 20 756751 20160101113330
+178.137.160.2 8 8 246388 20160106032255
+37.153.246.177 0 5 326953 
+136.243.48.86 2 2 11486 20160103054339
+93.191.128.20 4 4 19006 20160106182713
+95.96.196.80 0 1 109488 
+84.87.114.79 0 8 1224430 
+212.204.177.43 0 5 326952 
+103.5.183.175 4 20 584775 20160103031110
+185.101.107.189 1 1 8587 20160102183050
+89.98.75.2 0 1 41567 
+82.74.145.27 0 5 540070 
+77.161.111.233 3 19 753313 20160105105223
+86.94.158.215 0 8 1224434 
+77.174.250.9 0 5 326952 
+213.247.64.26 0 5 326951 
+145.53.172.38 0 5 284553 
+87.213.16.113 0 1 201257 
+62.140.132.204 4 26 1790141 20160103204715
+86.87.107.35 0 1 211309 
+180.251.226.49 2 16 607779 20160105012418
+77.173.96.165 0 8 1224434 
+84.80.218.30 0 10 653904 
+81.205.188.62 0 3 80395 
+77.222.83.26 3 19 753306 20160106094859
+54.189.130.121 1 1 8622 20160104115811
+82.171.49.62 0 5 326952 
+101.226.93.233 1 7 363416 20160101111233
+5.178.68.149 2 26 1638718 20160104163916
+82.75.251.102 0 5 182450 
+103.37.201.30 1 7 65787 20160103185524
+177.102.237.238 4 20 584781 20160104141440
+62.72.193.103 0 5 326952 
+179.177.138.81 4 20 532654 20160103163658
+62.210.75.243 2 8 106897 20160106205933
+90.41.198.126 0 8 1224434 
+83.81.32.7 0 1 203373 
+195.240.132.33 0 5 326953 
+84.107.92.6 0 1 44741 
+213.127.212.133 0 4 110618 
+217.123.237.196 0 5 326952 
+93.85.33.123 9 9 279578 20160102172303
+190.63.143.93 1 10 120523 20160101185113
+81.207.229.172 0 7 390071 
+65.55.218.32 0 2 1807 
+131.253.24.158 0 1 4856 
+89.30.144.141 2 2 61620 20160106002502
+77.173.42.79 0 8 1224434 
+192.241.230.25 0 8 1224430 
+46.118.126.200 9 9 277155 20160106122318
+82.73.244.158 0 1 201257 
+77.165.1.94 0 5 326952 
+65.55.218.34 1 1 8639 20160102131244
+217.121.154.254 5 28 1618256 20160106201225
+82.171.125.142 0 5 326952 
+82.176.6.134 0 1 13958 
+92.110.247.129 0 5 326953 
+181.46.114.234 1 1 8647 20160102214338
+71.88.34.7 5 29 2954695 20160103180210
+113.175.174.214 1 1 5282 20160105225047
+82.169.122.9 2 2 17288 20160104103412
+86.93.200.162 0 2 217331 
+82.75.142.12 7 31 2965006 20160102153158
+77.160.214.222 0 8 1224429 
+104.156.231.254 3 3 63553 20160104214535
+86.89.86.188 3 26 1597045 20160104070125
+31.201.45.14 3 26 1607834 20160106145457
+145.133.98.120 0 5 326953 
+192.241.218.246 0 8 1224431 
+82.72.103.130 0 5 326952 
+77.172.54.65 0 1 411594 
+82.168.116.47 0 1 79344 
+84.107.100.65 5 22 788842 20160105101733
+86.95.23.243 0 7 331086 
+198.199.78.45 0 8 655876 
+143.179.15.37 0 5 326952 
+188.240.132.52 1 1 5293 20160104003551
+131.253.26.233 0 1 85210 
+77.169.4.229 0 1 18396 
+217.121.29.170 0 1 41807 
+181.21.143.109 4 19 509401 20160102174744
+145.53.85.54 0 7 331087 
+191.180.64.165 1 15 333776 20160101170506
+91.239.174.197 0 5 326952 
+62.140.137.9 0 8 1224434 
+190.112.195.81 1 1 16824 20160106141207
+65.55.212.71 0 1 6080 
+93.115.95.205 1 1 8572 20160104211822
+131.253.24.147 0 1 8092 
+62.45.156.11 3 20 771548 20160103171158
+62.72.193.67 9 81 1051586 20160106143645
+37.152.10.77 3 37 3428831 20160106132750
+94.215.181.191 0 5 326952 
+61.151.218.119 1 8 416334 20160103111240
+77.174.199.179 1 4 82045 20160101124138
+5.135.66.213 1 1 8588 20160102173211
+82.75.150.240 0 5 326952 
+95.98.33.65 0 1 170857 
+213.46.55.40 0 8 1224434 
+131.253.26.235 0 2 7086 
+77.161.142.105 0 8 1224433 
+5.15.250.29 0 5 326953 
+87.208.177.24 0 5 326952 
+84.241.202.217 0 1 203373 
+136.243.48.85 2 2 17179 20160101162515
+77.166.118.96 0 3 89845 
+62.140.137.54 2 31 433593 20160106193945
+172.98.67.47 1 1 30830 20160105212036
+62.72.192.107 0 5 326952 
+217.114.110.162 0 2 233667 
+84.80.241.171 0 2 93347 
+82.73.231.60 0 5 326952 
+46.47.66.254 0 3 89845 
+54.248.153.153 1 30 376535 20160106180507
+62.238.126.58 0 1 36322 
+83.128.217.127 3 26 1593039 20160103201012
+81.82.69.131 0 1 203373 
+186.233.117.194 4 21 679409 20160104123747
+45.32.129.1 3 3 63553 20160102193944
+212.187.45.36 3 37 3443587 20160105213021
+54.236.1.76 1 1 30795 20160101220518
+81.204.3.79 0 5 326952 
+83.87.38.223 4 20 508925 20160105095553
+62.163.132.120 0 2 103728 
+64.130.158.108 1 1 5271 20160102023836
+131.253.24.153 0 2 4837 
+138.199.73.18 0 8 1224431 
+62.140.137.47 2 19 122084 20160104170642
+192.99.9.164 1 1 8595 20160106210049
+65.55.218.45 0 1 1007 
+84.87.105.254 0 8 1224433 
+37.152.10.36 0 1 310326 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20160101 42 206 18999170 10
+20160102 103 315 23288955 18
+20160103 63 370 26065517 19
+20160104 73 415 12875317 17
+20160105 350 6257 63245186 16
+20160106 276 3491 58273480 28
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 2
+15mn-30mn 2
+30s-2mn 8
+2mn-5mn 3
+0s-30s 86
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 56
+/7-fb-geheimen 276 1791809 7 5
+/ 148 2252882 77 43
+/fonts/fontawesome-webfont.woff2 108 6108286 1 2
+/ebook/get 83 129234 1 31
+/fb-geheimen-live 33 188718 2 1
+/7-fb-geheimen/bedankt 33 162529 0 0
+/diensten 16 107292 6 8
+/fb-geheimen-live/bedankt 14 55494 0 0
+/contact 13 124835 0 3
+/fonts/fontawesome-webfont.woff 13 934274 0 1
+/knettergek 2 6181 0 0
+/blog/hoe-zet-ik-videos-op-facebook-in-om-gebruikers-naar-mijn-website-te-leiden 3 49302 0 0
+/ebook/post 1 1011 0 1
+/fonts/admin/custom-set.woff 4 25370 0 0
+/cases/facebook-campagne-anytime-fitness 1 23827 0 0
+/blog/zo-zullen-facebook-paginas-er-binnenkort-uit-zien 3 47815 0 0
+/cases/facebook-campagne-fitnesscentrum-roden 1 24120 0 0
+/cases/facebook-campagne-soulparty 2 32582 0 0
+/bestellen/succesvolle-tijdlijnacties 2 32174 0 0
+/adviesgesprek 2 28018 0 0
+/cases 9 76066 1 0
+/cases/facebook-campagne-tab-app-ibora-zant 1 23625 0 0
+/fonts/admin/custom-set.ttf 1 2831 0 0
+/blog/6-tips-om-te-voorkomen-dat-je-wordt-afgeleid-op-facebook 4 46482 4 0
+/fonts/admin/fontawesome-webfont.ttf 1 65943 0 0
+/cases/facebook-tijdlijnactie-itoshii-zwolle 2 29454 0 0
+/bestellen/facebook-advertentie-geheimen 3 43934 0 0
+/blog 8 101209 0 2
+/trainingen/live-trainingen 5 49081 0 0
+/blog/hoe-je-meer-bereik-en-naamsbekendheid-krijgt-via-facebook 4 67461 1 0
+/7-fb-geheimen/download 11 46009 0 0
+/fonts/admin/fontawesome-webfont.eot 3 169002 0 0
+/diensten/facebook-tabapps 3 39166 0 0
+/trainingen 9 71788 1 1
+/blog/ken-je-dit-advertentietype-al 3 56574 0 0
+/knettergek/login 1 3106 0 0
+/fonts/admin/fontawesome-webfont.woff 5 328823 0 2
+/trainingen/video-trainingen 5 50015 0 0
+/cases/fotowedstrijd-fitnesscentrum-roden 1 23671 0 0
+/uploads/ebooks/pdf_server.php 6 5748132 0 0
+/member/cursussen/succesvolle-tijdlijnacties 8 41795 1 1
+/fonts/fontawesome-webfont.eot 7 427664 0 2
+/fonts/fontawesome-webfont.ttf 6 432348 0 3
+/blog/hoe-je-kunt-zien-wanneer-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken 1 9149 1 0
+/cases/facebook-campagne-tab-app-the-unit 4 47263 0 0
+/blog/7-manieren-om-betrokkenheid-van-je-fans-te-vergroten 1 35227 0 0
+/strategiesessie 5 39756 0 0
+/fb-geheimen-live/login 7 21704 0 0
+/cases/facebook-campagne-praktijk-erna-basten 1 23416 0 0
+/diensten/adverteren-op-facebook 3 41201 0 0
+/privacy-policy 3 31248 0 1
+/fonts/admin/custom-set.eot 3 8769 0 0
+/blog/hoe-je-videos-op-facebook-inzet-om-leads-te-genereren 3 57996 0 0
+/login 5 13070 0 0
+/blog/hoe-je-facebook-vrienden-kunt-uitnodigen-om-fan-te-worden-van-jouw-facebook-pagina 6 53183 5 0
+/blog/10-redenen-waarom-je-geen-like-share-en-win-actie-moet-doen 1 19727 0 0
+END_SIDER

@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20150915T133423Z
+DESCRIPTION:Wij verheugen ons al op het webinar!\nHoud je mailbox in de gat
+	en\, we sturen je tijdig een email met daarin alle informatie dat nodig is
+	 om het webinar bij te wonen.\nVergeet niet het emailadres waar je je mee 
+	hebt aangemeld. En vergeet natuurlijk niet de datum te noteren\; Donderdag
+	 8 oktober 2015 om 19:00.\nWe zien je snel!\n- Parsifal Tritsch & Rogier v
+	an Voorst\n\n
+DTEND;TZID="W. Europe Standard Time":20151008T210000
+DTSTAMP:20150915T133423Z
+DTSTART;TZID="W. Europe Standard Time":20151008T190000
+LAST-MODIFIED:20150915T133423Z
+LOCATION:Digitus Marketing
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=nl:VPNO Webinar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000070B848CBC9EFD001000000000000000
+	0100000004B7FE307EF9C484093423663FBC0CEB6
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="nl">Wij verheugen ons al
+	 op het webinar!</SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl">Houd je mailbox 
+	in de gaten\, we sturen je tijdig een email met daarin alle informatie dat
+	 nodig is om het webinar bij te wonen.</SPAN></P>\n\n<P DIR=LTR><SPAN LANG
+	="nl">Vergeet niet het emailadres waar je je mee hebt aangemeld. En vergee
+	t natuurlijk niet de datum te noteren\; Donderdag 8 oktober 2015 om 19:00.
+	</SPAN></P>\n\n<P DIR=LTR><SPAN LANG="nl">We zien je snel!</SPAN></P>\n\n<
+	P DIR=LTR><SPAN LANG="nl">- Parsifal Tritsch &amp\; Rogier van Voorst</SPA
+	N></P>\n\n<P DIR=LTR><SPAN LANG="nl"></SPAN><SPAN LANG="nl"></SPAN></P>\n\
+	n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

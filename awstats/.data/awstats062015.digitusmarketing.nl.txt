@@ -1,0 +1,2279 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201506 will be lost/reset.
+# Last config file used to build this data file was /home/id00005/domains/digitusmarketing.nl/awstats/.data/awstats.digitusmarketing.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2045                
+POS_TIME 2705                
+POS_VISITOR 58415               
+POS_DAY 85268               
+POS_DOMAIN 3684                
+POS_LOGIN 3920                
+POS_ROBOT 4075                
+POS_WORMS 5863                
+POS_EMAILSENDER 5994                
+POS_EMAILRECEIVER 6137                
+POS_SESSION 86186               
+POS_SIDER 86399               
+POS_FILETYPES 6272                
+POS_DOWNLOADS 6633                
+POS_OS 6681                
+POS_BROWSER 7051                
+POS_SCREENSIZE 9606                
+POS_UNKNOWNREFERER 9680                
+POS_UNKNOWNREFERERBROWSER 10909               
+POS_ORIGIN 11622               
+POS_SEREFERRALS 11774               
+POS_PAGEREFS 11963               
+POS_SEARCHWORDS 14510               
+POS_KEYWORDS 14789               
+POS_MISC 2367                
+POS_ERRORS 14943               
+POS_CLUSTER 3776                
+POS_SIDER_404 15105               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150701001818 1 0 5393333881554
+FirstTime 0
+LastTime 20150630233205
+LastUpdate 20150701042459 1 0 0 0 0
+TotalVisits 778                 
+TotalUnique 537                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 726                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 507 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 41 263 18296133 191 296 3367415
+1 57 125 6707774 189 293 3565234
+2 38 70 4405999 115 217 3051358
+3 49 96 6505890 118 226 1786568
+4 34 95 3948067 159 233 3819435
+5 38 70 3435032 192 345 12484206
+6 47 118 8118535 125 202 2286759
+7 40 354 23713788 176 331 9901862
+8 62 263 25533900 160 317 8411393
+9 114 769 49317239 222 426 7338687
+10 361 2246 105616465 175 538 9649630
+11 320 1652 77984159 216 588 20951068
+12 274 1998 74911686 287 919 37983769
+13 388 2598 85265771 379 742 17655624
+14 368 2677 97132107 310 689 17471504
+15 446 3650 106856628 301 680 21817321
+16 519 3671 119160475 265 738 26986086
+17 436 2718 97552158 299 874 30886079
+18 131 654 50250615 176 424 17506287
+19 99 547 42665869 200 392 10862611
+20 116 490 32887235 242 454 9135216
+21 93 531 37970927 202 398 9880907
+22 57 398 36260349 166 313 8218009
+23 59 459 39546064 119 222 3419067
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4187 26512 1154042865
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 45
+phantom 822 55853645 20150629213420 0
+facebook 710 122376540 20150630175334 0
+googlebot 693 4812035 20150630215139 158
+bingbot 552 15098704 20150630233041 73
+mj12bot 485 4868168 20150630230043 113
+no_user_agent 198 11593760 20150630214711 2
+^java\/[0-9] 198 12728056 20150626170840 1
+bot[\s_+:,\.\;\/\\-] 155 2739871 20150627225037 35
+googlebot\-image 128 13769204 20150629092003 0
+msnbot\-media 106 14133514 20150628055337 5
+spider 8 43382 20150618231113 3
+seznambot 24 563642 20150628092243 13
+bingpreview 101 11317656 20150629133542 0
+vagabondo 36 1120554 20150612001125 2
+php 1 18824 20150630215242 0
+msnbot 1 10243 20150610122545 0
+mail\.ru 25 1555392 20150608210112 11
+ips\-agent 12 181365 20150616180609 1
+ahrefsbot 54 310290 20150630141056 4
+linkdex\.com 15 158506 20150625145521 3
+sift 1 19034 20150625153752 0
+360spider 16 65127 20150629132326 7
+titan 1 7767 20150626093135 0
+surveybot 4 14260 20150627064619 2
+psbot 2 6222 20150603025603 1
+twitterbot 76 1496271 20150626054217 48
+baiduspider 75 752832 20150630150532 0
+spiderbot 23 139767 20150626183938 1
+crawl 73 374873 20150628132323 19
+robi 2 12626 20150615142914 0
+exabot 23 100068 20150628061639 11
+ia_archiver 21 265506 20150618180445 6
+pingdom 1 21389 20150605204840 0
+libwww 1 26012 20150616021741 0
+metauri 2 20028 20150625153804 0
+feedfetcher\-google 2 22491 20150624145316 0
+slurp 44 222388 20150624233657 12
+unknown 44 14215 20150627025326 44
+python 1 275 20150625164506 1
+favicon 20 144587 20150630151837 0
+archive\.org_bot 1 275 20150618230506 1
+wordpress 2 582 20150611195006 0
+spbot 6 22057 20150626090507 3
+yandex 27 453272 20150629222355 11
+netcraft 1 21294 20150609040321 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 4463 28406162 0 0
+eot 36 1518238 0 0
+png 8334 600763721 0 0
+ttf 22 1584762 0 0
+woff 408 16528065 0 0
+woff2 140 7992246 0 0
+php 960 62053847 0 0
+mp4 4 8327840 0 0
+js 5391 108695783 0 0
+jpg 2374 232944520 0 0
+jpeg 7 236348 0 0
+Unknown 2621 38855627 0 0
+svg 1728 45015383 0 0
+gif 24 1120323 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+linuxandroid 1233 157
+winxp 230 129
+macosx6 23 4
+winlong 239 40
+ios_iphone 1020 169
+win2003 45 19
+win8 215 40
+linuxdebian 3 0
+macosx9 206 39
+ios_ipad 865 93
+macosx7 22 5
+unix 43 4
+winnt 16 12
+java 2 2
+macosx5 3 3
+linux 173 135
+win7 19176 2747
+macosx 1723 264
+Unknown 178 149
+win8.1 1044 170
+macosx8 53 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 124
+msie6.0 31 30
+safari7.0.3 2 2
+firefox28.0 10 6
+chrome34.0.1847.137 9 5
+firefox2.0.0.1 1 1
+chrome28.0.1500.94 33 6
+chrome5.0.375.99 1 1
+firefox18.0 2 2
+chrome44.0.2403.61 22 2
+chrome39.0.2171.95 38 12
+chrome38.0.2125.111 8 8
+opera26.0.1656.60 3 3
+safari5.0.6 1 1
+firefox34.0 11 11
+chrome43.0.2357.121 29 2
+chrome42.0.2311.138 6 0
+msie8.0 133 34
+chrome42.0.2311.90 1 0
+chrome39.0.2171.65 29 29
+msie7.0 29 13
+chrome27.0.1453.93 2 2
+chrome37.0.2062.120 29 3
+firefox23.0 1 0
+chrome41.0.2272.89 11 1
+chrome42.0.2311.152 1498 209
+chrome43.0.2357.92 136 21
+netscape 2 0
+chrome39.0.2171.71 34 34
+opera12.16 45 2
+chrome24.0.1312.70 38 8
+chrome44.0.2403.63 2 2
+chrome34.0.1847.131 17 13
+chrome37.0.2062.102 2 2
+firefox21.0 6 6
+safari6.0 4 1
+firefox29.0 22 10
+firefox38.0 10457 1182
+chrome32.0.1700.107 82 10
+chrome35.0.1916.114 8 4
+safari7.0.6 18 2
+chrome36.0.1985.143 590 86
+firefox33.0 26 26
+mozilla 161 103
+netscape5.0 1 1
+chrome32.0.1700.76 40 8
+chrome42.0.2311.135 20 4
+chrome37.0.0.0 13 2
+safari8.0.2 2 2
+firefox3.6.3 2 2
+chrome41.0.2228.0 4 4
+firefox3.0.10 7 0
+firefox36.0 7 7
+firefox35.0 10 10
+safari 202 22
+chrome37.0.2062.124 18 18
+chrome34.0.1847.76 149 14
+safari7.0 104 10
+chrome45.0.2417.0 30 3
+firefox5.0 117 117
+opera12.17 14 14
+firefox20.0 1 1
+firefox3.6.11 7 1
+chrome43.0.2357.124 3632 630
+android 179 38
+chrome43.0.2357.78 21 1
+chrome36.0.1985.125 28 7
+chrome42.0.2311.111 1 0
+firefox24.0 16 16
+firefox3.5.3 1 1
+safari8.0.6 598 100
+safari6.1.6 22 5
+firefox31.0 25 12
+iphone 211 46
+chrome33.0.0.0 52 13
+firefox6.0.2 13 13
+chrome43.0.2357.81 2818 372
+chrome45.0.2431.0 34 7
+chrome41.0.2272.101 8 8
+opera28.0.1750.48 1 1
+chrome43.0.2357.93 566 54
+safari8.0 1367 194
+msie5.0 4 4
+msie9.0 34 28
+Unknown 65 56
+chrome30.0.1599.101 1 1
+chrome45.0.2427.7 21 5
+firefox11.0 2 0
+chrome30.0.0.0 25 2
+chrome43.0.2357.65 49 6
+firefox32.0 33 6
+safari7.1.6 28 10
+chrome39.0.2171.93 5 0
+iceweasel 3 0
+firefox3.5.1 2 2
+safari8.0.5 47 3
+chrome44.0.2403.52 25 9
+chrome30.0.1599.105 1 1
+firefox3.6.2 4 0
+chrome42.0.2311.153 23 3
+safari7.1.2 26 4
+chrome27.0.1453.110 11 1
+chrome28.0.1500.71 5 2
+safari6.1.5 30 3
+chrome36.0.1985.97 1 1
+chrome43.0.2357.130 1082 203
+chrome38.0.2125.102 34 4
+opera23.0.1522.77 9 9
+safari5.1.7 41 9
+safari8.0.4 28 3
+msie11.0 588 56
+safari4.0 2 2
+chrome18.0.1025.133 4 4
+firefox39.0 4 1
+firefox1.0 1 1
+chrome35.0.1916.153 3 3
+firefox37.0 2 2
+firefox3.0.6 2 1
+firefox22.0 2 2
+msie10.0 241 33
+safari5.1 34 3
+opera26.0.1656.24 16 16
+firefox3.6.12 19 15
+chrome31.0.1650.16 4 0
+firefox3.6.8 20 20
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 22
+visionutils/0.2 20150625153639
+Ruby 20150606060709
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20150622201220
+MailChimp.com 20150612074902
+Qwantify/1.0 20150605103958
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20150626124109
+Xenu_Link_Sleuth/1.3.8 20150617201317
+Mozilla/5.0_() 20150625153753
+Mozilla/4.0_(compatible;_Synapse) 20150628131913
+Mozilla/3.0_(compatible;_Indy_Library) 20150628151459
+Mozilla 20150608121430
+binlar_2.6.3_test@mgmt.mic 20150622035247
+Disqus/1.0 20150623140730
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20150622141408
+Mozilla/5.0_(compatible;_GWPImages/1.0) 20150606025909
+Go_1.1_package_http 20150627061948
+Riddler_(http://riddler.io/about) 20150620024635
+Mozilla/5.0_(Android;_U;_Android_2.1;_en-us;)_AppleWebKit/525.10_(KHTML,_like_Gecko) 20150630171620
+Zend\\Http\\Client 20150616020742
+ADmantX_Platform_Semantic_Analyzer_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20150617160114
+izsearch.com 20150625030355
+()_{_:;_};_echo_Content-type:text/plain;echo;echo;echo_M`expr_1330___7`H;/bin/uname_-a;echo_@ 20150628141520
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+visionutils/0.2 20150625153639
+binlar_2.6.3_test@mgmt.mic 20150622035247
+Ruby 20150606060709
+MailChimp.com 20150612074902
+Disqus/1.0 20150623140730
+Qwantify/1.0 20150605103958
+Xenu_Link_Sleuth/1.3.8 20150617201317
+Go_1.1_package_http 20150627061948
+Riddler_(http://riddler.io/about) 20150620024635
+Zend\\Http\\Client 20150616020742
+Google-HTTP-Java-Client/1.17.0-rc_(gzip) 20150625153755
+ADmantX_Platform_Semantic_Analyzer_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20150617160114
+izsearch.com 20150625030355
+()_{_:;_};_echo_Content-type:text/plain;echo;echo;echo_M`expr_1330___7`H;/bin/uname_-a;echo_@ 20150628141520
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1001 1758
+From1 7 8
+From2 206 278
+From3 155 1031
+From4 2818 23437
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 200 268
+bing 1 5
+yandex 4 4
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 55
+http://woobox.com/ixtq3i 40 172
+http://m.facebook.com 20 20
+http://100dollars-seo.com/try.php 16 16
+https://www.facebook.com 11 11
+http://buttons-for-your-website.com 10 10
+http://digitusmarketing.us7.list-manage.com/subscribe/confirm 9 26
+http://www.techlila.com 9 9
+http://www.link-plaatsen.com 7 7
+http://l.facebook.com/l.php 6 6
+http://28073428.videos-for-your-business.com 4 4
+http://semaltmedia.com 2 2
+http://digitusweb.nl/digitusmarketing/public/ 0 184
+http://hdimagegallery.net 0 1
+http://www.idomeny.eu/kategoria/domeny-koncovka-sk/vtipne-videa-domena-www-vtipnevidea-sk/ 1 1
+http://woobox.com/t2ptod 0 4
+http://www.suntimezonnestudio.nl/zonnebanken 1 1
+http://woobox.com/p38qzo 0 7
+http://woobox.com/inmjpy 0 1
+http://hdimagelib.com 0 1
+http://woobox.com/q7rbzi 0 1
+http://videos-for-your-business.com 1 1
+http://digitusweb.nl/digitusmarketing/public/diensten/facebook-campagnes 0 4
+http://iborazant.us3.list-manage.com/subscribe/confirm 1 1
+http://woobox.com/k5n82y 0 13
+http://woobox.com/efaoum 0 286
+http://woobox.com/m8dvg4 0 76
+http://www.digitusweb.nl/digitusmarketing/public/ 0 2
+http://www.biccamera.co.jp/shoplist/shop-017.html 1 1
+http://woobox.com/yv48nq 0 4
+https://nl-nl.facebook.com 1 1
+http://www.woobox.com/ixtq3i 0 3
+http://woobox.com/aprw8p 0 73
+http://best-seo-offer.com/try.php 1 1
+https://woobox.com/app/967725553271561/tab/ 0 1
+http://facebook.us7.list-manage.com/subscribe/confirm 1 1
+https://www.qwant.com 0 2
+http://mikeljimenez.net/index.php/tag/certificaciones/ 1 1
+http://aixpiscine.fr/nos-services/ 1 1
+http://www.woobox.com/zc7mmr 0 9
+http://www.strathlachlanlodge.net/site-map 1 1
+http://vent-teh.ru/category/VENTUS/ 1 1
+http://www.strathlachlanlodge.net/log-In 1 1
+https://woobox.com/app/805597792868306/tab/ 0 2
+http://aixpiscine.fr/nos-piscines/ 1 1
+http://www.idomeny.eu/kategoria/prenajom-domeny/online-obchod-vystizna-domena-na-prenajom/ 1 1
+http://redirect.disqus.com/url 1 1
+http://lm.facebook.com/lsr.php 1 1
+http://aixpiscine.fr/actualites/ 1 1
+http://woobox.com/ymb9c7 0 28
+http://www.strathlachlanlodge.net/galleries/strathlachlan1/index.html 1 1
+http://www.biccamera.co.jp/shoplist/shop-021.html 1 1
+http://www.laboutiquedelouise.com/shop/ 1 1
+http://digitusweb.nl/digitusmarketing/public/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden 0 1
+http://picozoom.com/anytime-fitness-background.html 0 1
+http://woobox.com/zc7mmr 0 23
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+chat+uitschakelen+voor+iemand 1
+vrienden+uitnodigen+op+bedrijfspagina+facebook 1
+bedrijfspagina+facebook+vrienden+uitnodigen 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 9
+uitnodigen 2
+vrienden 2
+facebook 2
+bedrijfspagina 2
+uitschakelen 1
+voor 1
+chat 1
+iemand 1
+op 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 400 634313
+500 413 1598441
+405 2 3396
+404 3600 12379244
+301 1029 668555
+422 5 5761
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 813
+/javascript/editors/fckeditor/editor/fckeditor.html 1 -
+/forms/admin/scripts/fckeditor.2641/editor/fckeditor.html 1 -
+/categorie/facebook 2 http://digitusmarketing.nl/
+/tags/Facebook%20training 1 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanp 6 -
+/biblioteca/marco/FileZillaPortable/Data/settings/filezilla.xml 2 -
+/index.php/images/media/3%20einddatum%20bericht%20Facebook.png 1 -
+/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/wp-content/plugins/codecanyon-5293356-ajax-store-locator-wordpress/sl_file_download.php 1 -
+/wp-content/themes/MichaelCanthony/download.php 1 -
+/editors/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/manage/fck/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Xandi%20Facebook%20pagina%20Before.png 2 -
+/wysiwyg/fckeditor/editor/fckeditor.html 1 -
+/diensten/adverteren-op-facebook/sponsored-stories 2 -
+/uploads/images/posts/whatsapp-op-pc-plaatje.png 12 -
+/images/stories/food.php 1 -
+/wp-content/themes/felis/download.php 1 -
+/facebook-vrienden-uitnodigen-bedrijfspagina 38 http://www.digitusmarketing.nl/
+/images/facebook/makelaaronline-tab-app/logo.png 5 -
+/g 1 http://www.google.com/url
+/xmlrpc.php 20 http://www.digitusmarketing.nl/xmlrpc.php
+/jabdje 1 -
+/Public/Js/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Xandi%20facebook%20stelling%203.png 2 -
+/gratis-tips.php 1 -
+/filezilla-recupero-password/FileZilla.xml 2 -
+/affiliate/affiliate53/fckeditor/editor/fckeditor.html 1 -
+/portfolio-view/pizzeria-valentino 1 -
+/wp-content/themes/FR0_theme/down.php 1 -
+/uploads/images/posts/Facebook 1 -
+/mt/mt-static/plugins/FCKeditor/fckeditor/editor/fckeditor.html 1 -
+/diensten/adverteren-op-facebook/promoted-posts 3 -
+/uploads/images/media/Bericht%20xandi%202.png 1 -
+/diensten/social-media-marketing/adverteren-op-twitter 1 -
+/wp-content/themes/yakimabait/download.php 1 -
+/uploads/images/media/fans%20en%20fans.png 4 -
+/wp-content/plugins/simple-download-button-shortcode/simple-download-button_dl.php 1 -
+/script/fckeditor/editor/fckeditor.html 1 -
+/uploads/images/media/Fans%20online%20KG.png 2 -
+/nma2013/StephKENT/FileZilla.xml 2 -
+/kennismaken 22 http://www.google.nl/url
+/uploads/images/media/Xandi%20Facebook%20stelling%204.png 1 -
+/tts/FileZilla.xml 2 -
+/jandje/images/media/Lokale%20Bedrijven.jpg 29 http://digitusmarketing.nl/jandje/blog/23/edit
+/index.php/images/media/2%20Advertentie%20richten%20op%20interesse.png 1 -
+/web-files/fckeditor/editor/fckeditor.html 1 -
+/enzo.png 18 http://www.digitusmarketing.nl/tabel
+/inloggen 2 -
+/facebook-seminar 2 -
+/wp-content/uploads/2012/03/Facebook-fanpage-vind-ik-leuk.jpg 20 -
+/uploads/images/media/melding%202.png 2 -
+/images/tools/raster.png 2 http://digitusmarketing.nl/member/cursussen/slimme-facebook-marketing-voor-sportscholen
+/images/site/bg/blauw-bg-pattern.jph 2 http://digitusmarketing.nl/css/main.css
+/facebook-vriendschapspaginas/feed 1 -
+/uploads/images/posts/introducingsave%201.png 3 -
+/Web/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/gbe/modules/content/admin/fckeditor/editor/fckeditor.html 1 -
+/css/images/digitus/backend/pullup.png 397 http://digitusmarketing.nl/css/admin/style.css
+/uploads/images/media/youtube-channel%20voorbeeld.png 3 -
+/wp-content/themes/manbiz/lib/scripts/jquery.form.js 1 -
+/index.php/tags/Facebook%20pagina 1 -
+/wp-content/uploads 1 -
+/uploads/images/media/publiek%20uitbreiden%20contactpersonen%20importeren.png 6 -
+/wp-content/themes/myriad/lib/scripts/jquery.form.js 1 -
+/whatsapp/button.css 110 -
+/portfolio-view/suntime-zonnestudio 1 -
+/uploads/images/posts/Facebook+groepen.png 25 -
+/blog/page/4 1 -
+/uploads/images/media/De%20basis%20van%20een%20succesvolle%20Facebook%20pagina%20in%2010%20stappen.pdf 6 -
+/uploads/images/posts/Facebook%20ik%20wil%20dit%20niet%20zien.png 8 -
+/glossary/fckeditor/editor/fckeditor.html 1 -
+/index.php/images/media/1%20Toplinks%20link%20berichten%20voorbeeld.png 1 -
+/wp-content/themes/churchope/lib/downloadlink.php 1 -
+/images/facebook/julien-tab-app/slide-9.jpg 5 -
+/diensten/adverteren-op-facebook 2 -
+/images/kerstspecial/bonus-box.png 1 http://www.digitusmarketing.nl/tijdlijnacties
+/uploads/images/media/2%20einddatum%20bericht%20Facebook.png 2 -
+/images/tabapps/digitus-marketing/DIGITUS_logo_def.png 8 http://www.digitusmarketing.nl/jandje/member/4/1
+/tags/Facebook 4 -
+/wp-content/themes/epic/includes/download.php 1 -
+/uploads/images/media/Bericht%20plannen%201.png 3 -
+/tags/browser 1 -
+/images/tabapps/healtclub-julien/teamfoto/Over_ons_Header.jpg 2 http://digitusmarketing.nl/member/benodigdheden
+/jandje/cases/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css 1 http://www.digitusmarketing.nl/jandje/cases/create
+/wp-content/topnews/license.php 1 http://digitusmarketing.nl/wp-content/topnews/license.php
+/images/tabapps/digitus-marketing/slides/fill-in-blank-2.jpg 8 http://www.digitusmarketing.nl/jandje/member/4/1
+/uploads/images/users/1/jeroen.png 6 -
+/uploads/images/media/1%20uitgelichte%20video%20toevoegen.png 3 -
+/blog/wp-content/plugins/fckeditor-for-wordpress-plugin/fckeditor/editor/fckeditor.html 1 -
+/tags/berichten%20Facebook%20later%20bekijken 1 -
+/categorie/Facebook 9 -
+/images/site/bg/li 1 http://digitusmarketing.nl/css/main.css
+/tags/fans 3 -
+/html/fck/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/users/4/rogier.png 8 -
+/index.php/workshops 1 -
+/wp-content/uploads/2012/10/Coupon-pyramiden.pdf 2 -
+/portfolio-view/pizzeria-romy 2 -
+/tags/web 2 -
+/images/kerstspecial/waar-geleerd.png 6 http://www.digitusmarketing.nl/tijdlijnacties
+/images/site/pagenavi-current.png 4 http://www.digitusmarketing.nl/css/main.css
+/wp-content/themes/markant/download.php 1 -
+/admin_bg/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/cases/link%20ad.png 10 -
+/diensten/website-statistieken 1 -
+/uploads/images/media/Bericht%20plannen%203.png 5 -
+/wp-content/plugins/cip4-folder-download-widget/cip4-download.php 1 -
+/js/scripts.js.php 3 -
+/editor1/fckeditor.js 3 http://www.digitusmarketing.nl
+/index.php/images/media/introducingsaved2.png 2 -
+/js/],_default:l.htmlSerialize 10 -
+/julien/embedded-app 2 -
+/wp-content/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js 1 -
+/a/display.php 4 -
+/tags/likes 2 -
+/index.php/images/blogposts/calltoaction.jpg 1 -
+/wp-content/plugins/plugin-newsletter/preview.php 1 -
+/wp-content/themes/mTheme-Unus/css/css.php 1 -
+/crm/include/fckeditor/editor/fckeditor.html 1 -
+/diensten/meer-volgers-op-twitter/feed 1 -
+/sysadmin/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/Uploadfiles/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/images/facebook/makelaaronline-tab-app/dozen-verkocht.png 4 -
+/includes/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/Worship/FileZilla.xml 2 -
+/uploads/images/media/Social%20context.png 1 -
+/tgda/FileZilla.xml 2 -
+/UI/Tools/FCKeditor/editor/fckeditor.html 1 -
+/images/site/bg/blauw-bg-pattern. 1 http://digitusmarketing.nl/css/main.css
+/workshops/de-basis-van-een-succesvolle-facebook-pagina 5 -
+/tags/WhatsApp 2 -
+/index.php/images/blogposts/7-updates-bericht.png 2 -
+/uploads/images/media/3%20Advertentie%20richten%20op%20interesse.png 2 -
+/tags/Facebook%20bedrijfspagina 1 -
+/tijdlijnacties 6 -
+/apple-touch-icon.png 27 -
+/admin/view/javascript/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/wp-content/themes/elegance/lib/scripts/jquery.form.js 1 -
+/kmustkjc/plugins/editors/fckeditor/editor/fckeditor.html 1 -
+/adverteren-op-twitter.php 1 -
+/feng/readme.txt 1 -
+/uploads/images/cases/Plaatje%20suntime%20pasen.png 8 -
+/PortableFileZilla/FileZilla/FileZilla.xml 2 -
+/wp-content/themes/NativeChurch/download/download.php 1 -
+/facebook-timeline 1 -
+/wp-admin/admin.php 1 -
+/editor/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/posts/Fysiotherapie+Kleinman+-Voorkomen+beter+dan+genezen.png 1 -
+/wp-content/uploads/2012/02/fb.png 1 -
+/uploads/images/posts/7-updates-bericht.png 4 -
+/linkbuilding-uitbesteden.php 1 -
+/uploads/images/media/vrienden%20uitnodigen%20zoek%20in%20alle%20vrienden.png 4 -
+/kaiseki/FileZillaPortable/Data/settings/filezilla.xml 2 -
+/images/facebook/makelaaronline-tab-app/facebook-campagne.png 6 -
+/uploads/images/media/2%20Toplinks%20voorbeeld.png 2 -
+/uploads/images/media/FB%20Pagina%20onzichtbaar%20maken.png 2 -
+/uploads/images/media/Chat%20geluiden%20uitschakelen.png 2 -
+/index.php/images/media/2%20Toplinks%20voorbeeld.png 1 -
+/diensten/adverteren-op-facebook/regular-ads 1 -
+/wp-content/plugins/revslider/js/admin.js 5 http://digitusmarketing.nl/wp-content/plugins/revslider/js/admin.js
+/categorie/Google 1 -
+/wp-content/uploads/2012/02/hyves-diensten.jpg 1 -
+/adminicpsb/script/fckeditor/editor/fckeditor.html 1 -
+/wp-content/plugins/editormonkey/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/apple-touch-icon-precomposed.png 14 -
+/wp-content/uploads/2012/10/Coupon-pizzeria-romy.pdf 4 -
+/tags/Installeren 1 -
+/web_97/ftp/FileZilla.xml 2 -
+/index.php/tags/Installeren 1 -
+/uploads/images/cases/77296072-6817-4944-a7a0-07be82e167bb.jpg 8 https://www.google.com/
+/wp-content/plugins/cforms/cforms-admin.css 1 http://digitusmarketing.nl/wp-content/plugins/cforms/cforms-admin.css
+/tags/campagne 1 -
+/bscw_resources/javascript/FCKeditor/editor/fckeditor.html 1 -
+/tag/facebook-bedrijfspagina/page/2 1 -
+/FileZilla.xml 2 -
+/uploads/images/media/Bericht%20later%202.png 3 -
+/images/site/pagenavi.png 4 http://www.digitusmarketing.nl/css/main.css
+/svg/DIGITUS_logo_def.png 1 -
+/sitemap_index.xml 1 -
+/portfolio-view/ziesta-bbq-restaurant 1 -
+/modules/editor/fckeditor/editor/fckeditor.html 1 -
+/wp-content/uploads/2012/02/in.png 1 -
+/manage/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Tijdlijn%20actie%20Facebook%20xandi.png 3 https://www.google.nl/
+/wp-content/uploads/2013/02/coupon-bowling-enschede.pdf 4 -
+/libs/fckeditor/editor/fckeditor.html 1 -
+/portfolio-view/anytime-fitness 1 -
+/administrator/./css/ie.css 1 -
+/wp-content/uploads/2012/02/Google-plus-diensten.jpg 1 -
+/facebook/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook 5 -
+/html/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/ 41 -
+/images/facebook/iphone-nieuwsbrief.png 8 http://woobox.com/y7294d
+/uploads/images/media/Zijbalk%20verbergen%202.png 1 -
+/images/kerstspecial/recensies.png 4 http://www.digitusmarketing.nl/tijdlijnacties
+/documents/FileZilla.xml 2 -
+/Uploadfiles/fck/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/publiek%20uitbreiden%20vrienden%20uitnodigen.png 3 -
+/hoe-je-kunt-zien-wanneer-je-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken 3 -
+/contact 1 -
+/uploads/images/media/happy_face_raising_eyebrows_hg_clr.gif 3 http://www.bing.com/images/search
+/inc/fck/fckeditor.js 3 http://www.digitusmarketing.nl
+/cms/_includes/fckeditor/editor/fckeditor.html 1 -
+/cms/app/webroot/js/fckeditor/editor/fckeditor.html 1 -
+/wp-content/uploads/2012/09 1 -
+/uploads/images/posts/whatsapp+op+pc+plaatje.png 5 -
+/uploads/images/posts/facebook-test-pagina.png 2 -
+/wp-content/plugins/revolution-slider/release_log.txt 1 -
+/tags/online 1 -
+/~documents/CMGA6/registration/public/fckeditor/editor/fckeditor.html 1 -
+/dropbox/Apps/softwarecookerbd/FileZilla.xml 2 -
+/stara/include/FCKeditor/editor/fckeditor.html 1 -
+/system/ext/fckeditor/editor/fckeditor.html 1 -
+/Providers/HtmlEditorProviders/Fck/fckeditor/editor/fckeditor.html 1 -
+/adm_gerencia/fckeditor/editor/fckeditor.html 1 -
+/index.php/images/media/1%20SellSomething650.jpg 1 -
+/admin/wp-login.php 2 -
+/images/tabapps/digitus-marketing/slides/gym-rowing-machine-exercise.jpeg 8 http://www.digitusmarketing.nl/jandje/member/4/1
+/wp-content/plugins/custom-contact-forms/js/custom-contact-forms-datepicker.js 1 -
+/wp-content/uploads/2012/02/Google-Plus-Icon.png 1 -
+/js/ebooks.js 4 -
+/tags/bedrijfspagina 2 -
+/hoe-je-berichten-van-anderen-uitgelicht-maakt-op-je-pagina 2 -
+/webmanager/FCKeditor/editor/fckeditor.html 1 -
+/wp-content/uploads/2012/02/linkbuilding-uitbesteden-plaatje.jpg 1 -
+/uploads/images/media/Xandi%20facebook%20quote%202.png 2 https://www.google.nl/
+/Administrator/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/Fckeditornew/fckeditor.js 3 http://www.digitusmarketing.nl
+/cyberpester-wordt-met-hulp-van-facebook-fans-flink-aangepakt 6 -
+/download/FileZilla.xml 2 -
+/wp-content/plugins/dukapress/lib/dp_image.php 1 -
+/wp-content/themes/SMWF/inc/download.php 1 -
+/jandje/images/media/VideoUploaden.png 6 http://digitusmarketing.nl/jandje/blog/24/edit
+/diensten/Twitter-pagina 1 -
+/index.php/tags/advertentiestrategie 1 -
+/wp-update.php 1 http://digitusmarketing.nl/wp-update.php
+/images/site/bg/lichtblauw-bg-pattern.jph 1 http://digitusmarketing.nl/css/main.css
+/uploads/images/media/DollarShaveClubSignUp650dfd.jpg 3 -
+/tools/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/posts/People-First.png 6 -
+/tags/Facebook%20groep 2 -
+/sites/all/libraries/fckeditor/editor/fckeditor.html 1 -
+/facebook/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel 9 -
+/categories/Facebook 6 -
+/waarom-een-facebook-bedrijfspagina-in-plaats-van-een-persoonlijk-profiel 1 -
+/lightbox/FileZilla.xml 2 -
+/tags/call%20to%20action%20knop 1 -
+/common/fckeditor/editor/fckeditor.html 1 -
+/index.php/tags/werkhouding 1 -
+/uploads/images/media/Vrienden%20en%20vind%20ik%20leuks%20beheren.png 2 -
+/sites/all/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/wp-content/themes/lote27/download.php 1 -
+/uploads/images/media/Bericht%20xandi%201.png 2 -
+/css/fonts/glyphicons-halflings-regular.eot 8 http://www.digitusmarketing.nl/member
+/images/site/pars-wijst.png 1 -
+/admin/rte/RTE_popup_file_atch.asp 2 -
+/uploads/images/media/Apps%20blokkeren%202.png 5 https://www.google.nl/
+/de-facebook-timeline 1 -
+/wp-admin/admin-ajax.php 4 http://digitusiic.com.br/surubim//wp-content/uploads/wpallimport/uploads/af430f2d29f126e6b0bb1520b9ceb741/cache.php
+/js/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/stats/usage_201506.html 1 -
+/uploads/images/media/Wie 1 -
+/uploads/images/posts/CALL%20TO%20ACTIONN!.png 1 -
+/index.php/images/media/Whatsapp%20web%202%20.png 1 -
+/webmail/plugins/html_mail/fckeditor/editor/fckeditor.html 1 -
+/uploads/images/media/vrienden%20uitnodigen%20op%20pagina.png 2 -
+/portfolio-view/toons-eten 1 -
+/categories/Twitter 1 -
+/uploads/images/media/Zoek%20naar%20de%20naam%20van%20je%20interesselijst.png 4 -
+/uploads/images/posts/CALL%20TO%20ACTIONN%21.png 6 -
+/images/sales/advertentie-kosten-1.png 1 http://www.digitusmarketing.nl/tijdlijnacties
+/uploads/images/media/Facebook%20search%202.png 1 -
+/webyep-system/program/opt/fckeditor/editor/fckeditor.html 1 -
+/diensten/google-maps 1 -
+/uploads/images/users/2/dankjewel.png 1 -
+/images/facebook/makelaaronline-tab-app/woningfotografie.png 5 -
+/fonts/icomoon.eot),%20%20%20%20%20%20%20%20%20url(http://www.digitusmarketing.nl/fonts/icomoon.eot 1 http://www.digitusmarketing.nl/
+/section/wp-login.php 2 -
+/uploads/images/media/Xandi%20Faceook%20quote%201.png 4 -
+/uploads/images/media/CreateACallToActionButton.jpg 11 -
+/uploads/images/media/Download%20newsfeed%20Eradictor%202.png 3 -
+/js/===c)&&(b.defaultValue=a.defaultValue)}}n.extend({clone:function(a,b,c){var 10 -
+/tel:+31850030256 1 -
+/server/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/ebooks/pdf_server.php 2 -
+/uploads/images/media/tab-app%20vrienden%20uitnodigen.png 3 https://www.google.nl/
+/%3C!DOCTYPE%20html%3E%3Chtml%3E%20%20%3Chead%3E%20%20%20%20%3Cmeta%20charset= 2 http://www.digitusmarketing.nl/1-op-1-sessie
+/facebook-vriendschapspaginas 1 -
+/uploads/images/media/Stap%201.jpg 1 -
+/siteadmin/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/images/tabapps/digitus-marketing/slides/Bloomsbury_Gym_Highres.jpg 8 http://www.digitusmarketing.nl/jandje/member/4/1
+/admin/libexterne/fckeditor/editor/fckeditor.html 1 -
+/index.php/tags/test%20pagina 1 -
+/faqs 1 -
+/js/!=typeof 10 -
+/index.php/tags/Facebook%20berichten 1 -
+/diensten/social-media-marketing/facebook-fanpage%C3%82%C2%A0 3 -
+/uploads/images/posts/Cover.png 4 -
+/wp-content/plugins/history-collection/download.php 1 -
+/wp-content/themes/dejavu/lib/scripts/jquery.form.js 1 -
+/tags/sell%20something 1 -
+/sitemap.xml 5 -
+/facebook-fanpage-pakketten 2 -
+/uploads/images/posts/People 1 -
+/pliki/adm/fckeditor/editor/fckeditor.html 1 -
+/diensten/facebook-pagina/feed 3 -
+/includes/phpEasyAdmin/form/textarea/editor/fckeditor.html 1 -
+/images/facebook/ebook-tabapp.png 17 -
+/images/facebook/makelaaronline-tab-app/banner-uw-huis-verkopen.png 6 -
+/jandje/images/media/Knop.png 6 http://digitusmarketing.nl/jandje/blog/24/edit
+/wp-content/themes/method/lib/scripts/jquery.form.js 1 -
+/uploads/images/posts/begging-for-likes.jpg 13 https://www.google.ru/
+/download/ebook 1 -
+/images/tabapps/healthclub-julien/banner.png 3 http://digitusmarketing.nl/member/benodigdheden
+/customcontent/USDA_ECM_OVERVIEW/cvx06_sco01/FCKeditor/editor/fckeditor.html 1 -
+/tag/facebook-bedrijfspagina 1 -
+/wp-content/uploads/2012/02/Google-Analytics.jpg 1 -
+/plugins/fckeditor-spip-2/fckeditor/editor/fckeditor.html 1 -
+/wp-content/themes/awake/lib/scripts/jquery.form.js 1 -
+/sscms/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/bootstrap/3.1.1/css/bootstrap.min.css 1 -
+/js/3rdparty/fckeditor/editor/fckeditor.html 1 -
+/svg/DIGITUS_logo_def.svg 5 -
+/uploads/images/media/xandi%20facebook%20raad%20het%20artikel%20nummer.png 1 -
+/uploads/images/ebooks/ebook-plank.png 23 http://www.digitusmarketing.nl/
+/browserconfig.xml 1 -
+/wp-admin/wp-login.php 2 -
+/fonts/icomoon.eot),%20url(http://www.digitusmarketing.nl/fonts/icomoon.eot 2 http://www.digitusmarketing.nl/
+/include/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Xandi%20facebook%20quote%203.png 2 -
+/images/facebook/julien-tab-app/slide-5.jpg 4 -
+/uploads/images/media/Apps%20blokkeren%201.png 11 https://www.google.nl/
+/FileZilla/filezilla.xml 2 -
+/overzicht-klanten 2 -
+/sites/efeefe.no-ip.org/modules_bak/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/linkpartners.php 1 -
+/tags/einddatum 1 -
+/wp-content/themes/trinity/lib/scripts/download.php 2 -
+/apple-touch-icon-120x120.png 7 -
+/uploads/images/media/10734305_305231486354371_1420997165_n.jpg 3 https://www.google.nl/
+/wp-content/plugins/website-contact-form-with-file-upload/lib/wide-image/image-processor.php 7 -
+/joshiken/html/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/contact.php 3 -
+/website-statistieken.php 1 -
+/images/kerstspecial/bijeenkomst%20ibora.jpg 1 http://www.digitusmarketing.nl/tijdlijnacties
+/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt 1 -
+/admin/editor/fckeditor.js 3 http://www.digitusmarketing.nl
+/images/site/new-bg.png 17 http://digitusmarketing.us7.list-manage.com/subscribe/confirm
+/tags/workshop 1 -
+/index.php/tags/call%20to%20action 1 -
+/index.php/tags/like%20share%20en%20win 1 -
+/site/wp-login.php 2 -
+/tags/test%20pagina 1 -
+/wp-content/themes/RedSteel/download.php 1 -
+/blog/FCKeditor/editor/fckeditor.html 1 -
+/webalizer/usage_201506.html 1 -
+/wp-content/themes/construct/lib/scripts/jquery.form.js 1 -
+/uploads/images/media/Bericht%20plannen%204.png 2 -
+/uploads/images/media/1%20Toplinks%20link%20berichten%20voorbeeld.png 3 -
+/images/facebook/makelaaronline-tab-app/logo-tuindeco.png 5 -
+/images/site/email-mob-img.png 6 -
+/index.php/images/blogposts/Fysiotherapie-Kleinman--Voorkomen-beter-dan-genezen.png 2 -
+/wp-content/uploads/2012/09/google-adwords-zoekmachine-adverteren.jpg 1 -
+/manage/editor/fckeditor.js 3 http://www.digitusmarketing.nl
+/distancelearning/sites/all/modules/fckeditor/fckeditor/editor/fckeditor.htm 1 -
+/css/,, 1 http://digitusmarketing.nl/css/main.css
+/images/site/ebook-mob-img.png 7 -
+/images/kerstspecial/schaduw-1.png 1 http://www.digitusmarketing.nl/css/main.css
+/wp-content/uploads/2012/09/valentino-logo-klein.jpg 1 http://image.baidu.com/i
+/wp-content/themes/TheLoft/download.php 1 -
+/uploads/images/media/introducingsaved2.png 1 -
+/uploads/images/posts/valkuil.png 4 https://www.google.be/
+/wp-config.php- 1 -
+/tags/Facebook%20voor%20beginners 2 -
+/reset.css 1 http://www.digitusmarketing.nl/download/spiekbrief
+/uploads/images/media/Wat%20kost%20dat%20dan.png 3 -
+/whatsapp/whatsapp-button.js 469 -
+/facebook-bedrijfspagina 1 -
+/~visionpl/typo/FileZilla.xml 2 -
+/wp-content/themes/linenity/functions/download.php 2 -
+/uploads/images/media/Suntime%20eerste%20paasdag%20gesloten.png 4 -
+/uploads/images/media/e-mailcontactpersonen%20uitnodigen%20selecteren.png 2 -
+/portfolio-view/beautysalon-lily 1 -
+/common/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/tijdlijnacties/afrekenen 1 http://www.digitusmarketing.nl/tijdlijnacties
+/user_data/packages/miyabunnew/fckeditor/editor/fckeditor.html 1 -
+/Link/FileZilla.xml 2 -
+/tags/save 1 -
+/css/fonts/icomoon.eot 48 http://www.digitusmarketing.nl/
+/public 1 -
+/uploads/images/media/Voorbeeld%20onderzoek%20Facebook%2020150.png 2 -
+/workshops/ik-heb-een-facebook-pagina-en-nu 1 -
+/uploads/images/media/10574680_668605413252737_118053656_n.jpeg 3 -
+/images/facebook/julien-tab-app/slide-6.jpg 4 -
+/c4sql8-solidarieta/html/images_sys/fckeditor.o/editor/fckeditor.html 1 -
+/uploads/images/media/melding%203.png 2 -
+/webadmin/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/template/js_lib/fckeditor/editor/fckeditor.html 1 -
+/offerte-aanvragen 1 -
+/common/third_party/FCKeditor/editor/fckeditor.html 1 -
+/uploads/images/media/Whatsapp%20web%202%20.png 2 -
+/wp-content/plugins/aspose-cloud-ebook-generator/aspose_posts_exporter_download.php 1 -
+/adverteren-op-linkedin.php 1 -
+/dekra/FCKeditor/editor/fckeditor.html 1 -
+/images/site/blog-mob-img.png 4 -
+/referenties 1 http://www.digitusmarketing.nl/index.php
+/system/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/images/sales/kennis-delen.png 1 http://www.digitusmarketing.nl/tijdlijnacties
+/admin/fck/fckeditor.js 3 http://www.digitusmarketing.nl
+/admin.php 2 -
+/RTE_popup_file_atch.asp 2 -
+/comments/feed 1 -
+/CMS/RTE_popup_file_atch.asp 2 -
+/CMD_TICKET 1 -
+/wp-content/plugins/db-backup/download.php 1 -
+/administrator/./css/main.css 1 -
+/author/parsifal-tritsch 1 -
+/uploads/images/media/Bericht%20plannen%205.png 1 -
+/facebook/facebook-vriendschapspaginas 4 -
+/images/facebook/julien-tab-app/slide-2.JPG 6 -
+/author/jeroen-venderbosch/page/2 1 -
+/images/site/bg/blauw-bg-patt 1 http://digitusmarketing.nl/css/main.css
+/uploads/images/media/Immanuel%20cases.png 2 -
+/category/social-media-marketing 2 -
+/categories/LinkedIn 2 -
+/wp-content/themes/persuasion/lib/scripts/jquery.form.js 2 -
+/tags/adverteren 2 -
+/index.php/images/media/introducingsave3.png 2 -
+/images/site/seminar/julien-ruimte-1200x800.jpg 2 -
+/uploads/images/media/Apps%20vriend%20blokkeren%203.png 2 -
+/index.php/categorie/Ergonomie 1 -
+/wp-content/uploads/2012/02/footer_bg.png 1 -
+/\" 1 -
+/_fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/admin/wo_edit/fckeditor.js 3 http://www.digitusmarketing.nl
+/wat-betekent-het-nieuwe-design-van-facebook-paginas-voor-tab-apps 1 -
+/js/kinetic-v5.1.0.js 6 -
+/index.php/images/media/Call%20to%20action%20in%20omslagfoto%20123.jpg 1 -
+/index.php/images/users/mugshot+parsical.png 1 -
+/internet-marketing-tips.php 9 -
+/cms/wp-login.php 2 -
+/portfolio 2 -
+/diensten/adverteren-op-facebook/page-post-ads 6 -
+/uploads/images/media/Ik%20wil%20dit%20niet%20zien.png 2 https://www.google.nl/
+/categorie/LinkedIn 1 -
+/uploads/images/media/Whatsapp%20web%201.png 3 https://www.google.nl/
+/uploads/images/media/1%20SellSomething650.jpg 2 -
+/images/site/seminar/Seminar-lienden-ad.png 20 -
+/categories/Google 1 -
+/index.php/tags/Social%20media 1 -
+/files/static/fckeditor/editor/fckeditor.html 1 -
+/eagle/FileZilla.xml 2 -
+/tags/like%20share%20en%20win 1 -
+/index.php/images/media/1%20uitgelichte%20video%20toevoegen.png 1 -
+/bip/KW/fckeditor/editor/fckeditor.html 1 -
+/images/users/mugshot 2 -
+/site/lib/FCKeditor/editor/fckeditor.html 1 -
+/tags/call%20to%20action 1 -
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 1 -
+/images/tabapps/digitus-marketing/slides/fill-in-blank-1.jpg 8 http://www.digitusmarketing.nl/jandje/member/4/1
+/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage 1 -
+/wp-login.php 8 -
+/images/kerstspecial/workshop.jpg 1 http://www.digitusmarketing.nl/tijdlijnacties
+/arriba/FileZilla.xml 2 -
+/uploads/images/media/Voorbeeld%20Facebook%20tab%20digitus.png 2 -
+/images/facebook/julien-tab-app/slide-7.jpg 2 -
+/wp-content/plugins/revslider/release_log.txt 1 -
+/readme.txt 1 -
+/download 1 -
+/tags/omslagfoto 2 http://www.digitusmarketing.nl/tags/omslagfoto
+/blog/images/stories/food.php 1 -
+/diensten/Facebook-pagina 2 -
+/index.php/images/media/Facebook__Helped_By_Autoplay__Passes_YouTube_For_Desktop_Video_Views_For_First_Time-800x337.jpg 1 -
+/portfolio-view/stegge-mode 1 -
+/wp-content/uploads/_input__test.php5 1 -
+/10-redenen-waarom-je-geen-like-share-en-win-actie-moet-doen 27 -
+/images/facebook/banner.png 17 -
+/controls/fckeditor/editor/fckeditor.html 1 -
+/BACKUP/BeUnique/lata/Desktop/FileZilla.xml 2 -
+/images/site/workshop-mob-img.png 8 -
+/in/loggen 1 -
+/admin/EDITOR/RTE_popup_file_atch.asp 2 -
+/k/FileZilla.xml 2 -
+/wp-content/plugins/custom-contact-forms/css/custom-contact-forms.css 1 -
+/uploads/images/media/Facebook%20chat%20uitschakelen.png 1 -
+/license.php 1 -
+/uploads/images/users/2/parsifal.png 1 -
+/tags/statistieken 2 -
+/module/00023/59/FCKeditor/editor/fckeditor.html 1 -
+/FileZillaPortable/Data/settings/filezilla.xml 2 -
+/referenties/ 1 http://www.digitusmarketing.nl/facebook/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook
+/administrator/./css/reset.css 1 -
+/workshops/alles-wat-je-moet-weten-om-een-succesvolle-facebook-actie-op-te-zetten 1 -
+/wp-config.phpBAK 1 -
+/admin/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/blog/%7B%22auto_hd%22:false,%22autoplay_reason%22:%22unknown%22,%22default_hd%22:true,%22disable_native_controls%22:false,%22inline_player%22:false,%22pixel_ratio%22:1,%22preload%22:false,%22start_muted%22:false,%22video_data%22:[%7B%22hd_src%22:%22https: 2 -
+/wp-content/themes/Newspapertimes_1/download.php 1 -
+/uploads/images/media/Facebook%20adverentie%20Raalte.png 1 -
+/cmw/FileZilla.xml 2 -
+/js/gandamstyle.js 3 -
+/portfolio-view/the-bombay-spice 1 -
+/ccmail/fckeditor/editor/fckeditor.html 1 -
+/wp-content/themes/echelon/lib/scripts/jquery.form.js 1 -
+/category/facebook/page/3 1 -
+/tags/Facebook%20berichten 2 -
+/expansion/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/themes/mantaTheme1/newsmail/templates/javaScript/fckeditor/editor/fckeditor.html 1 -
+/robots.txt 1 -
+/index.php/tags/succesvolle 1 -
+/jandje/images/media/Toevoegen.png 6 http://digitusmarketing.nl/jandje/blog/24/edit
+/index.php/uploads/images/posts/7-updates-bericht.png 1 -
+/intranet/fckeditor/editor/fckeditor.html 1 -
+/index.php/images/media/1%20einddatum%20bericht%20Facebook.png 12 -
+/images/facebook/julien-tab-app/slide-3.jpg 4 -
+/index.php/images/users/rogier.png 1 -
+/uploads/images/media/Wanneer%20zijn%20mijn%20fans%20online.png 5 -
+/index.php/images/media/1%20Advertentie%20richten%20op%20interesse.png 1 -
+/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook 4 -
+/blog/page/2 1 -
+/wordpress/wp-login.php 2 -
+/uploads/images/media/Interesselijst%20maken%2028.png 1 -
+/diensten/website-resultaten 2 -
+/index.php/images/media/2%20SellSomethingForm.jpg 1 -
+/categorie 16 -
+/uploads/images/media/Facebook__Helped_By_Autoplay__Passes_YouTube_For_Desktop_Video_Views_For_First_Time-800x337.jpg 3 -
+/diensten/social-media-marketing/facebook-fanpage 1 -
+/images/sales/advertentie-kosten-2.png 1 http://www.digitusmarketing.nl/tijdlijnacties
+/jandje/images/media/Digitus-Marketing-Logo_NW1024x1024.png 29 http://digitusmarketing.nl/jandje/blog/23/edit
+/images/blogposts/call-to-actionn!.png 1 -
+/css/data:application/x-font-ttf 18 http://www.digitusmarketing.nl/
+/tags/koop%20dan 2 -
+/index.php/ebooks 1 -
+/utilities/external/fckeditor/editor/fckeditor.html 1 -
+/hoe-je-uitnodigingen-evenementen-apps-en-gebruikers-kunt-blokkeren-op-facebook/feed 7 -
+/uploads/images/media/Bedank%20pagina%20AF%20M.png 3 -
+/shop/assets/js/fckeditor/editor/fckeditor.html 1 -
+/uploads/images/media/2%20Advertentie%20richten%20op%20interesse.png 2 -
+/facebook-vrienden-uitnodigen-bedrijfspagina/feed 7 -
+/tags/Facebook%20test%20pagina 1 -
+/uploads/images/media/winnaar%20immanuel.png 2 -
+/wp-includes/js/jquery/jquery.js 1 -
+/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/bericht%20later%203.png 1 -
+/apple-touch-icon-76x76.png 1 -
+/index.php/images/blogposts/introducingsave-1.png 3 -
+/wp-content/uploads/2012/02/YT.png 1 -
+/download/ebook/sportschool 53 -
+/index.php/tags/youtube 1 -
+/portfolio/aui/FCKeditor/editor/fckeditor.html 1 -
+/ons-bureau 13 http://www.google.nl/url
+/uploads/images/media/voorbeeld%20uitnodiging.png 6 -
+/tags/facebook+video 1 http://www.digitusmarketing.nl/tags/facebook+video
+/portfolio-view/coiffure-lena 1 -
+/frame/lib/fckeditor/editor/fckeditor.html 1 -
+/facebook/facebook-vrienden-uitnodigen-bedrijfspagina 15 -
+/administrator/./css/font-awesome.css 1 -
+/~cwcheng/C_Lan/fckeditor/editor/fckeditor.html 1 -
+/jeunes/fckeditor/editor/fckeditor.html 1 -
+/wp-content/uploads/wp-backup-plus/temp 1 -
+/images/tabapps/healthclub-julien/slides/slide-2.jpg 1 http://digitusmarketing.nl/member/benodigdheden
+/over-ons 1 -
+/wp-content/plugins/fckeditor_for_wordpress/fckeditor/editor/fckeditor.html 1 -
+/facebook-fanpage-12-redenen-om-op-vind-ik-leuk-te-klikken 6 -
+/wp-content/uploads/2012/03/offerte_aanvragen.jpg 1 -
+/tags/Facebook%20pagina 3 -
+/ecmseditor/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/wp-content/uploads/_input__test.php. 1 -
+/wp-content/uploads/2012/02/twitter-diensten.png 1 -
+/facebook-seminar/repperapi 1 -
+/js/).length,l.html5Clone= 10 -
+/wp-content/uploads/2012/02/youtube-diensten.jpg 1 -
+/images/site/bg/blauw-bg- 2 http://digitusmarketing.nl/css/main.css
+/images/facebook/julien-tab-app/slide-12.jpg 3 -
+/Administrator/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/GestaoProService/includes/fckeditor/editor/fckeditor.html 1 -
+/tags/facebook%20video 1 -
+/3-redenen-waarom-ondernemers-geen-gebruik-maken-van-facebook 1 -
+/uploads/images/media/Download%20newsfeed%20Eradictor%203.png 5 -
+/zoekmachine-optimalisatie.php 1 -
+/system/lib/ext/fckeditor/editor/fckeditor.html 1 -
+/tags/Fysiotherapie 1 -
+/uploads/images/media/Bericht%20plannen%206.png 3 -
+/julien/js/main.js 1 http://www.digitusmarketing.nl/julien/embedded-app
+/wp-content/uploads/2012/02/hyves.png 1 -
+/images/facebook/julien-tab-app/slide-11.jpg 4 -
+/images/site/digitus-mob-img.png 6 -
+/index.php/tags/Facebook%20groep 1 -
+/images/facebook/makelaaronline-tab-app/3dverbouwplan.png 6 -
+/ckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Kosten%20Facebook%20advertenties%20immanuel.png 2 -
+/index.php/images/media/3%20Advertentie%20richten%20op%20interesse.png 1 -
+/wp-content/themes/antioch/lib/scripts/download.php 1 -
+/uploads/images/media/Tab%20voorbeeld%20digitus%20gratis%20e-book.png 1 -
+/js/).length,l.htmlSerialize=!!b.getElementsByTagName( 10 -
+/wp-config.php-bak 1 -
+/wp-content/plugins/wp-filemanager/incl/libfile.php 1 -
+/jandje/images/media/Omslagfoto.png 30 http://digitusmarketing.nl/jandje/blog/23/edit
+/fengoffice/readme.txt 1 -
+/images/site/bg/lichtblauw-bg- 1 http://digitusmarketing.nl/css/main.css
+/diensten/zoekmachine-adverteren 42 http://www.digitusmarketing.nl/
+/uploads/images/media/Uitgelichte%20Video%20info%20gedeelte%20Marco%20Polo%20voorbeeld.png 2 -
+/app/resources/javascript/FCKeditor/2.3.1/editor/fckeditor.html 1 -
+/newsite/FCKeditor/editor/fckeditor.html 1 -
+/tags/werkhouding 2 -
+/index.php/images/media/2%20einddatum%20bericht%20Facebook.png 1 -
+/uploads/images/media/3%20einddatum%20bericht%20Facebook.png 3 -
+/wp-content/plugins/aspose-doc-exporter/aspose_doc_exporter_download.php 1 -
+/wp-content/uploads/2012 1 -
+/uploads/images/media/Call%20to%20action%20in%20omslagfoto%20123.jpg 4 https://www.google.be/
+/allister/downloads/filezilla/FileZilla.xml 2 -
+/hoe-je-kunt-zien-wanneer-je-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken/feed 2 -
+/uploads/images/media/Insights.gif 1 -
+/addon/FCKeditor/editor/fckeditor.html 1 -
+/uploads/images/cases/omslag%20xandi.png 1 -
+/index.php/images/media/Facebook%20search%202.png 1 -
+/ejuyfckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/diensten/social-media-marketing/adverteren-op-linkedin 1 -
+/uploads/images/media/Bericht%2520later%25202.png 3 http://www.digitusmarketing.nl/blog/6-tips-om-te-voorkomen-dat-je-wordt-afgeleid-op-facebook
+/portfolio-view/portfolio-test 2 -
+/wp-content/themes/AAL/lib/scripts/jquery.form.js 1 -
+/wp-admin/license.php 1 http://digitusmarketing.nl/wp-admin/license.php
+/%3C!DOCTYPE%20html%3E%3Chtml%3E%20%20%20%20%3Chead%3E%20%20%20%20%20%20%20%20%3Cmeta%20http-equiv= 1 http://www.digitusmarketing.nl/1-op-1-sessie
+/images/facebook/julien-tab-app/slide-8.jpg 4 -
+/images/site/kerst-bg.png 10 -
+/tags/Computer 2 -
+/Fckeditorold/fckeditor.js 3 http://www.digitusmarketing.nl
+/wp-content/uploads/wpallimport/uploads/f8a37b13741154b9a16bb4ae1c6a9837/cache.php 1 http://www.digitusmarketing.nl/wp-admin/admin-ajax.php
+/uploads/images/media/Resultaat%20tijdlijn%20actie%20immanuel.png 2 -
+/images/tabapps/digitus-marketing/teamfoto/squirrel_zpsedcdfeca.jpg~original.jpg 8 http://www.digitusmarketing.nl/jandje/member/4/1
+/wp-content/themes/elegance2/lib/scripts/jquery.form.js 1 -
+/uploads/images/posts 1 -
+/wp-content/uploads/2012/10/actiecoupon-hartman-haarmode.pdf 5 -
+/fk/fckeditor.js 3 http://www.digitusmarketing.nl
+/blog 2 -
+/uploads/images/media/1%20einddatum%20bericht%20Facebook.png 1 -
+/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php 1 -
+/wp-content/plugins/contus-video-gallery/hdflvplayer/download.php 1 -
+/images/site/bg/lichtblauw-bg-pattern 1 http://digitusmarketing.nl/css/main.css
+/uploads/images/media/Facebook%20adverentie%20Zwartemeer.png 1 -
+/uploads/images/media/Download%20newsfeed%20Eradictaor%201.png 1 -
+/%23 2 http://www.digitusmarketing.nl
+/meer-volgers-op-twitter.php 1 -
+/editorold/fckeditor.js 3 http://www.digitusmarketing.nl
+/admin/system/fckeditor.js 3 http://www.digitusmarketing.nl
+/ebooks 5 -
+/apple-touch-icon-76x76-precomposed.png 1 -
+/index.php/images/media/Uitgelichte%20Video%20info%20gedeelte%20Marco%20Polo%20voorbeeld.png 1 -
+/wp-content/uploads/2012/02/twitter.png 1 -
+/wp-content/themes/fusion/lib/scripts/jquery.form.js 1 -
+/uploads/images/media/introducingsave3.png 3 -
+/ad/display.php 44 -
+/wp-content/uploads/2012/02/Digitus-Marketing-Logo2.png 1 -
+/images/tabapps/burning-heartbanner.jpg 1 http://digitusmarketing.nl/member/benodigdheden
+/tags/Facebook%20search 1 -
+/include/fckeditor/editor 1 -
+/images/site/seminar-mob-img.png 6 -
+/admin/wo%5fedit/fckeditor.js 3 http://www.digitusmarketing.nl
+/workshops 3 -
+/lib/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/portfolio-view/kings-wok 1 -
+/wp-content/plugins/pica-photo-gallery/picadownload.php 1 -
+/wp-content/uploads/2012/02/background6.jpg 1 -
+/wp-content/uploads/2012/09/bedrijfspagina.png 2 -
+/js/).html()||a.find( 10 -
+/scripts/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Voorbeeld%20uitnodiging%20melding.png 3 -
+/praktijk-voorbeeld-waar-een-succesvolle-facebook-tijdlijn-actie-toe-kan-leiden 1 -
+/index.php/workshops/de-basis-van-een-succesvolle-facebook-pagina 1 -
+/index.php/images/media/youtube-channel%20voorbeeld.png 1 -
+/tags/knoop%20nu%20knop 1 -
+/uploads/images/media/2%20SellSomethingForm.jpg 2 https://www.google.nl/
+/images/site/bg/lichtblauw 1 http://digitusmarketing.nl/css/main.css
+/1-op-1-sessie 1 -
+//wp-content/themes/mTheme-Unus/css/css.php 1 -
+/index.php/images/media/1%20Video%20tabblad%20op%20Facebook.png 1 -
+/wp-content/uploads/2012/03/contact_bg.jpg 1 -
+/facebook/12-redenen-waarom-iemand-op-vind-ik-leuk-klikt-facebook-fanpage 6 -
+/uploads/images/posts/KNOOP%20DAN%20LINK.png 3 -
+/wp-content/themes/bonkersbeat/lib/scripts/jquery.form.js 1 -
+/cgi-sys/suspendedpage.cgi 1 -
+/blog/page/5 1 -
+/admin/js/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/../../images/media/fb-mobile-ad.png 1 -
+/js/)[this.options.html 10 -
+/system/application/plugins/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/ViK_baza/arhiv/FileZilla.xml 2 -
+/system/fckeditor/editor 1 -
+/tags/actie 4 -
+/workshops/facebook-advertenties-opzetten-meten-en-optimaliseren 2 https://www.google.nl/
+/typo/FileZilla.xml 2 -
+/facebook-seminar-lienden 4 -
+/FCKEditorV2/fckeditor.js 3 http://www.digitusmarketing.nl
+/images/tabapps/digitus-marketing/slides/rest2.jpg 8 http://www.digitusmarketing.nl/jandje/member/4/1
+/wp-content/themes/authentic/includes/download.php 1 -
+/tag/facebook 1 -
+/administrator/index.php 2 -
+/facebook-seminar/lienden 5 -
+/uploads/images/cases/10003293_418755611601470_1014583133_n.png 6 https://www.google.nl/
+/wp-content/uploads/2012/02/SEO.png 1 -
+/js/,data:b}).done(function(a){e=arguments,g.html(d 10 -
+/uploads/images/posts/Fans%20online%20digitus.png 3 http://www.bing.com/images/search
+/uploads/images/media/vrienden%20uitnodigen%20op%20pagina.png%22,ow:%22188%22,docid:%22608017243418266708 1 -
+/uploads/images/media/1%20Video%20tabblad%20op%20Facebook.png 3 -
+/wp-content/themes/acento/includes/view-pdf.php 1 -
+/componentes3.7/fckeditor/editor/fckeditor.html 1 -
+/uploads/images/media/melding%201.png 1 -
+/uploads/images/media/1%20Advertentie%20richten%20op%20interesse.png 1 -
+/Fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Facebook%20adverentie%20Klazienaveen.png 2 -
+/wp-content/themes/modular/lib/scripts/jquery.form.js 1 -
+/diensten/social-media-marketing/facebook-fanpage%C2%A0&quot 27 -
+/uploads/images/media/Interesselijst%20terugvinden.png 1 -
+/images/facebook/julien-tab-app/slide-1.jpg 5 -
+/uploads/images/media/emailcontactpersonen%20uitnodigen.png 3 -
+/uploads/images/media/Facebook%20search%201.png 4 -
+/tags/youtube 1 -
+/uploads/images/media/Stap%202%20chat%20uitschakelen.png 2 -
+/wp-content/uploads/2012/02/achtergr.png 1 -
+/uploads/images/posts/iStock_000015676634Small-646x363.jpg 2 -
+/uploads/images/posts/publiek%20uitbreiden%20vrienden%20uitnodigen.png 2 -
+/mag/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/tyopfckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 http://www.digitusmarketing.nl/fckeditor/editor/filemanager/connectors/uploadtest.html
+/wp-content/plugins/robotcpa/f.php 1 -
+/images/facebook/julien-tab-app/slide-10.jpg 6 -
+/diensten/social-media-marketing/facebook-fanpage/facebook-fanpage-prijzen 1 -
+/WebSite/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/dadamail/dada/extras/packages/fckeditor/editor/fckeditor.html 1 -
+/drupal/sites/all/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/wp-content/plugins/wp-symposium-pro/js/wps.admin.js 1 -
+/wp-content/uploads/2012/09/doelgroep-gericht-adverteren-op-Facbeook.jpg 2 -
+/tags/Sell%20Something%20knop 1 -
+/wp-content/uploads/2012/02/Titelbg.png 1 -
+/wp-content/themes/infocus/lib/scripts/jquery.form.js 1 -
+/uploads/images/posts/People%20First.png 1 -
+/feed 25 -
+/logn 1 -
+/uploads/images/media/Xandi%20Facebook%20pagina%20after.png 1 -
+/images/sales/advertentie-kosten-3.png 1 http://www.digitusmarketing.nl/tijdlijnacties
+/wp-content/plugins/wp-custom-pages/wp-download.php 1 -
+/wp-content/themes/custom-community/js/jquery.sudoSlider.min.js 1 -
+/facebook-seminar/drachten 11 -
+/cf/scripts/ajax/FCKeditor/editor/fckeditor.html 1 -
+/jandje/images/media/Subcategorieen.png 30 http://digitusmarketing.nl/jandje/blog/23/edit
+/uploads/images/media/AF%20AD%202.png 6 -
+/tags/Social%20media 2 -
+/wp-content/plugins/wp-symposium/readme.txt 1 -
+/testhome 3 -
+/wp-content/uploads/2012/09/google-adwords.jpg 2 -
+/js/jquery.js 3 -
+/fckeditor/editor 1 -
+/apple-touch-icon-120x120-precomposed.png 7 -
+/diensten/social-media-marketing/adverteren-op-facebook 2 -
+/diensten/zoekmachine-marketing/zoekmachine-optimalisatie 1 -
+/jandje/images/media/Bedrijven%20en%20Organisaties.jpg 29 http://digitusmarketing.nl/jandje/blog/23/edit
+/diensten/meer-volgers-op-twitter 1 -
+/portlets/sisRapid/dream/libs/V2.56/vcl/FCKeditor/editor/fckeditor.html 1 -
+/uploads/images/media/AF%20AD%203.png 4 -
+/editor/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Interesse%20lijst%20naam%20geven.png 2 -
+/diensten/social-media-marketing/google-plus 1 -
+/index.php/ons-bureau 1 -
+/uploads/images/media/iOSDestination.jpg 4 -
+/MYIMPDATA/FileZilla.xml 2 -
+/wp-content/uploads/2012/02/menu-bg3.jpg 1 -
+/inc/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/categorie/Ergonomie 4 -
+/images/kerstspecial/webinar.png 1 http://www.digitusmarketing.nl/tijdlijnacties
+/inc/fckeditor/editor/fckeditor.html 1 -
+/mijn-facebook-vraag 1 -
+/tags/advertentiestrategie 1 -
+/wp-content/themes/urbancity/lib/scripts/download.php 1 -
+/feed/rss.php 54 -
+/wp-content/uploads/2012/02/twit.png 1 -
+/uploads/images/media/BuyButton650.jpg 2 -
+/uploads/images/media/Tab%20app%20AF%20M.png 3 -
+/images/facebook/julien-tab-app/slide-4.jpg 4 -
+/uploads/images/media/handelend%20als.png 1 -
+/html/editor/wp-content/plugins/fckeditor_for_wordpress/fckeditor/editor/fckeditor.html 1 -
+/uploads/images/media/4.jpg 1 -
+/guestbook/fckeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/categorie/Twitter 1 -
+/images/banner/FileZilla.xml 2 -
+/system/ext/FCKeditor/fckeditor.js 3 http://www.digitusmarketing.nl
+/adverteren-op-facebook.php 1 -
+/uploads/images/media/koop%20dan%20bericht.png 3 -
+/wp-content/plugins/ajax-store-locator-wordpress_0/sl_file_download.php 1 -
+/wp-content/plugins/gravityforms/css/formsmain.css 1 -
+/~pi/opiti/pppblog/FCKeditor/editor/fckeditor.html 1 -
+/wp/wp-login.php 2 -
+/index.php/images/digitus/Digitus-logo-wit.svg 1 -
+/wp-content/force-download.php 1 -
+/index.php/images/media/Facebook%20search%201.png 1 -
+/uploads/images/media/WhatsApp%20Web%203.jpg 2 -
+/images/facebook/makelaaronline-tab-app/3d-virtuele-tour.png 6 -
+/fck/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Bericht%20later%201.png 1 -
+/tags/tijdlijn%20actie 1 -
+/images/site/vink.png 1 http://www.digitusmarketing.nl/css/main.css
+/index.php/tags/%20Facebook%20contentstrategie 1 -
+/linkpartners 1 -
+/wp-content/plugins/gi-media-library/download.php 1 -
+/wp-content/uploads/2012/10/Coupon-Toons-Eten.pdf 6 -
+/wp-content/plugins/justified-image-grid/download.php 3 -
+/category/social-media 1 -
+/waarom-een-facebook-bedrijfspagina-in-plaats-van-persoonlijk-profiel 1 -
+/diensten/google-plus-pagina 2 -
+/codemis_cms/js/fckeditor/editor/fckeditor.html 1 -
+/uploads/images/media/Xandi%20facebook%20stelling%202.png 2 -
+/referenties/feed 1 -
+/textarea/fck/fckeditor.js 3 http://www.digitusmarketing.nl
+/uploads/images/media/Download%20newsfeed%20Eradictor%204.png 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 726
+82.75.157.160 2052 14998 334077020 20150630174824
+62.163.6.166 100 575 19440610 20150618115050
+213.239.211.141 97 97 3209464 20150605114320
+77.222.85.123 68 444 15670007 20150611163715
+217.114.110.162 43 334 22592517 20150630141850
+91.200.12.127 41 41 924992 20150624051327
+76.164.218.75 37 37 837544 20150629151928
+91.200.12.29 36 36 812311 20150624054443
+82.74.145.27 36 249 25773828 20150629123619
+91.200.12.56 34 34 767035 20150624053236
+31.160.106.101 0 4 2213776 
+112.65.193.15 1 1 25882 20150625120605
+101.226.51.228 1 1 25892 20150627122037
+80.61.142.31 1 1 5879 20150607122757
+83.82.11.233 1 11 390247 20150625213356
+104.206.177.18 1 1 5880 20150604060344
+86.92.19.109 2 14 1120467 20150627102835
+46.19.21.106 1 1 21325 20150611114433
+94.212.248.19 1 11 374095 20150622163104
+84.31.74.121 0 1 33729 
+83.87.79.22 2 13 228392 20150607103457
+217.69.133.169 2 2 15439 20150620024916
+62.177.210.198 0 1 68515 
+77.172.206.242 27 185 2488567 20150624162402
+95.222.40.240 5 22 1979159 20150616152559
+106.38.188.114 1 1 7770 20150628111323
+194.187.171.19 0 1 11404 
+87.211.87.108 0 2 1106888 
+217.120.61.139 3 22 1247179 20150604183958
+84.84.152.66 4 18 2561724 20150630223707
+83.160.80.153 0 2 1106888 
+117.207.163.48 4 48 2065741 20150611073027
+83.82.218.220 0 1 3245 
+77.175.16.216 3 30 961295 20150601091035
+151.75.27.122 2 41 1724018 20150611193357
+84.86.135.96 0 1 332472 
+66.249.81.198 9 41 3862315 20150613103826
+82.169.98.161 2 4 1235485 20150621234748
+94.215.10.201 2 15 1509921 20150615125826
+177.0.121.25 2 15 647022 20150617175349
+62.140.132.48 0 7 106791 
+178.50.87.247 0 2 581258 
+82.73.117.157 2 23 1545237 20150627161734
+81.243.124.202 0 1 9287 
+70.88.233.42 0 1 45751 
+77.164.142.55 0 2 1106888 
+37.153.220.49 0 12 3383163 
+101.226.89.120 1 5 155747 20150621120735
+213.10.29.172 3 40 3133048 20150608151719
+91.182.6.220 2 22 1556028 20150617190739
+217.103.33.111 1 14 1638578 20150628153326
+81.252.161.253 0 1 441525 
+178.165.3.18 1 1 7759 20150620214820
+88.157.130.22 4 19 1282638 20150624135606
+84.241.130.86 5 25 774205 20150609161210
+213.247.122.81 10 229 34841294 20150619223620
+155.94.219.248 1 1 7750 20150629192309
+193.173.216.39 0 3 1214081 
+87.211.196.127 0 1 26754 
+77.248.41.191 3 18 2884474 20150627183237
+82.75.182.41 0 2 1106887 
+39.32.95.68 3 16 604409 20150628131619
+212.129.45.202 1 1 5018 20150628110336
+54.85.19.234 1 1 7707 20150626073454
+86.94.230.82 0 2 1106888 
+92.69.215.176 3 16 1153674 20150623230925
+80.56.111.41 2 18 1593984 20150620170318
+173.252.81.119 0 1 101964 
+161.69.163.20 2 2 15431 20150627061948
+145.33.49.33 1 4 2260618 20150624160206
+151.236.23.160 1 1 5878 20150603164233
+31.201.204.107 0 1 162278 
+111.67.74.214 2 2 11969 20150612015652
+106.38.188.90 0 1 970 
+66.249.90.25 1 1 7768 20150616141103
+213.49.240.34 0 1 82791 
+85.151.75.86 0 1 441525 
+69.137.129.107 1 20 606808 20150611235247
+86.92.185.132 2 15 1127666 20150626183039
+213.133.97.216 1 1 21352 20150603005334
+66.249.92.43 1 1 7781 20150616180733
+123.30.175.216 1 1 7534 20150614034608
+31.11.219.97 0 1 48657 
+217.123.144.80 2 45 1791596 20150609205859
+201.229.115.47 2 18 1499707 20150627022844
+78.20.207.246 2 23 1545219 20150623215933
+83.128.187.77 3 32 966179 20150610112323
+202.46.58.193 1 1 7708 20150628145008
+37.57.231.112 19 19 363059 20150616021159
+177.136.107.28 1 12 250973 20150625133336
+200.123.98.82 8 38 4290559 20150626181704
+84.27.91.157 3 19 1596114 20150612105025
+69.197.160.146 16 16 100984 20150624181821
+23.96.208.137 1 1 6135 20150625153804
+83.163.56.145 4 7 3411380 20150630093048
+84.35.12.77 0 1 3245 
+180.153.161.217 1 1 21344 20150601120548
+188.216.11.98 2 28 1561687 20150608210058
+190.225.119.245 0 1 33788 
+89.98.181.50 2 15 1142103 20150619113259
+23.95.132.227 2 2 11757 20150611164157
+94.210.172.222 3 30 961298 20150603104729
+95.215.62.77 1 1 25843 20150626170602
+82.73.224.241 0 1 147937 
+217.123.152.170 0 2 1106888 
+93.81.88.197 2 45 2246569 20150611044153
+188.207.113.149 2 7 2493490 20150626101538
+62.210.75.104 2 5 100961 20150628133213
+84.29.7.69 3 29 872318 20150611160057
+84.241.202.175 4 20 1695784 20150619094055
+92.68.74.81 1 4 2260618 20150625174932
+92.225.42.61 0 1 17432 
+162.250.190.142 1 1 926 20150617201317
+81.244.108.246 4 42 2234386 20150612112539
+23.28.117.12 3 17 1701746 20150620022845
+84.27.78.249 1 4 2260618 20150624131544
+101.226.33.240 1 1 21350 20150605120608
+54.204.243.25 1 10 342327 20150608183801
+167.114.174.95 17 17 329590 20150626124111
+82.75.142.12 3 17 1275817 20150615180637
+54.146.177.74 3 10 191237 20150618105816
+101.226.89.121 1 5 643589 20150603121913
+123.125.71.32 1 1 5845 20150609030815
+144.76.153.198 1 1 34973 20150620234849
+178.0.112.67 1 2 434400 20150608090551
+77.242.116.162 4 30 2255327 20150624145510
+77.174.192.166 15 43 5406788 20150627195341
+62.131.238.53 4 23 824027 20150603151036
+81.205.222.105 3 29 872416 20150604150509
+178.149.109.228 0 1 118536 
+213.10.226.183 2 12 1216864 20150626083806
+45.55.141.41 12 16 157705 20150621134448
+81.18.253.26 3 30 961398 20150603145045
+95.45.254.124 5 5 99195 20150613065715
+94.242.222.208 2 2 51247 20150622170119
+198.12.91.185 1 1 5880 20150604191235
+90.145.104.75 0 2 1106888 
+81.246.69.66 0 1 45751 
+178.197.239.199 0 1 139733 
+203.87.66.136 8 39 1658857 20150623132452
+163.158.72.207 7 68 4356263 20150619101417
+62.48.250.14 7 88 2438301 20150609152337
+83.82.135.14 4 10 3415921 20150630230641
+66.249.81.192 5 38 1925253 20150619191735
+94.190.12.118 1 1 26886 20150628131913
+145.53.136.131 2 15 1127644 20150623214805
+92.66.219.182 3 16 1287115 20150616132228
+84.104.90.242 1 11 374143 20150630233205
+110.80.174.237 2 2 14405 20150617012355
+220.181.108.152 1 1 5840 20150609031202
+213.125.9.202 0 2 1106888 
+86.89.138.212 2 33 3354929 20150615182117
+213.127.171.20 2 18 1608640 20150618075059
+83.82.184.250 1 22 425218 20150610140753
+54.211.1.54 3 10 191680 20150630004452
+93.73.160.140 2 2 52158 20150624232934
+86.93.165.155 1 1 1011515 20150610083715
+77.174.83.184 2 19 1449089 20150602230944
+92.108.167.187 2 2 15438 20150627233545
+89.234.68.105 4 4 80999 20150619043930
+81.82.227.11 3 29 872320 20150608103816
+213.247.124.42 2 7 3696932 20150630115921
+104.236.68.137 2 6 105828 20150623045207
+86.87.80.152 2 23 1545228 20150625112827
+80.180.219.70 1 1 11253 20150628093702
+144.76.155.8 1 1 31756 20150610070455
+5.254.97.83 1 1 5886 20150611151008
+83.81.20.107 0 1 310326 
+195.154.209.237 2 13 1650551 20150624150213
+92.83.174.51 3 17 1701684 20150615192031
+83.82.104.247 0 2 1106888 
+78.21.136.85 5 34 1122408 20150607212808
+136.243.17.161 1 1 44225 20150602045023
+81.30.33.49 3 30 961297 20150602122728
+84.106.160.15 1 1 735222 20150621233459
+62.140.132.229 0 2 179196 
+89.98.98.56 0 1 40487 
+201.53.42.126 3 17 1701740 20150619073031
+112.64.235.247 1 4 341781 20150623122007
+220.181.108.160 1 1 21331 20150612032135
+50.16.113.244 1 7 143409 20150603092548
+145.101.221.223 2 21 1759835 20150619125740
+92.111.144.76 4 22 2456886 20150619123656
+79.172.239.64 1 1 25841 20150625090956
+92.109.216.46 0 2 581258 
+213.46.27.225 0 1 24140 
+220.181.108.143 1 1 5837 20150612031954
+5.254.97.76 1 1 5018 20150630182908
+194.171.71.197 0 1 441525 
+188.9.76.240 2 41 2260223 20150608123933
+82.170.35.158 0 1 38525 
+84.25.61.80 0 2 1106887 
+213.247.125.247 3 30 961294 20150608153448
+5.9.17.118 1 1 52135 20150621011313
+94.210.227.231 0 1 147696 
+84.107.208.124 0 2 1106887 
+46.145.141.34 5 22 1316269 20150616161214
+86.85.116.103 3 6 3142836 20150630130156
+62.140.132.42 10 26 1392018 20150625081905
+52.0.89.236 1 1 21290 20150611090718
+87.209.41.162 2 2 2209156 20150623192747
+185.21.52.105 0 1 219164 
+143.176.186.175 2 15 1142095 20150621190636
+95.97.106.234 3 6 2485444 20150625132820
+54.204.77.119 5 13 199327 20150625164507
+84.86.40.56 3 35 3971346 20150617184052
+62.140.132.208 2 2 2023026 20150608163559
+192.87.54.18 1 10 366894 20150622161834
+212.182.153.172 2 33 3340632 20150624123810
+216.155.130.50 2 2 11306 20150613110903
+84.196.86.227 0 2 133168 
+195.235.52.110 1 12 456324 20150620115657
+86.82.142.174 0 2 1106887 
+86.93.178.54 1 17 2316344 20150603142614
+84.241.208.166 0 5 1112617 
+84.105.211.233 0 1 82791 
+95.97.88.45 2 23 1545223 20150625143351
+213.144.224.17 0 2 1106888 
+31.151.173.35 5 45 3118869 20150613191244
+91.181.117.123 0 2 57872 
+45.55.134.15 8 18 301540 20150604005630
+31.151.243.35 2 15 1126887 20150613142211
+85.25.211.162 1 1 7535 20150614144329
+213.127.148.85 1 19 1005577 20150619151632
+5.254.97.92 1 1 5876 20150603063548
+52.69.11.34 1 1 5875 20150603193821
+145.102.177.166 2 15 1131729 20150617104354
+77.173.144.179 2 8 3412827 20150617183319
+24.117.20.138 1 1 26050 20150621174232
+54.158.113.200 1 1 25935 20150622200925
+82.95.155.119 3 29 1074014 20150601115448
+82.171.87.253 1 11 374098 20150622193410
+177.12.184.167 1 13 497148 20150613192316
+94.212.157.240 2 33 3340284 20150620153843
+220.181.108.105 1 1 5838 20150607181736
+88.198.210.14 1 1 25637 20150613191825
+146.120.158.149 0 2 91502 
+77.163.72.172 0 2 166118 
+84.241.213.186 2 5 1386700 20150628133127
+131.174.244.68 0 1 441525 
+185.70.185.39 3 3 63680 20150617130151
+79.56.192.182 3 18 1706541 20150616185311
+212.123.171.227 9 86 6010465 20150608223601
+77.168.86.138 0 2 1106888 
+209.85.238.70 0 1 16499 
+123.125.71.94 1 1 21327 20150612031115
+190.139.32.140 3 16 1542413 20150618190535
+95.97.107.159 0 1 3174 
+163.158.0.23 4 19 1282724 20150629210746
+31.13.109.116 0 1 307047 
+84.24.90.6 2 22 1537550 20150617124101
+91.195.1.33 0 1 816935 
+94.209.42.242 2 15 1141890 20150615104939
+88.150.196.146 1 1 7759 20150625021056
+88.73.26.187 0 1 59159 
+84.28.149.205 3 26 948399 20150603225938
+62.140.132.66 0 2 1106888 
+5.254.97.72 1 1 5879 20150609175526
+94.213.238.171 2 15 1126894 20150614215904
+54.211.89.129 1 1 7714 20150630001835
+77.170.254.110 0 1 68831 
+212.45.46.13 2 15 1228620 20150614125240
+189.83.46.7 1 15 450235 20150619012823
+87.195.144.25 3 23 749782 20150612111501
+92.110.217.235 0 2 591300 
+74.112.131.245 1 1 6144 20150625153753
+84.82.237.77 2 15 2634721 20150628134807
+200.165.155.166 3 17 1702145 20150630142326
+46.44.143.197 1 1 5379 20150622113254
+86.93.173.237 3 30 961294 20150604210203
+95.96.123.182 0 2 1106887 
+45.55.229.154 12 16 158719 20150618202436
+194.187.171.78 0 1 59286 
+182.118.60.44 0 1 16499 
+92.69.226.238 2 13 1397681 20150625190110
+84.85.215.32 2 7 2549168 20150630165031
+181.66.114.85 3 17 1702080 20150628062901
+82.173.210.41 2 17 2058677 20150615214447
+123.125.71.18 1 1 21329 20150609031000
+77.248.145.28 6 22 2646097 20150630141511
+84.241.197.235 0 2 1106888 
+82.176.142.175 0 1 11460 
+82.176.221.109 2 2 2023022 20150607151321
+92.69.247.243 3 26 948396 20150606201904
+84.82.229.92 2 15 1142097 20150618235414
+213.219.142.229 6 60 1922783 20150604130156
+188.202.3.65 5 31 1093859 20150602105516
+85.115.33.180 0 1 816879 
+62.163.123.133 0 2 1106888 
+190.37.168.73 1 1 3949 20150617013117
+77.160.37.195 0 2 581258 
+5.39.93.201 1 1 5877 20150603093557
+86.89.29.67 3 30 961295 20150611155758
+189.63.102.191 3 16 1618875 20150628062624
+52.27.90.92 1 1 25921 20150626230837
+80.101.199.28 0 1 59342 
+86.81.141.202 1 1 7769 20150618152134
+194.123.47.126 0 1 43762 
+62.238.14.188 2 14 1120002 20150618095321
+87.212.129.193 1 6 2259098 20150627151858
+77.164.213.173 2 13 1412456 20150625192028
+84.243.201.86 7 29 2928165 20150630092006
+213.125.110.237 4 31 989741 20150609105911
+83.81.206.229 1 4 2260616 20150624164046
+95.155.191.180 0 1 24276 
+213.93.194.3 3 26 1260183 20150609212316
+84.198.229.236 2 15 1141960 20150615172821
+104.131.31.176 12 16 158758 20150614031005
+195.154.250.39 4 4 39578 20150617013555
+82.95.145.53 0 1 26754 
+104.247.121.142 2 2 11757 20150604002659
+212.123.171.228 14 36 2974757 20150623220653
+177.138.230.57 3 17 1090044 20150624044213
+122.55.28.66 1 5 329135 20150614160821
+197.86.179.23 2 33 3340654 20150627183933
+52.5.45.9 1 1 5878 20150610065739
+83.162.231.7 0 2 1106888 
+46.166.186.248 0 1 162206 
+83.87.249.136 3 30 961302 20150601092736
+79.143.220.194 2 22 1821454 20150616111618
+185.82.148.10 1 2 84002 20150624145316
+161.69.192.123 1 1 7786 20150621084112
+77.164.30.78 2 15 1126889 20150613122405
+86.84.145.164 0 1 147937 
+84.241.212.212 0 1 139733 
+217.63.70.252 6 17 1437028 20150628202102
+167.114.172.224 29 29 651209 20150620203555
+175.44.54.5 1 1 21290 20150601134832
+173.252.81.117 0 1 356379 
+181.215.124.53 1 1 5830 20150609210819
+84.28.149.122 2 13 1397682 20150625154014
+104.143.193.40 1 1 14907 20150630153117
+123.125.71.50 1 1 21329 20150607181512
+77.174.134.21 3 30 961297 20150602201738
+66.249.92.40 1 1 7782 20150616181232
+77.173.6.102 1 2 1211695 20150602222204
+81.82.73.155 0 1 21033 
+84.87.60.174 3 30 961301 20150609142904
+188.207.200.116 0 4 8556 
+106.38.188.79 0 6 105808 
+207.81.35.196 2 13 1412453 20150626054316
+195.241.9.16 3 14 1417186 20150626162433
+69.164.111.198 1 7 773295 20150603234456
+213.181.48.46 3 23 1600241 20150604002459
+163.158.117.90 3 23 749782 20150604213657
+5.178.33.186 3 30 961295 20150610115227
+84.28.194.38 0 2 1106888 
+81.205.195.28 0 2 1106888 
+45.62.61.50 1 1 5873 20150604054516
+81.82.108.249 2 21 1876898 20150622213917
+66.249.81.195 5 39 2699744 20150613103827
+213.127.234.15 2 23 1559532 20150617114044
+2.50.134.112 2 16 1459025 20150623073633
+198.52.209.159 1 1 5881 20150609222729
+178.84.234.26 2 13 1412456 20150626070729
+167.114.209.38 17 17 333505 20150619125001
+84.104.250.238 3 23 749782 20150608075510
+80.227.84.212 0 2 237072 
+94.213.66.33 0 2 1106888 
+86.92.156.167 4 4 93825 20150610204639
+88.211.147.2 6 20 1301744 20150625152149
+82.74.142.22 3 17 1276239 20150628155843
+180.153.214.181 2 2 47199 20150617121927
+62.21.183.210 2 19 1787053 20150626140707
+37.153.249.162 1 10 366902 20150625115151
+128.69.6.230 1 1 5870 20150606162026
+80.254.155.43 3 37 2144033 20150610173333
+61.119.116.143 1 1 25833 20150619160926
+31.186.163.28 2 17 240090 20150602141607
+144.76.71.83 1 1 29479 20150613185544
+83.128.181.87 2 22 1748536 20150619135219
+92.65.246.186 0 1 82791 
+84.87.89.30 3 23 749783 20150603223939
+82.74.154.38 2 46 1808087 20150608121400
+201.41.3.210 2 16 1791878 20150615235550
+198.46.242.212 1 1 5877 20150610131950
+84.82.123.150 0 1 139733 
+23.94.119.27 1 1 5882 20150610010556
+84.107.211.138 0 2 1106888 
+101.255.90.25 1 1 6151 20150612015752
+66.220.159.117 0 1 307047 
+83.83.70.5 3 38 4232728 20150625101517
+31.151.81.123 0 1 142808 
+193.173.216.56 0 1 107049 
+87.210.140.38 0 1 28460 
+94.229.53.217 6 56 1909708 20150609112818
+192.171.235.98 1 1 5882 20150603104337
+95.96.11.49 1 4 2260618 20150626145649
+178.3.147.67 5 21 1354425 20150616141236
+66.249.89.73 5 5 38891 20150622141408
+84.104.35.186 5 8 3339558 20150630095818
+198.23.214.145 1 1 5879 20150612100330
+82.74.157.149 0 1 26754 
+85.17.203.91 3 29 1074241 20150604101114
+83.161.244.169 3 30 961303 20150608123954
+80.218.209.73 3 17 1701446 20150614183525
+92.69.246.234 1 1 1011511 20150605162305
+62.12.14.24 2 19 1757863 20150604180956
+216.170.123.108 2 2 22036 20150606150721
+178.84.142.104 0 2 1106887 
+80.60.156.169 2 15 1141889 20150615103152
+81.241.148.129 0 1 27847 
+50.23.193.18 17 17 55420 20150612074902
+84.104.86.35 0 2 1106888 
+77.162.209.224 2 22 1748881 20150629114809
+23.22.65.91 1 1 5827 20150601172126
+106.38.188.89 0 1 6043 
+213.127.215.27 17 158 4661403 20150611151945
+94.215.142.211 5 23 2951047 20150627101536
+62.131.171.182 1 4 2260618 20150628123354
+84.177.2.220 1 1 21331 20150603095831
+103.245.44.14 1 1 26064 20150622035247
+77.61.184.218 3 30 961297 20150604142215
+77.164.81.84 0 24 6765466 
+213.124.23.34 2 19 2600219 20150608110512
+145.74.144.154 2 32 3333429 20150624130403
+213.119.18.192 2 15 1141672 20150613072149
+81.206.49.97 0 1 656192 
+193.190.154.22 0 1 362086 
+89.98.69.120 3 17 1275815 20150617134832
+84.241.194.132 2 15 1126905 20150615050517
+94.213.61.48 2 19 1449089 20150606100949
+213.119.60.122 0 1 55224 
+62.238.110.129 0 2 57872 
+144.76.114.81 1 1 7752 20150618063911
+192.241.225.199 0 2 1106886 
+80.61.94.104 0 1 3174 
+62.140.132.183 0 1 0 
+163.158.81.188 4 26 2225189 20150617160734
+190.231.113.128 1 4 28386 20150603193356
+45.59.156.180 1 1 5880 20150607040448
+95.97.241.88 2 45 1791576 20150609180340
+213.136.64.63 1 1 18824 20150618161440
+62.194.93.180 3 3 213104 20150627232553
+62.45.221.142 2 5 1445176 20150625224544
+203.160.175.162 1 5 111477 20150614160815
+188.207.114.43 0 1 441525 
+84.31.106.141 1 11 388879 20150625163005
+82.173.54.30 2 22 1763660 20150627202714
+77.165.214.123 0 1 11460 
+122.96.59.107 1 1 9997 20150624080836
+217.123.129.182 0 1 139733 
+104.154.67.7 2 2 11698 20150606060709
+62.154.226.41 3 30 961413 20150604154146
+39.189.87.1 1 1 5016 20150630114129
+89.234.68.85 6 6 118727 20150613082003
+84.191.8.133 0 3 169930 
+123.125.71.26 1 1 5846 20150607181340
+213.233.250.191 0 1 441525 
+149.210.177.210 5 5 95673 20150617002119
+83.81.205.52 0 2 1106888 
+195.240.153.183 5 61 3108684 20150605151645
+185.87.106.141 4 47 1844921 20150601140938
+84.243.199.219 3 19 1293703 20150626141328
+143.176.129.228 3 41 2157031 20150605130703
+194.151.204.49 0 1 33729 
+86.83.198.2 0 1 147937 
+83.85.90.217 0 1 147937 
+82.173.210.42 2 44 3744627 20150610204434
+84.24.178.146 4 66 6709698 20150618144045
+180.153.206.31 1 1 25882 20150629120656
+212.129.39.94 1 1 5875 20150609023223
+82.139.88.100 2 5 2337362 20150628112206
+45.62.47.146 1 1 7774 20150622213156
+83.128.171.232 3 23 749782 20150603152159
+86.92.4.7 0 2 1106888 
+62.195.161.43 3 26 1260083 20150609062749
+195.64.78.82 0 2 936623 
+50.82.116.28 0 1 45751 
+86.12.195.11 0 1 45751 
+194.171.51.223 0 1 68831 
+123.30.175.219 1 1 7728 20150622201211
+209.85.238.78 1 1 7769 20150615180732
+54.204.104.144 1 1 21381 20150605080915
+62.140.132.211 1 1 438114 20150610222310
+77.248.170.221 2 12 1216866 20150625225934
+45.55.230.123 2 6 105814 20150627083507
+77.251.149.72 0 1 57920 
+84.106.33.70 0 1 816935 
+107.153.45.74 1 1 5871 20150607034319
+82.101.211.211 0 2 1106888 
+66.249.91.19 3 3 23342 20150622101147
+91.200.12.61 33 33 744425 20150624061559
+191.184.3.161 3 17 1702089 20150628031021
+83.128.206.203 0 1 816935 
+117.169.1.169 1 1 4967 20150626170125
+150.70.173.12 1 1 36376 20150604002606
+91.200.12.14 2 2 60699 20150614084331
+82.74.165.164 2 15 1141991 20150618084221
+123.125.71.89 1 1 5834 20150612030939
+191.5.28.132 3 17 1702089 20150627172016
+86.147.106.188 3 17 1290609 20150618004939
+94.210.217.214 1 4 2260618 20150624221650
+93.125.99.46 1 1 35629 20150603225307
+37.153.192.130 3 28 869104 20150612103059
+31.201.212.78 0 2 124082 
+77.248.157.2 4 31 1038747 20150608093424
+92.111.222.223 1 2 1153730 20150618080213
+109.131.79.108 0 1 15796 
+5.9.60.46 1 1 7783 20150620024635
+101.226.66.181 1 1 25424 20150613121918
+31.184.194.7 6 6 154811 20150628203243
+195.240.177.11 8 85 2708255 20150609134256
+84.82.139.169 2 22 1556047 20150616174224
+92.70.254.26 3 25 1463693 20150606000306
+84.28.189.133 6 99 10066232 20150626081026
+81.205.97.191 0 1 21816 
+83.117.195.145 4 58 2963201 20150604113357
+83.82.113.22 1 1 26097 20150624103601
+217.118.23.116 1 1 7763 20150617160114
+173.193.17.201 1 1 25677 20150623140730
+84.106.162.135 3 9 338650 20150604154340
+81.248.32.52 2 34 1635409 20150611193144
+84.107.244.97 8 100 3455029 20150610120711
+212.78.202.218 0 1 40251 
+94.213.248.228 2 5 1442280 20150626082141
+80.60.79.100 2 19 1902428 20150622072321
+86.209.105.205 2 22 1537672 20150618231526
+62.72.192.82 5 24 3784203 20150626155222
+5.175.206.116 1 1 5881 20150604060937
+192.241.215.235 0 1 3174 
+66.249.91.11 2 2 15555 20150620061035
+87.210.83.105 9 26 2002916 20150617204211
+173.252.113.116 0 1 356379 
+84.198.42.150 3 29 872328 20150608164118
+77.160.232.91 0 2 1106888 
+92.65.138.78 2 23 1545222 20150622194444
+31.223.173.93 0 1 132490 
+217.122.151.74 4 33 1075281 20150610213046
+82.75.151.211 6 46 4899647 20150614013427
+62.173.122.148 1 1 1011457 20150605231940
+46.165.201.46 1 1 20310 20150628151459
+213.34.51.106 2 18 1609098 20150624121232
+82.74.137.43 4 20 1350085 20150615192109
+177.36.187.174 3 16 900905 20150617230702
+83.83.30.170 0 12 3383163 
+80.112.223.46 0 1 82791 
+203.160.175.163 1 4 445376 20150614160831
+202.46.50.182 1 1 7736 20150623103108
+192.126.188.17 1 1 5878 20150601042011
+87.211.95.23 0 5 1858274 
+85.91.175.221 0 1 816935 
+82.217.99.156 3 40 2153729 20150609093638
+84.27.157.148 1 1 1011717 20150630094934
+27.145.61.126 1 1 5878 20150601061711
+94.212.139.202 5 55 6372345 20150608114512
+84.107.106.68 1 7 132182 20150610215758
+85.150.161.158 2 19 1449083 20150602201957
+173.192.104.148 17 17 55420 20150611194924
+37.153.232.182 14 139 6103833 20150608113428
+180.153.206.33 1 5 483006 20150607120605
+84.25.198.248 2 20 1869692 20150622170404
+77.251.218.51 0 1 11460 
+83.83.27.137 0 1 656192 
+89.180.153.239 0 1 132490 
+188.102.50.163 0 1 93158 
+217.121.83.91 1 4 2260617 20150624155551
+178.85.238.237 1 25 1449236 20150608235706
+188.201.26.181 0 1 45751 
+67.207.111.90 4 84 3306422 20150605231104
+192.185.82.251 9 9 7884 20150628010214
+174.129.180.17 1 1 5826 20150608183612
+81.207.67.226 2 23 2613120 20150604201136
+95.97.216.137 0 2 1106888 
+37.115.212.25 2 2 51784 20150630135551
+159.100.66.72 5 8 3660375 20150625123706
+92.70.179.43 0 1 91431 
+87.209.46.117 0 1 56802 
+54.147.196.0 1 10 342324 20150601175130
+82.75.139.49 18 53 3576183 20150619192545
+163.158.149.45 2 42 1733858 20150608221750
+70.198.1.96 0 1 45751 
+84.29.21.54 3 30 961394 20150609212247
+122.55.28.69 0 3 96010 
+183.38.5.45 2 7 1044888 20150601194757
+124.127.49.3 1 1 26805 20150616200514
+62.194.75.150 0 1 39463 
+123.30.175.221 3 3 21105 20150622201220
+186.205.252.157 2 33 1581481 20150609235230
+213.125.140.66 3 30 961295 20150611102320
+106.76.205.252 4 48 2045660 20150611071531
+91.77.85.98 2 14 286338 20150611014103
+83.87.103.127 0 1 441525 
+49.207.165.188 6 90 5522734 20150611073133
+66.249.90.27 1 1 7779 20150616140720
+180.153.163.206 1 1 25834 20150615121939
+157.55.39.29 0 1 2179 
+94.124.140.146 12 102 5624715 20150605105310
+89.234.68.87 5 5 108024 20150619054842
+80.69.77.2 1 11 643907 20150629063803
+84.86.247.2 0 1 118536 
+201.1.209.84 2 27 369418 20150612001633
+198.7.59.110 3 7 146409 20150611172016
+86.92.218.68 3 27 951623 20150603173325
+86.80.137.207 0 12 3382307 
+188.191.28.204 1 1 7712 20150626173057
+82.74.141.23 2 18 518361 20150601113834
+107.15.216.255 2 41 2017060 20150606203649
+109.201.154.206 1 1 21344 20150603092718
+85.179.185.47 1 1 38610 20150608090551
+46.44.178.131 2 23 1545226 20150625150455
+83.128.147.56 0 1 110242 
+87.106.12.40 1 1 25843 20150628141520
+66.249.89.76 2 2 15550 20150622141406
+81.30.65.95 3 23 749783 20150602221813
+107.23.56.124 2 2 13559 20150618050213
+77.165.157.42 5 5 38427 20150625065355
+217.103.100.86 2 5 1388704 20150625121930
+86.93.112.23 6 50 4348301 20150628193915
+82.74.158.41 0 2 1106888 
+94.213.87.169 3 19 736874 20150607095445
+77.167.194.244 0 1 45751 
+149.210.189.216 7 7 5690 20150629230044
+37.74.189.241 2 23 2613118 20150611115709
+66.249.93.197 0 2 237072 
+84.87.95.133 7 29 2942910 20150626081523
+85.150.61.172 2 14 1352724 20150611035519
+45.62.47.159 1 1 7756 20150624145334
+94.186.71.191 0 5 1112260 
+186.224.104.161 3 17 1701681 20150617212923
+86.91.236.178 2 15 1127665 20150628122444
+91.182.83.33 2 23 1544885 20150619151729
+146.148.48.102 2 2 11694 20150606060008
+141.105.144.228 0 1 816935 
+77.161.174.2 0 1 169687 
+86.84.83.55 0 1 441525 
+194.247.226.50 4 20 1156194 20150616134221
+217.130.247.85 3 21 2138293 20150625221109
+46.105.98.166 20 20 400212 20150620011935
+193.173.216.115 4 74 2251741 20150606152517
+213.46.24.106 0 2 1106888 
+213.132.157.159 0 1 27847 
+187.202.25.221 3 17 1702090 20150624150039
+36.99.30.143 1 1 7748 20150628131723
+82.171.164.89 3 37 2144050 20150610194533
+45.55.134.19 2 6 105824 20150625065058
+84.83.141.111 3 30 961301 20150602112601
+209.85.238.86 0 1 16499 
+46.145.22.30 0 1 441525 
+84.25.186.99 1 4 2260618 20150626103056
+62.207.0.54 3 30 961295 20150603160756
+195.241.120.168 1 2 1211695 20150611135218
+220.181.108.101 1 1 21329 20150607181910
+84.193.219.127 3 23 749878 20150611203749
+91.55.93.127 2 35 684675 20150608154639
+82.72.91.137 0 1 121708 
+213.206.251.186 1 11 388882 20150625134710
+82.74.167.91 1 12 456324 20150619164139
+82.75.151.149 14 67 3867363 20150616095531
+202.62.16.34 1 7 113533 20150619050505
+80.100.206.103 2 22 1537537 20150615161036
+23.247.255.245 1 1 5878 20150604060731
+86.86.215.151 2 23 1545230 20150626151949
+86.91.225.163 0 1 364020 
+192.227.144.243 2 2 12087 20150602011712
+184.173.90.200 2 2 41424 20150619163758
+195.240.133.114 3 19 1279015 20150623184651
+178.85.23.172 0 2 1106888 
+86.89.208.13 2 15 1142081 20150622074005
+188.201.36.193 3 30 961393 20150611120720
+82.74.202.234 9 24 1305016 20150629190354
+82.176.184.60 0 2 1106888 
+65.52.240.20 1 1 6138 20150625153757
+83.98.233.54 0 2 1106888 
+91.121.15.68 2 14 286839 20150603093716
+145.97.75.138 0 1 332416 
+217.76.19.117 2 22 1748539 20150619182401
+77.248.92.238 3 17 1275608 20150613172447
+64.237.45.114 13 17 89354 20150613110925
+77.249.16.38 2 15 1142428 20150623183519
+86.88.225.190 0 2 1106888 
+91.200.12.63 16 16 272105 20150629164405
+92.64.154.210 0 4 9176 
+213.93.138.40 24 208 11411922 20150617082743
+186.2.182.108 0 2 57872 
+85.17.241.91 2 2 15460 20150616020742
+195.54.38.2 1 11 374143 20150630091003
+50.18.94.121 2 2 1972 20150625153755
+87.237.26.32 2 17 240096 20150602151312
+173.252.105.113 0 2 708443 
+84.105.96.37 0 1 441525 
+190.112.241.97 3 23 653245 20150610152044
+83.163.252.236 2 12 1390475 20150625235207
+79.197.215.193 0 1 384181 
+190.231.176.117 0 1 1386 
+81.82.16.188 0 1 147937 
+104.247.121.74 1 1 7769 20150616004957
+66.249.89.70 4 4 31122 20150621061055
+150.70.97.84 1 1 21333 20150603100336
+94.161.128.7 1 7 143401 20150604082251
+62.140.132.27 0 1 20010 
+82.176.196.238 2 32 3159046 20150614232859
+50.16.98.210 1 1 7733 20150618103816
+82.75.154.219 4 63 2889289 20150608004147
+83.232.107.234 0 12 3382305 
+89.146.56.48 2 22 1537670 20150619134538
+88.229.216.250 3 3 1257551 20150630171633
+145.74.180.252 0 1 31109 
+46.18.72.99 5 29 3496907 20150625200717
+94.215.132.74 7 26 2817952 20150628220522
+85.166.244.180 10 28 1812387 20150616164320
+31.151.124.209 3 23 749780 20150602164629
+77.61.108.66 0 1 54235 
+77.170.12.215 2 7 2422288 20150626133701
+83.128.210.119 1 1 7774 20150619105633
+80.61.3.37 2 2 15515 20150627154711
+77.164.139.230 2 13 1412457 20150626082945
+173.234.233.74 3 16 1287596 20150624114731
+46.20.32.130 0 2 213954 
+80.61.36.247 3 18 1290282 20150625160423
+92.110.167.223 3 30 961290 20150610152546
+92.238.39.44 3 18 1706924 20150628033604
+92.225.57.236 0 2 349495 
+38.100.21.61 8 10 445859 20150611010339
+92.225.61.99 0 1 169687 
+80.57.178.16 2 22 1748100 20150612175013
+95.97.230.66 17 60 2392617 20150625134806
+204.13.200.200 1 7 158910 20150603092548
+198.23.175.68 1 1 7782 20150623093108
+84.191.23.16 0 3 958644 
+86.94.59.7 0 1 332472 
+83.167.200.146 2 14 1120104 20150619164655
+92.69.215.48 10 84 7062194 20150604100933
+23.250.105.8 1 1 5878 20150607174148
+178.168.111.21 1 1 26045 20150625030355
+155.94.137.185 1 1 5877 20150604004807
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20150601 29 276 19982835 17
+20150602 53 445 27961652 17
+20150603 79 575 21385004 37
+20150604 87 775 38156104 32
+20150605 134 535 27353515 15
+20150606 26 211 10137077 15
+20150607 37 104 6304633 20
+20150608 87 1001 50999797 30
+20150609 86 768 31808065 34
+20150610 77 671 33723103 27
+20150611 160 1124 53151003 33
+20150612 586 3597 94896764 21
+20150613 57 211 12029046 18
+20150614 53 278 18986183 17
+20150615 308 1907 68070792 26
+20150616 161 982 33036409 33
+20150617 179 1135 53975333 33
+20150618 341 1813 64739433 31
+20150619 345 2421 60892305 39
+20150620 81 153 8548052 24
+20150621 31 54 3694279 14
+20150622 100 719 24489629 28
+20150623 191 1272 38846989 29
+20150624 238 1300 48031671 32
+20150625 145 766 61260845 42
+20150626 135 856 66050814 29
+20150627 51 257 32191727 18
+20150628 61 296 34918035 29
+20150629 100 623 36457267 12
+20150630 169 1387 71964504 26
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 20
+5mn-15mn 26
+0s-30s 602
+30s-2mn 45
+2mn-5mn 30
+15mn-30mn 23
+30mn-1h 32
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 168
+/ 694 6160668 331 217
+/ebook/get 248 255217 1 47
+/blog/hoe-je-kunt-zien-wanneer-fans-online-zijn-en-hoe-je-hier-eenvoudig-op-inspeelt-om-zo-veel-mogelijk-fans-te-bereiken 211 4598214 83 66
+/diensten/adverteren-op-facebook 142 922498 20 13
+/fonts/fontawesome-webfont.woff2 140 7992246 9 38
+/js/scripts.js.php 138 6563097 0 39
+/fonts/fontawesome-webfont.woff 123 7756326 13 52
+/facebook-advies 118 491540 2 0
+/fonts/admin/fontawesome-webfont.woff 101 6049965 0 3
+/blog 99 968154 5 9
+/tabel 17 38984 1 0
+/js/admin/tinymce/skins/lightgray/fonts/tinymce.woff 18 84082 0 0
+/fonts/admin/custom-set.woff 98 564361 0 1
+/member/benodigdheden 30 125702 0 0
+/contact 44 244999 1 11
+/jandje/users/1/edit 1 5112 0 0
+/blog/hoe-je-facebook-laat-weten-welke-berichten-je-niet-wilt-zien 11 137293 8 1
+/jandje/member/4/6 1 5647 0 0
+/tags/Computer 1 11911 0 0
+/jandje/blog/create 27 150183 0 0
+/blog/hoe-je-in-5-minuten-een-facebook-test-pagina-maakt 12 163087 6 2
+/tags/bedrijfspagina 1 29951 0 0
+/jandje/icons 1 9713 0 0
+/fonts/admin/fontawesome-webfont.eot 2 112669 0 0
+/fb-tab-app 2 9086 1 0
+/tags/adverteren 1 47569 0 0
+/blog/de-1-valkuil-voor-facebook-paginabeheerders 6 137019 2 1
+/ebooks 13 131049 2 1
+/jandje/member/create 4 19008 0 0
+/download/spiekbrief 1 2534 0 0
+/fonts/fontawesome-webfont.eot 15 916495 2 13
+/jandje/member/6/edit 1 5192 0 0
+/fonts/fontawesome-webfont.ttf 22 1584762 1 5
+/jandje/diensten/3/edit 1 5355 0 0
+/categorie/LinkedIn 1 6027 0 0
+/jandje/videos/35/edit 1 4981 0 0
+/jandje/member/6/7 1 4510 0 0
+/tags/Facebook%20search 1 27951 0 0
+/administrator/ 2 53691 2 2
+/jandje/users/8 1 4146 0 0
+/workshops 12 132392 0 0
+/diensten/live-trainingen 20 152742 0 2
+/tags/call%20to%20action 1 27949 0 0
+/password/reset/73fc00dbab3200fdd7c27dfc52ed88bc307ac3282bb6e5b2470737887a02dded 1 2601 0 0
+/tags/Facebook%20groep 1 12369 0 0
+/login 52 133947 13 0
+/jandje/cases/create 1 4995 0 0
+/diensten/facebook-campagnes 3 16063 0 0
+/blog/facebook-test-koop-nu-knop-met-de-mogelijkheid-om-direct-te-kopen-zonder-facebook-te-verlaten 2 66130 0 0
+/tags/call%20to%20action%20knop 1 17432 0 0
+/tags/knoop%20nu%20knop 1 10226 0 0
+/kennismaken 36 265048 4 7
+/tags/facebook%20tab 1 17416 0 0
+/blog/de-7-laatste-facebook-updates-om-enthousiast-van-te-worden 24 496281 3 4
+/ebook/post 4 4012 0 0
+/tags/omslagfoto 1 39332 0 0
+/cases/eerste-paasdag-gesloten 3 57542 1 0
+/jandje/member/4/1 1 4412 0 0
+/facebook-seminar 1 3218 0 0
+/diensten 86 418906 1 8
+/jandje/cursus 8 36379 0 0
+/workshops/facebook-advertenties-opzetten-meten-en-optimaliseren 4 50864 2 0
+/tags/%20Facebook%20contentstrategie 1 20823 0 0
+/diensten/facebook-tabapps 50 408438 1 6
+/tags/statistieken 1 27953 0 0
+/jandje/videos/24/edit 1 4995 0 0
+/fonts/icomoon.eot 17 483228 0 10
+/workshops/alles-wat-je-moet-weten-om-een-succesvolle-facebook-actie-op-te-zetten 1 7460 1 0
+/jandje/login 46 120399 6 1
+/jandje/diensten/1/edit 15 95773 0 0
+/uploads/ebooks/pdf_server.php 92 49165551 46 43
+/diensten/video-trainingen 19 147966 0 3
+/facebook-seminar/lienden 1 5570 1 1
+/jandje/blog/24/edit 3 18643 0 0
+/blog/zo-installeer-je-whatsapp-op-je-computer 34 529443 3 5
+/fonts/icomoon.woff 68 2073331 0 53
+/blog/waar-een-succesvolle-facebook-tijdlijn-actie-toe-kan-leiden 7 195829 4 2
+/blog/hoe-jij-je-voorbereid-op-facebook-marketing-in-2015 5 137443 2 2
+/blog/hoe-je-facebook-vrienden-kunt-uitnodigen-om-fan-te-worden-van-jouw-facebook-pagina 65 813323 53 4
+/jandje/member/4/4 1 4637 0 0
+/jandje 33 178148 0 0
+/tags/Facebook 1 204029 0 0
+/dienstcontact 18 18230 0 1
+/tags/Facebook%20berichten 1 26733 0 0
+/tags/browser 1 11905 0 0
+/tags/sell%20something 1 27953 0 0
+/jandje/blog/22/edit 19 141252 0 0
+/jandje/blog/23/edit 15 118319 1 0
+/blog/hoe-zet-ik-videos-op-facebook-in-om-gebruikers-naar-mijn-website-te-leiden 14 148920 1 2
+/cases/hoe-vrij-je-je-kunt-bewegen-in-een-antony-morato-jeans 2 57816 0 0
+/blog/facebook-update-facebook-introduceert-save 4 80029 1 1
+/password/email 5 12271 0 0
+/jandje/users 93 492893 1 2
+/tags/youtube 1 27939 0 0
+/categorie/Facebook 3 364133 0 1
+/cases 65 458808 4 5
+/jandje/cursus/slimme-facebook-marketing-voor-sportscholen 1 4534 0 0
+/belmijterug 1 1010 0 0
+/jandje/member/4/5 1 4617 0 0
+/jandje/videos/23/edit 1 5013 0 0
+/tags/web 1 11903 0 0
+/concepten/facebook/getpakket 1 1166 0 0
+/test-omgeving/pakket-formulier 70 315754 1 1
+/cases/facebook-campagne-uw-glasvezeladviseur-is-actief-in-uw-woonplaats 9 131436 5 2
+/tags/koop%20dan 1 10214 0 0
+/jandje/media 26 140092 0 0
+/jandje/users/3/edit 3 15478 0 1
+/tags/Sell%20Something%20knop 1 12379 0 0
+/jandje/videos/19/edit 1 5012 0 0
+/trainingen 40 227657 0 2
+/julien/embedded-app 1 1572 0 0
+/jandje/videos/38/edit 1 5025 0 0
+/blog/hoe-krijg-ik-meer-bereik-en-naamsbekendheid-op-facebook 8 103603 1 1
+/tags/einddatum 1 27945 0 0
+/facebook-seminar/drachten 1 8509 1 1
+/download/ebook/sportschool 19 17443153 11 11
+/jandje/cursisten 7 33094 0 0
+/blog/een-van-facebooks-beste-updates-tot-nu-toe-de-call-to-action-knop 19 294216 3 0
+/ons-bureau 35 384111 2 3
+/member 50 180889 1 2
+/jandje/diensten 23 103336 0 0
+/member/cursussen/slimme-facebook-marketing-voor-sportscholen 60 308149 0 7
+/workshops/de-basis-van-een-succesvolle-facebook-pagina 5 56383 0 0
+/cases/pagina-make-over-en-advies 1 27602 0 0
+/concepten/facebook/ad-pakketten 4 15112 1 0
+/tags/WhatsApp 1 11913 0 0
+/jandje/videos 11 65212 0 0
+/jandje/member/7/5 1 4623 0 0
+/blog/10-redenen-waarom-je-geen-like-share-en-win-actie-moet-doen 46 674630 40 7
+/member/benodigdheden/create 2 9900 0 0
+/blog/3-simpele-stappen-naar-een-professionele-facebook-pagina 45 441486 1 1
+/jandje/users/2/edit 2 10596 0 0
+/blog/facebook-update-sell-something-berichttype-in-facebook-groepen 40 400759 2 2
+/jandje/videos/25/edit 1 5006 0 0
+/tijdlijnacties 53 286070 3 1
+/cases/facebook-campagne-anytime-fitness 8 110784 3 0
+/categorie/Ergonomie 2 23944 0 0
+/blog/hoe-jij-je-voorbereidt-op-facebook-marketing-in-2015 10 113755 0 0
+/tags/advertentiestrategie 1 20809 0 0
+/feed/rss.php 34 110840 33 33
+/jandje/media/create 15 70445 0 0
+/categorie/Youtube 1 6025 0 0
+/blog/6-tips-om-te-voorkomen-dat-je-wordt-afgeleid-op-facebook 27 371643 20 4
+/tags/Facebook%20pagina 1 31754 0 0
+/tags/succesvolle 1 20795 0 0
+/facebook-seminar/repperapi 36 37082 4 4
+/jandje/cases 2 8280 0 0
+/jandje/blog 59 382260 0 2
+/categorie/Twitter 1 6023 0 0
+/jandje/videos/20/edit 1 5008 0 0
+/tags/facebook%20video 1 27961 0 0
+/categorie/Google 1 6019 0 0
+/jandje/users/7 15 49693 0 1
+/tabapp/api/sportzenter 1 997 0 0
+/password/reset/ee68dc2952d815f02c9ee22e3c50b62e3fa8234eef3aedb19a2f115155b6a77f 1 2335 0 0
+/blog/fysiotherapie-kleinman-zit-jij-wel-eens-langer-dan-een-uur-achtereen-op-je-computer 4 101421 0 0
+/tags/Installeren 1 11917 0 0
+/member/cursussen 33 120106 1 1
+/jandje/cursus/1/edit 2 9644 0 0
+/jandje/member/9/7 4 17814 0 0
+/jandje/diensten/2/edit 1 5389 0 0
+/jandje/media/94/edit 1 4932 0 0
+/diensten/zoekmachine-adverteren 5 34926 5 5
+/fonts/admin/custom-set.eot 2 5846 0 0
+http://www.digitusmarketing.nl/blog/6-tips-om-te-voorkomen-dat-je-wordt-afgeleid-op-facebook 1 9997 1 1
+/member/6/profiel 1 3747 0 0
+/jandje/categorieen 1 4645 0 1
+/jandje/diensten/4/edit 1 5357 0 0
+END_SIDER

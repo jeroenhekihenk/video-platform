@@ -1,0 +1,335 @@
+/*form styles*/
+#msform {
+	width: 575px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+	min-height: 780px;
+	z-index:1;
+}
+#afrekenproces {
+	position: relative;
+	margin: 50px auto;
+	z-index:1;
+}
+fieldset.fieldset {
+    position: relative;
+}
+.full-seminar-form fieldset {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px 30px;
+    width: 100%;
+	transition: all 0.8s ease 0s;
+}
+fieldset {
+    display: block !important;
+    float: left;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	
+	/*stacking fieldsets above each other*/
+	position: absolute;
+}
+#afrekenproces fieldset {
+	background: transparent;
+	border:0 none;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width:100%;
+	margin:0 auto;
+}
+/*Hide all except first fieldset*/
+#msform fieldset.fieldset,
+#afrekenproces fieldset.fieldset {
+	display: block;
+}
+#msform fieldset,
+#afrekenproces fieldset{
+	display: none;
+}
+/*inputs*/
+
+/*buttons*/
+#msform .action-button,
+#afrekenproces .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus,
+#afrekenproces .action-button:hover, #afrekenproces .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+	padding:0;
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+	padding: 0 !important;
+	line-height:4;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+	z-index: -2 !important;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+  -webkit-transition: all 0.4s ease 0.1s;
+  -moz-transition: all 0.4s ease 0.1s;
+  -ms-transition: all 0.4s ease 0.1s;
+  -o-transition: all 0.4s ease 0.1s;
+  transition: all 0.4s ease 0.1s;
+}
+#progressbar li.active:after{
+	width: 100% !important;
+  -webkit-transition: all 0.4s ease 0.1s;
+  -moz-transition: all 0.4s ease 0.1s;
+  -ms-transition: all 0.4s ease 0.1s;
+  -o-transition: all 0.4s ease 0.1s;
+  transition: all 0.4s ease 0.1s;
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:after{
+	background: #008000; /* Old browsers */
+background: -moz-linear-gradient(left,  #008000 0%, #0f75bd 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#008000), color-stop(100%,#0f75bd)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #008000 0%,#0f75bd 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #008000 0%,#0f75bd 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #008000 0%,#0f75bd 100%); /* IE10+ */
+background: linear-gradient(to right,  #008000 0%,#0f75bd 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008000', endColorstr='#0f75bd',GradientType=1 ); /* IE6-9 */
+
+	color: white;
+	z-index: -1;
+  -webkit-transition: all 0.4s ease 0.25s;
+  -moz-transition: all 0.4s ease 0.25s;
+  -ms-transition: all 0.4s ease 0.25s;
+  -o-transition: all 0.4s ease 0.25s;
+  transition: all 0.4s ease 0.25s;
+}
+#progressbar li.active:before {
+	background-color: #0f75bd;
+	color:white;
+}
+#progressbar li.active.last:before {
+    background-color: green;
+    color: white;
+}
+#progressbar li.active.last:after {
+		background: #008000; /* Old browsers */
+background: -moz-linear-gradient(left,  #008000 0%, #008000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#008000), color-stop(100%,#008000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #008000 0%,#008000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #008000 0%,#008000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #008000 0%,#008000 100%); /* IE10+ */
+background: linear-gradient(to right,  #008000 0%,#008000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008000', endColorstr='#008000',GradientType=1 ); /* IE6-9 */
+}
+
+#progressbar li > p {
+	color: #231f20;
+}
+#progressbar li.active > p {
+  -webkit-transform: scale3d(1.25, 1.25, 1) translate3d(0px, 15px, 0px);
+  -moz-transform: scale3d(1.25, 1.25, 1) translate3d(0px, 15px, 0px);
+  -ms-transform: scale3d(1.25, 1.25, 1) translate3d(0px, 15px, 0px);
+  -o-transform: scale3d(1.25, 1.25, 1) translate3d(0px, 15px, 0px);
+  transform: scale3d(1.25, 1.25, 1) translate3d(0px, 15px, 0px);
+  -webkit-transition: all 0.4s ease 0.6s;
+  -moz-transition: all 0.4s ease 0.6s;
+  -ms-transition: all 0.4s ease 0.6s;
+  -o-transition: all 0.4s ease 0.6s;
+  transition: all 0.4s ease 0.6s;
+}
+#progressbar li.active.last > p {
+  -webkit-transform: scale3d(0.90, 0.90, 1) translate3d(0px, 10px, 0px);
+  -moz-transform: scale3d(0.90, 0.90, 1) translate3d(0px, 10px, 0px);
+  -ms-transform: scale3d(0.90, 0.90, 1) translate3d(0px, 10px, 0px);
+  -o-transform: scale3d(0.90, 0.90, 1) translate3d(0px, 10px, 0px);
+  transform: scale3d(0.90, 0.90, 1) translate3d(0px, 10px, 0px);
+  -webkit-transition: all 0.25s ease 0.2s;
+  -moz-transition: all 0.25s ease 0.2s;
+  -ms-transition: all 0.25s ease 0.2s;
+  -o-transition: all 0.25s ease 0.2s;
+  transition: all 0.25s ease 0.2s;
+  color: green !important;
+}
+
+/*li > p:after {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid rgba(35,31,32,0.3);
+	border-bottom: 0 none;
+	content: "";
+	display:block;
+	position:relative;
+	top: 10px;
+	width:10px;
+	transition: all 0.4s ease 0s;
+}
+.active > p:after {
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #0e76bc;
+    content: "";
+    display: block;
+    position: relative;
+    top: 25px;
+    width: 20px;
+    transition: all 0.4s ease 0s;
+}
+.active.last > p:after {
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid green;
+    border-bottom: 0 none;
+    content: "";
+    display: block;
+    position: relative;
+    top: 20px;
+    width: 20px;
+    transition: all 0.4s ease 0s;
+}*/
+div.progress-pointer {
+	position: relative;
+	width:25%;
+	display:block;
+	padding: 10px 11.2% 0;
+	height:10px;
+	left:0px;
+	transition: left 0.4s ease 0s;
+}
+div.progress-pointer span.pointer {
+	border-top: 15px solid #0e76bc;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	display:block;
+	margin:0 auto;
+}
+
+span.dottedtekst {
+	display: inline-block;
+}
+span.dottedtekst:before,
+span.dottedtekst:after {
+	border-top: 1px dotted rgba(35,31,32,0.3);
+	display: block;
+	height: 1px;
+	content: " ";
+	width: 36%;
+	position: absolute;
+	left:50px;
+	top:0.75em;
+}
+span.dottedtekst:after{
+	right: 50px;
+	left: auto;
+}
+hr.dotted {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(35, 31, 32, 0.3);
+    border-image: none;
+    border-style: none none dotted dotted;
+    border-width: 0 0 1px 1px;
+    width: 80%;
+}
+p.errormessage {
+	background-color: rgba(255, 0, 0, 0.5);
+	background-color: #ff7f7f;
+	border: 1px solid red;
+	border-radius: 4px;
+	color: white;
+	margin: 10px auto 0;
+	padding: 5px;
+	width: 100%;
+}
+
+/*p.errormessage:empty {
+	display: none;
+}*/
+
+.fouten {
+    margin: 10px 10px 30px;
+}
+div.success > p {
+	background-color: rgba(92,184,92,0.5);
+	border: 1px solid #4cae4c;
+	border-radius: 4px;
+	color: white;
+	margin: 10px auto 30px;
+	padding: 5px;
+	width: 100%;
+}
+
+.ui-datepicker-week-end > a {
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    pointer-events: none;
+}

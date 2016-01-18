@@ -1,0 +1,2093 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot');
+}
+@font-face {
+	font-family: 'icomoon';
+	src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBjEAAAC8AAAAYGNtYXAXTtJlAAABHAAAAExnYXNwAAAAEAAAAWgAAAAIZ2x5ZkqaQREAAAFwAAAAeGhlYWQFwdNZAAAB6AAAADZoaGVhB8IDxgAAAiAAAAAkaG10eAYAAAAAAAJEAAAAFGxvY2EAKABQAAACWAAAAAxtYXhwAAcAEgAAAmQAAAAgbmFtZVcZpu4AAAKEAAABRXBvc3QAAwAAAAADzAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADpBwPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOkH//3//wAAAAAAIOkH//3//wAB/+MW/QADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAA/8AEAAPAAA8AABc2GgEkMw4DIyoBMQMjADCu/wFR0mOWg3xIkDDAQECQAWQBONRP8OCh/sAAAAAAAQAAAAEAAIag8CxfDzz1AAsEAAAAAADRUUduAAAAANFRR24AAP/ABAADwAAAAAgAAgAAAAAAAAABAAADwP/AAAAEAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAKABQAHgA8AAEAAAAFABAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAOAAAAAQAAAAAAAgAOAEcAAQAAAAAAAwAOACQAAQAAAAAABAAOAFUAAQAAAAAABQAWAA4AAQAAAAAABgAHADIAAQAAAAAACgA0AGMAAwABBAkAAQAOAAAAAwABBAkAAgAOAEcAAwABBAkAAwAOACQAAwABBAkABAAOAFUAAwABBAkABQAWAA4AAwABBAkABgAOADkAAwABBAkACgA0AGMAaQBjAG8AbQBvAG8AbgBWAGUAcgBzAGkAbwBuACAAMQAuADAAaQBjAG8AbQBvAG8Abmljb21vb24AaQBjAG8AbQBvAG8AbgBSAGUAZwB1AGwAYQByAGkAYwBvAG0AbwBvAG4ARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icomoon {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-quill:before {
+	content: "\e907";
+}
+
+.mobiel {
+    display: none;
+}
+
+
+/*
+|----------------------------------------------------------------------
+| Configuratie
+|----------------------------------------------------------------------
+*/
+body {
+	font-family: 'Roboto', sans-serif !important;
+	background-color: #f6f6f6 !important;
+}
+p,b,strong,i,em,strike,blockquote,q,
+div, object, iframe,pre,a, abbr, acronym, address, big,
+cite, code, del, dfn, ins, kbd, s, samp, small, sub, sup, tt, var, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, li>a, a.btn, b > a, input[type=submit]
+{
+	font-family: 'Roboto', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6, input, a, textarea{
+	font-family: 'Roboto Slab', serif !important;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin-top:0 !important;
+	color: #2b2e83 !important;
+	margin-bottom: 20px !important;
+}
+h1{
+	font-size: 23pt !important;
+}
+h2{
+	font-size: 21pt !important;
+}
+h3{
+	font-size: 19pt !important;
+}
+h3.titel {
+	margin: 0 !important;
+}
+h4{
+	font-size: 17pt !important;
+}
+h5{
+    font-size: 13pt !important;
+
+}
+h6{
+
+}
+a, a:hover, a:focus, a:active {
+	text-decoration: none !important;
+	outline: 0 none !important;
+}
+img {
+	max-width: 100%;
+    height: auto !important;
+}
+div#page {
+	position: relative;
+	left:0;
+	-webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+address{
+	color: #9d9d9c;
+	line-height: 1.6;
+}
+input.form-control,
+textarea.form-control,
+select.form-control {
+    height: auto;
+    padding: 12px 20px;
+}
+img#bel-direct:hover {
+    cursor: pointer;
+}
+ul {
+    list-style: disc inside none;
+}
+
+/*
+|----------------------------------------------------------------------
+| Menubar
+|----------------------------------------------------------------------
+*/
+
+#menubars {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 99999;
+	-webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+#mainmenubar{
+	background-color:#0e71b8;
+	width:100%;
+}
+div.menubar nav {
+	padding-left: 50px !important;
+}
+div.menubar nav ul {
+	margin: 0;
+    list-style: none;
+}
+div.menubar nav ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+div.menubar nav ul li a {
+    color: white;
+    display: block;
+    font-size: 12pt;
+    font-weight: 500;
+    padding: 30px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.2s ease 0s;
+}
+div.menubar nav ul li:hover div.menu-marker,
+div.menubar nav ul li.active div.menu-marker {
+	width: 100%;
+	transition: width 0.4s ease 0s;
+}
+div.menubar nav ul li div.menu-marker {
+  width: 0;
+  position: relative;
+  bottom: -1px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  height: 7px;
+  transition: width 0.2s ease 0s;
+}
+html.scroll div.menubar nav ul li div.menu-marker {
+    bottom:-2px;
+}
+
+div.menubar div.rechter-menu {
+    float: left;
+    margin: 0;
+    padding: 5px;
+    transition: all 0.2s ease 0s;
+}
+div.menubar div.rechter-menu .demo-holder.pull-left > img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    max-height: 80px;
+}
+div.menubar div.rechter-menu div.sidemenu {
+	padding: 0;
+}
+div.menubar div.rechter-menu div.sidemenu a span {
+	color:white;
+	font-size: 17px;
+}
+
+div#loginmenubar {
+    background-color: white;
+    padding: 4px 0;
+    font-family: 'Roboto', sans-serif;
+}
+div#loginmenubar div.container nav ul {
+	margin: 0;
+}
+div#loginmenubar div.container nav ul li {
+    float: left;
+    padding:0 8px;
+}
+div#loginmenubar div.container nav ul li:first-child {
+	border-right: 1px solid #2b2e83;
+}
+div#loginmenubar div.container nav ul li a {
+	color: #2b2e83;
+	text-decoration: none;
+}
+div#loginmenubar div.container nav ul li a:hover {
+	color: #ff6f21;
+}
+div#loginmenubar div.container nav ul li a:active,
+div#loginmenubar div.container nav ul li a:focus {
+	outline: 0 none !important;
+	text-decoration: none;
+}
+
+html.scroll #menubars #mainmenubar div div.logo {
+    padding: 12px 0 5px;
+    transition: all 0.5s ease 0s;
+}
+html.scroll div.menubar div.rechter-menu .demo-holder > img {
+    display: block;
+    margin: 0 auto;
+    max-height: 44px !important;
+    transition: all 0.5s ease 0s;
+}
+html.scroll #menubars #mainmenubar div div.logo a img.logo {
+    max-height: 44px;
+}
+html.scroll #menubars #mainmenubar div div.menubar nav ul li a {
+    padding: 15px 20px;
+    transition: all 0.5s ease 0s;
+}
+html.scroll #menubars #mainmenubar div div.menubar .rechter-menu.scrolled {
+    background: #0e71b8 none repeat scroll 0 0;
+    box-shadow: 0 0 3px -1px #231f20;
+    overflow: visible;
+    padding: 8px 5px 5px;
+    position: absolute;
+    right: 7px;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    border-bottom: 2px solid white;
+}
+html.scroll div.menubar div.rechter-menu.scrolled .demo-holder > img {
+    max-height: 80px !important;
+}
+img#bel-direct{
+    max-height:80px;
+}
+
+/*
+|----------------------------------------------------------------------
+| Sidemenu
+|----------------------------------------------------------------------
+*/
+
+div#sidemenu {
+    background: none repeat scroll 0 0 white;
+    bottom: 0;
+    position: fixed;
+    right: -10000px;
+    top: 0;
+    width: 50%;
+    z-index: 999999999;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+#sidemenu #close-sidemenu {
+    float: left;
+    width: 100%;
+}
+html.sidemenu-open div#sidemenu {
+    right: 0;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+html.sidemenu-open #page #menubars {
+    left: 0;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+html.sidemenu-open #page {
+    left: 0;
+    opacity: 0.2;
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+
+/*
+|----------------------------------------------------------------------
+| Logo
+|----------------------------------------------------------------------
+*/
+
+div.logo {
+    padding: 20px 0;
+    transition: all 0.2s ease 0s;
+}
+div.logo img.logo {
+    float: left;
+    max-height: 50px;
+    max-width: 350px;
+    transition: all 0.2s ease 0s;
+}
+
+/*
+|----------------------------------------------------------------------
+| Buttons
+|----------------------------------------------------------------------
+*/
+button,
+input[type=submit],
+a.btn{
+	color: inherit;
+	text-transform: uppercase !important;
+	border: 1px solid transparent !important;
+	float: left;
+    font-size: 12pt !important;
+    font-weight: bold !important;
+    padding: 9px 30px !important;
+}
+a.btn:active,
+a.btn:focus,
+button:active,
+button:focus {
+	outline: 0 none !important;
+}
+.demo-button {
+    background: none repeat scroll 0 0 #ff6f21 !important;
+    border-color: #b74d13 !important;
+    color: white !important;
+    float: left;
+    font-size: 12pt !important;
+    font-weight: bold !important;
+    padding: 9px 30px !important;
+    text-transform: uppercase;
+}
+.demo-button:hover {
+	color:white !important;
+	background: none repeat scroll 0 0 #fc762d !important;
+}
+.demo-button:active,
+.demo-button:focus {
+	color:white !important;
+	border-top: 2px solid #b74d13 !important;
+	padding: 8px 30px 9px !important;
+}
+.nrml-button:hover,
+.nrml-inverse-button {
+	background: none repeat scroll 0 0 #2b2e83 !important;
+	border-color: #292b73 !important;
+	color: white !important;
+}
+.nrml-button,
+.nrml-inverse-button:hover {
+	background: none repeat scroll 0 0 #ededed !important;
+	border-color: #e3e3e3 !important;
+	color:#2b2e83 !important;
+}
+.nrml-button:hover {
+}
+.nrml-button:active,
+.nrml-button:focus {
+}
+#sidemenu div button.close {
+    min-width: 100%;
+    padding: 13px 50px !important;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+html.scroll #sidemenu div button.close {
+	padding:15px 50px !important;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+button#download-ebook {
+    position:relative;
+    left:0;
+    transition: all 1s ease 0s;
+}
+
+
+/*
+|----------------------------------------------------------------------
+| Box's
+|----------------------------------------------------------------------
+*/
+.box {
+	background-color: white;
+	border:1px solid #dadada !important;
+	border-radius:4px !important;
+	margin:20px 0;
+	float:left;
+	width: 100%;
+}
+.box.introductie,
+.box.recensies-slider,
+.box.content{
+	padding:35px;
+}
+.box.persoon-intro {
+    padding: 35px 20px;
+}
+    
+/*
+|----------------------------------------------------------------------
+| Uitgelicht
+|----------------------------------------------------------------------
+*/
+div#uitgelicht {
+    background-color: #2daae1;
+    border-top: 1px solid #50b9f0;
+    border-bottom: 1px solid #50b9f0;
+    padding: 30px 0;
+}
+div#uitgelicht div div.ebook-download-holder img.ebook-uitgelicht {
+    max-height: 225px;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok {
+    margin: 25px 0;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok * {
+    font-family: 'Roboto Slab', serif !important;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.titel-blok h2 {
+    color: #2b2e83;
+    max-width: 71%;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.titel-blok h4 {
+    color:white !important;
+    font-size: 14pt !important;
+    font-style: italic !important;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.titel-blok p{
+    color:white;
+    margin-bottom: 25px;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.titel-blok ul li {
+    color:white;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter {
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter div.col-md-4,
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter div.col-md-4 div.col-md-1:first-child {
+	padding-left: 0;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter div.col-md-4 div.col-md-2 {
+	padding-right: 0;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter span.teller {
+    background: none repeat scroll 0 0 white;
+    border-radius: 4px;
+    float: left;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 9999;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter span.teller:empty {
+	min-height: 30px;
+	min-width: 26px;
+}
+div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter p.ebook-downloads{
+	color:white !important;
+}
+div#ebook-download {
+    background: none repeat scroll 0 0 #0e71b8;
+    padding: 25px 0;
+}
+div#ebook-download div.container div.col-md-12 div.ebook-download-success h3 , 
+div#ebook-download div.container div.col-md-12 div.ebook-download-success p {
+    color: white !important;
+} 
+
+/*
+|----------------------------------------------------------------------
+| Snelle pages
+|----------------------------------------------------------------------
+*/
+#s-p-i {
+	padding:25px 0 0;
+}
+.s-p-i {
+	text-align: center;
+	padding: 20px;
+}
+.s-p-i > * {
+	color: #2b2e83 !important;
+}
+.s-p-i span {
+    font-size: 23pt;
+    margin: 15px 0 0;
+}
+.s-p-i h2 {
+    display: block;
+    font-size: 20pt;
+    margin: 20px auto !important;
+    width: 80%;
+}
+.s-p-i button,
+.s-p-i a.btn {
+	float: none !important;
+	width: 100%;
+}
+
+/*
+|----------------------------------------------------------------------
+| Dropdown
+|----------------------------------------------------------------------
+*/
+
+ul.list-buttons {
+    float: left;
+    margin-bottom:20px;
+    width:100%;
+}
+ul.list-buttons > li {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid #dadada;
+    display: block;
+    float: left;
+    max-width: 348px;
+    width: 100%;
+    transition: transform: 0.2s ease 0s;
+}
+ul.list-buttons li:first-child {
+	border-top: 1px solid #dadada;
+}
+ul.list-buttons li > a {
+    display: block;
+    padding: 13px 20px 11px;
+}
+ul.list-buttons li a {
+    color: #2b2e83;
+}
+ul.list-buttons li.active a,
+ul.list-buttons li.active a span {
+    color: white;
+}
+ul.list-buttons li a > p {
+    color: #2b2e83;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 84%;
+}
+ul.list-buttons li a span {
+	color: #c6c6c6;
+    top:5px;
+}
+ul.list-buttons > li:hover,
+ul.meeropties li:hover,
+ul.list-buttons > li.active{
+	background: #2b2e83;
+	border-color: transparent;
+}
+#sidebar-groot ul.list-buttons > li:hover {
+	transform:scale(1.02);
+    transition: transform 0.4s ease 0s;
+}
+ul.list-buttons li:hover > a,
+ul.list-buttons li:hover a > p,
+ul.list-buttons li:hover a > span,
+ul.meeropties li:hover a,
+.over-persoon .contact ul.meeropties li:hover a {
+	color: white;
+}
+a.dropdown-toggle {
+	color: #c6c6c6;
+}
+ul.meeropties {
+	padding:0;
+	box-shadow: 0 0;
+	width: auto;
+}
+ul.meeropties li {
+	background: white;
+	border-bottom: 1px solid #dadada;
+}
+ul.meeropties li:last-child {
+	border-bottom: 0 none;
+}
+ul.meeropties li a:hover {
+	background: transparent;
+}
+ul.meeropties li a {
+	color:#2b2e83;
+	padding: 10px 20px 10px 10px;
+	display: block;
+}
+ul.meeropties li a span {
+    min-width: 30px;
+    text-align: center;
+}
+
+/*
+|----------------------------------------------------------------------
+| Sidebar
+|----------------------------------------------------------------------
+*/
+#sidebar-groot div.box div button,
+#sidebar-groot div.box div a.btn {
+    display: table;
+    float: none !important;
+    margin: 10px auto;
+}
+#sidebar-groot div.box div > h4,
+#sidebar-groot div.box div > p {
+	padding: 0 20px;
+}
+#sidebar-groot div.box div.download-ebook img.ebook-uitgelicht {
+    display: block;
+    float: none;
+    margin: 30px auto;
+    max-width: 200px;
+}
+#sidebar-groot div.box hr {
+	margin: 20px;
+	border-color: #dadada;
+}
+#sidebar-klein .bel-mij-terug {
+    padding: 25px;
+    min-height: 225px;
+}
+.fixElementToTop {
+    background-color: white;
+    border: 1px solid #dadada !important;
+    border-radius: 4px !important;
+    max-width: 350px;
+    padding: 15px 0;
+    position: fixed;
+    top: 120px;
+}
+.bottomElementToTop {
+    top: -135px;
+    position: absolute;
+}
+
+/*
+|----------------------------------------------------------------------
+| Personen
+|----------------------------------------------------------------------
+*/
+
+.over-persoon {
+	padding-right: 0px !important;
+}
+.over-persoon .contact a {
+	color: #c6c6c6;
+}
+.over-persoon .contact ul.meeropties {
+	padding:0;
+	box-shadow: 0 0;
+	width: auto;
+}
+ul.meeropties li {
+	background: white;
+	border-bottom: 1px solid #dadada;
+}
+.over-persoon .contact ul.meeropties li:last-child {
+	border-bottom: 0 none;
+}
+.over-persoon .contact ul.meeropties li a:hover {
+	background: transparent;
+}
+.over-persoon .contact ul.meeropties li a {
+	color:#2b2e83;
+	padding: 10px 20px 10px 10px;
+	display: block;
+}
+.over-persoon .contact ul.meeropties li a span {
+    min-width: 30px;
+    text-align: center;
+}
+.over-persoon .over-tekst {
+	float: left;
+}
+
+/*
+|----------------------------------------------------------------------
+| Recensies
+|----------------------------------------------------------------------
+*/
+
+#recensies-slider ul.bjqs {
+	float: left;
+	min-height: 160px;
+    list-style: none;
+}
+.klant-info > h3 {
+	margin: 0 !important;
+}
+.klant-info,
+.klant-info h3 {
+	float:left;
+}
+.klant-info > a {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.klant-info > a::before {
+    background-color: #2b2e83;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin: 0 10px 0 0;
+    width: 1px;
+}
+.klant-info {
+    bottom: 10px;
+    position: absolute;
+}
+li.bjqs-slide {
+	position:absolute;
+	display: none;
+}
+ul.bjqs-controls.v-centered {
+	display: none;
+}
+ol.bjqs-markers li {
+    display: inline;
+    position:relative;
+}
+ol.bjqs-markers li a {
+    
+    color:transparent;
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    width: 15px;
+}
+ol.bjqs-markers li a::before {
+	border-bottom: 10px solid #e3e3e3;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+ol.bjqs-markers li a::after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #e3e3e3;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+}
+ol.bjqs-markers li:hover a::before,
+ol.bjqs-markers li:hover a::after {
+	transform:scale(1.1);
+}
+ol.bjqs-markers li.active-marker a::before {
+	border-bottom: 10px solid #2b2e83;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+ol.bjqs-markers li.active-marker a::after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #2b2e83;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+}
+
+
+/*
+|----------------------------------------------------------------------
+| Blog & case
+|----------------------------------------------------------------------
+*/
+
+.blog,
+.case {
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.blog-post-image,
+.case-image {
+    margin-bottom: 10px;
+    max-height:270px;
+    min-height:270px;
+    overflow:hidden;
+}
+.in-blog-post-image {
+    margin-bottom: 10px;
+    max-height:380px;
+    min-height:380px;
+    overflow:hidden;
+}
+.related-blog-post-image {
+    margin-bottom: 10px;
+    max-height: 180px;
+    min-height: 175px;
+    overflow:hidden;
+}
+.blog-post-image > img,
+.case-image > img,
+.in-blog-post-image > img,
+.related-blog-post-image > img {
+    width: 100%;
+}
+.blog-post-content,
+.case-content {
+    float: left;
+    padding: 5px 15px;
+    width: 100%;
+}
+.blog-content > p {
+    color: #333;
+    margin: 0 0 20px;
+}
+.blog-content > h3 {
+    margin: 10px 0 !important;
+}
+.blog-titel,
+.case-titel {
+    float: left;
+    min-height: 80px;
+    width:100%;
+}
+.blog-titel a {
+    display: block;
+}
+.blog-titel a h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 94%;
+    padding: 0 0 5px;
+}
+.blog-titel.in-post{
+	min-height:auto;
+}
+.blog-lezen,
+.case-lezen {
+    float: left;
+    padding: 5px 0;
+    width: 100%;
+}
+.blog-lezen .btn.nrml-button,
+.case-lezen .btn.nrml-button {
+    display: table;
+    float: none;
+    margin: 0 auto !important;
+}
+.blog-auteur-categorie {
+    float: left;
+    margin-top: 20px;
+    width:100%;
+}
+.blog-auteur-categorie li {
+    float: left;
+    margin: 0 5px;
+    list-style-type: none;
+}
+.content b.bold {
+    color: #2b2e83;
+    float: left;
+    font-size: 13pt;
+    margin-bottom: 2px;
+}
+.case-bottom {
+	float:left;
+	margin-top:20px;
+}
+.case-logo {
+    float: left;
+    margin-right: 15px;
+    max-width: 50px;
+}
+.blog-content > ul {
+    list-style: inside none disc;
+}
+.blog-content li {
+    list-style: inside none disc;
+    margin: 0 0 10px 15px;
+    text-indent: -1em;
+}
+
+h3.dienst-titel {
+    margin-top:20px !important;
+}
+div#disqus_thread {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+/*
+|----------------------------------------------------------------------
+| Includes
+|----------------------------------------------------------------------
+*/
+
+div#belmijterugformulier,
+div#downloadebookformulier {
+    background: url('../images/digitus/overlay.png') repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+div#belmijterugformulier div.belmijterugformulier,
+div#downloadebookformulier div.downloadebookformulier {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    min-height: 350px;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -175px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    -webkit-box-shadow: 0 0 20px 2px #231f20;
+    -moz-box-shadow: 0 0 20px 2px #231f20;
+    -ms-box-shadow: 0 0 20px 2px #231f20;
+    -o-box-shadow: 0 0 20px 2px #231f20;
+    box-shadow: 0 0 20px 2px #231f20;
+}
+div#belmijterugformulier.-on,
+div#downloadebookformulier.-on {
+	display:block;
+}
+div.belmijterugformulier.success,
+div.downloadebookformulier.success {
+    display: none;
+}
+div#belmijterugformulier div.belmijterugformulier form#belmijterugformulier div.form-group div#naam-errors,
+div#belmijterugformulier div.belmijterugformulier form#belmijterugformulier div.form-group div#telefoonnummer-errors {
+    margin: 10px 0 0;
+}
+
+/*
+|----------------------------------------------------------------------
+| Footer
+|----------------------------------------------------------------------
+*/
+div#footer {
+    background-color: #dadada;
+    border-bottom: 1px solid #bdbcbc;
+    border-top: 1px solid #bdbcbc;
+    margin: 25px 0 0;
+    overflow: hidden;
+    padding: 25px 0;
+    position: relative;
+    z-index: 99999;
+}
+div#footer ul.footer.list-buttons > li {
+    border: 1px solid #c6c6c6;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-size: 12pt;
+}
+div#footer ul.footer.list-buttons li > a {
+	padding: 12px 20px;
+}
+div#footer ul.footer.list-buttons li a span {
+	color:#2b2e83;
+	min-width: 25px;
+	font-size: 14pt;
+}
+div#footer ul.footer.list-buttons li:hover a span {
+	color: white;
+}
+div#footer div.footer-contact-formulier,
+div#footer div.footer-adres,
+div#fppter div.footer-diensten {
+	min-height:375px;
+}
+div#footer div.footer-contact-formulier,
+div#footer div.footer-adres {
+	position:relative;
+	height:100%;
+}
+div#footer div.footer-contact-formulier form input[type=submit] {
+	right:15px;
+}
+div#footer div.footer-adres button{
+	left:0;
+}
+div#footer div.footer-contact-formulier form input[type=submit],
+div#footer div.footer-adres button{
+	position:absolute;
+	bottom:0;
+}
+div#footer div.footer-contact-formulier form div textarea,
+div.footer-contact-formulier form div textarea {
+    height: 125px;
+    min-height: 125px;
+}
+
+div#footer-map {
+    background: url("../images/digitus/maps-footer.jpg") repeat scroll center center / cover rgba(0, 0, 0, 0);
+    min-height: 150px;
+}
+
+div#footer-aanmelden {
+    background: none repeat scroll 0 0 #0e71b8;
+    padding: 20px 0;
+}
+
+div#footer-rechten {
+    padding: 5px 0;
+}
+div#footer-rechten p.website-door {
+	margin: 0;
+}
+div#footer-rechten p.website-door,
+div#footer-rechten p.website-door > a {
+	color: #2b2e83 ;
+}
+
+
+
+
+/*
+|----------------------------------------------------------------------
+| Media Queries
+|----------------------------------------------------------------------
+*/
+
+
+/*
+|-----------------------------------------------------------------------
+| MOBILE PORTRAIT
+|-----------------------------------------------------------------------
+*/
+
+@media only screen and (min-width:220px) and (max-width:680px) and (orientation:portrait) {
+
+    p, b, strong, i, em, a {
+        word-wrap: break-word;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Main stuff
+    |----------------------------------------------------------------------
+    */
+    .desktop{
+        display:none;
+    }
+    .mobiel{
+        display: block;
+    }
+    /*
+    |----------------------------------------------------------------------
+    | Menubar
+    |----------------------------------------------------------------------
+    */
+
+    div.menubar div.rechter-menu,
+    div.menubar div.rechter-menu div.sidemenu {
+        float: none;
+        padding:0 !important;
+    }
+    div.menubar div.rechter-menu .demo-holder.pull-left > img {
+        margin-left: 15px;
+        margin-top: -10px;
+        max-height: 55px;
+        width: auto;
+    }
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu {
+        background: transparent none repeat scroll 0 0;
+        border: 0 none;
+        box-shadow: 0 0 0 0 !important;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    img#bel-direct,
+    img.logo {
+        max-height:40px !important;
+        float:left;
+    }
+    .demo-holder {
+        display: block;
+        float: left;
+        margin-left: 25px;
+        max-width: 115px;
+    }
+/*    html.scroll div.menubar div.rechter-menu.scrolled .demo-holder > img {
+        max-height: 55px;
+    }
+    html.scroll div.menubar div.rechter-menu .demo-holder > img {
+        max-height: 55px;
+        transition: all 0.5s ease 0s;
+    }*/
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu.scrolled {
+        background: transparent;
+        border-bottom: 0 none;
+        overflow: visible;
+        padding: 8px 5px 5px;
+        position: relative;
+        right: 0 !important;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    #mainmenubar {
+        background-color: #0e71b8;
+        overflow: hidden;
+        padding: 0 0 5px;
+        width: 100%;
+    }
+    div.logo {
+        padding: 12px 0 5px;
+        transition: all 0.5s ease 0s;
+    }
+    div.logo a img.logo {
+        max-height: 40px;
+        transition: all 0.5s ease 0s;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Uitgelicht
+    |----------------------------------------------------------------------
+    */
+    div#uitgelicht div div.ebook-download-holder img.ebook-uitgelicht {
+        display: block;
+        margin: 0 auto;
+        max-height: 225px;
+    }
+    div#uitgelicht div div.ebook-download-holder div.counter-blok div.titel-blok h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter {
+        display: none;
+    }
+    div#ebook-download div.container div.col-md-12 div.ebook-download-formulier div#mc_embed_signup form#mailchimp-ebook div.col-md-4 {
+        padding: 15px 15px 0 !important;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Recensie slider
+    |----------------------------------------------------------------------
+    */
+    #recensies-slider {
+        display: block;
+        float: left;
+        max-width: 100%;
+        width: 100% !important;
+        height: auto !important;
+    }
+    #recensies-slider ul.bjqs {
+        float: left;
+        max-width: 100% !important;
+        min-height: 160px;
+        height:auto !important;
+    }
+    .bjqs-slide {
+        float: left;
+        max-width: 100%;
+        height: auto !important;
+        position: static !important;
+    }
+    .klant-info {
+        bottom: 0;
+        position: relative;
+    }
+    ol.bjqs-markers {
+        display: none;
+    }
+
+    .klant-info > a::before {
+        display: none;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Personen
+    |----------------------------------------------------------------------
+    */
+    .persoon-intro .col-md-3 img {
+        display: block;
+        margin: 0 auto 25px;
+        width: 65%;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Blog & case
+    |----------------------------------------------------------------------
+    */
+    .blog-post-image, .case-image {
+        margin-bottom: 10px;
+        max-height: 165px;
+        min-height: 163px;
+        overflow: hidden;
+    }
+    .blog-titel > h3 {
+        font-size: 15pt !important;
+    }
+    div.in-blog-post-image {
+        min-height:200px;
+        max-height:200px;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Contact
+    |----------------------------------------------------------------------
+    */
+    .locatie iframe {
+        width: 100%;
+    }
+
+
+    /*
+    |----------------------------------------------------------------------
+    | Footer
+    |----------------------------------------------------------------------
+    */
+    div#footer div.footer-contact-formulier form input[type="submit"], div#footer div.footer-adres button {
+        bottom: 0;
+        right:0;
+        float:right;
+        position: relative;
+    }
+    div#footer div.footer-adres,
+    div#footer div.footer-diensten,
+    div#footer div.footer-contact-formulier {
+        float: left;
+    }
+}
+
+/*
+|-----------------------------------------------------------------------
+| MOBILE LANDSCAPE
+|-----------------------------------------------------------------------
+*/
+
+@media screen and (min-width:321px) and (max-width:768px) and (orientation:landscape) {
+
+    /*
+    |----------------------------------------------------------------------
+    | Main stuff
+    |----------------------------------------------------------------------
+    */
+    .desktop{
+        display:none;
+    }
+    .mobiel{
+        display: block;
+    }
+    /*
+    |----------------------------------------------------------------------
+    | Menubar
+    |----------------------------------------------------------------------
+    */
+
+    div.menubar div.rechter-menu,
+    div.menubar div.rechter-menu div.sidemenu {
+        float: none;
+        padding:0 !important;
+    }
+    div.menubar div.rechter-menu .demo-holder.pull-left > img {
+        margin-left: 75px;
+        margin-top: -10px;
+        max-height: 55px;
+        width: auto;
+    }
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu {
+        background: transparent none repeat scroll 0 0;
+        border: 0 none;
+        box-shadow: 0 0 0 0 !important;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    img#bel-direct,
+    img.logo {
+        max-height:40px !important;
+        float:left;
+    }
+    .demo-holder {
+        display: block;
+        float: left;
+        margin-left: 25px;
+        max-width: 115px;
+    }
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu.scrolled {
+        background: transparent;
+        border-bottom: 0 none;
+        overflow: visible;
+        padding: 5px;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    #mainmenubar {
+        background-color: #0e71b8;
+        overflow: hidden;
+        padding: 0 0 5px;
+        width: 100%;
+    }
+    div.logo {
+        padding: 12px 0 5px;
+        transition: all 0.5s ease 0s;
+    }
+    div.logo a img.logo {
+        max-height: 40px;
+        transition: all 0.5s ease 0s;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Uitgelicht
+    |----------------------------------------------------------------------
+    */
+    div#uitgelicht div div.ebook-download-holder img.ebook-uitgelicht {
+        display: block;
+        margin: 0 auto;
+        max-height: 225px;
+    }
+    div#uitgelicht div div.ebook-download-holder div.counter-blok div.titel-blok h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter {
+        display: none;
+    }
+    div#ebook-download div.container div.col-md-12 div.ebook-download-formulier div#mc_embed_signup form#mailchimp-ebook div.col-md-4 {
+        padding: 15px 15px 0 !important;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Recensie slider
+    |----------------------------------------------------------------------
+    */
+    #recensies-slider {
+        display: block;
+        float: left;
+        max-width: 100%;
+        width: 100% !important;
+        height: auto !important;
+    }
+    #recensies-slider ul.bjqs {
+        float: left;
+        max-width: 100% !important;
+        min-height: 160px;
+        height:auto !important;
+    }
+    .bjqs-slide {
+        float: left;
+        max-width: 100%;
+        height: auto !important;
+        position: static !important;
+    }
+    .klant-info {
+        bottom: 0;
+        position: relative;
+    }
+    ol.bjqs-markers {
+        display: none;
+    }
+
+    .klant-info > a::before {
+        display: none;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Personen
+    |----------------------------------------------------------------------
+    */
+    .persoon-intro .col-md-3 {
+        float: left;
+        width: 25%;
+    }
+    .persoon-intro .col-md-9.over-persoon {
+        float: left;
+        width: 75%;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Blog & case
+    |----------------------------------------------------------------------
+    */
+    .blog-post-image, .case-image {
+        margin-bottom: 10px;
+        max-height: 165px;
+        min-height: 163px;
+        overflow: hidden;
+    }
+    .blog-titel > h3 {
+        font-size: 15pt !important;
+    }
+    .col-md-6.blogpost {
+        width: 50%;
+        float:left;
+    }
+    .col-md-6.blogpost div.blog div.blog-post-content > .blog-auteur-categorie {
+        font-size: 13px !important;
+    }
+    .col-md-6.blogpost div.blog div.blog-post-content > .blog-titel a h3 {
+        font-size: 18px !important;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Snelle pages
+    |----------------------------------------------------------------------
+    */
+    .s-p-i h2 {
+        font-size: 19pt !important;
+        width: 90%;
+    }
+    .col-md-3.s-p {
+        float: left;
+        width: 50%;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Contact
+    |----------------------------------------------------------------------
+    */
+    .locatie iframe {
+        width: 100%;
+    }
+
+
+    /*
+    |----------------------------------------------------------------------
+    | Footer
+    |----------------------------------------------------------------------
+    */
+    div#footer div.footer-contact-formulier form input[type="submit"], div#footer div.footer-adres button {
+        bottom: 0;
+        right:0;
+        float:right;
+        position: relative;
+    }
+    div#footer div.footer-adres,
+    div#footer div.footer-diensten,
+    div#footer div.footer-contact-formulier {
+        float: left;
+    }
+    div#footer div.container div.col-md-1 {
+        display: none;
+    }
+    div#footer div.container div.col-md-3 {
+        width: 50% !important;
+    }
+    div#footer div.container div.col-md-4 {
+        width: 100% !important;
+    }
+    ul.list-buttons li {
+        max-width: 100%;
+    }
+}
+
+/*
+|-----------------------------------------------------------------------
+| TABLET PORTRAIT
+|-----------------------------------------------------------------------
+*/
+
+/*@media screen and (min-width:768px) and (max-width: 1024px) and (orientation:portrait) {
+
+}*/
+
+/*
+|-----------------------------------------------------------------------
+| TABLET LANDSCAPE
+|-----------------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px ) and (max-width: 1280px) and (orientation:landscape) {
+    /*
+    |----------------------------------------------------------------------
+    | Main stuff
+    |----------------------------------------------------------------------
+    */
+    .desktop{
+        display:none;
+    }
+    .mobiel{
+        display: block;
+    }
+    #sidebar-groot.desktop {
+        display:block;
+    }
+    /*
+    |----------------------------------------------------------------------
+    | Menubar
+    |----------------------------------------------------------------------
+    */
+
+    div.menubar div.rechter-menu,
+    div.menubar div.rechter-menu div.sidemenu {
+        float: right;
+    }
+    div.menubar div.rechter-menu {
+        padding:12px 0;
+    }
+    div.menubar div.rechter-menu div.sidemenu {
+        padding: 7px 0;
+    }
+    .demo-holder {
+        display: block;
+        float: left;
+        max-width: 115px;
+    }
+    div.menubar div.rechter-menu .demo-holder.pull-left > img {
+        margin-left: 155px;
+        margin-top: -10px;
+        max-height: 55px;
+        width: auto;
+    }
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu {
+        background: transparent none repeat scroll 0 0;
+        border: 0 none;
+        box-shadow: 0 0 0 0 !important;
+        padding: 12px 0 !important;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    html.scroll div.menubar div.rechter-menu.scrolled .demo-holder.pull-left > img {
+        max-height: 65px;
+    }
+    html.scroll div.menubar div.rechter-menu .demo-holder.pull-left > img {
+        max-height: 55px;
+        transition: all 0.5s ease 0s;
+    }
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu.scrolled {
+        background: transparent;
+        border-bottom: 0 none;
+        overflow: visible;
+        padding: 8px 5px 5px;
+        position: relative;
+        right: 7px;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    #mainmenubar {
+        background-color: #0e71b8;
+        overflow: hidden;
+        padding: 0 0 5px;
+        width: 100%;
+    }
+    div.logo {
+        padding: 12px 0 5px;
+        transition: all 0.5s ease 0s;
+    }
+    div.logo a img.logo {
+        max-height: 40px;
+        transition: all 0.5s ease 0s;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Snelle pages
+    |----------------------------------------------------------------------
+    */
+    .s-p-i h2 {
+        font-size: 16pt !important;
+    }
+    .col-md-3.s-p {
+        float: left;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Footer
+    |----------------------------------------------------------------------
+    */
+    div#footer div.footer-contact-formulier form input[type="submit"], div#footer div.footer-adres button {
+        bottom: 0;
+        right:0;
+        float:right;
+        position: relative;
+    }
+    div#footer div.footer-adres,
+    div#footer div.footer-diensten,
+    div#footer div.footer-contact-formulier {
+        float: left;
+    }
+    div#footer div.container div.col-md-1 {
+        display: none;
+    }
+    div#footer div.container div.col-md-3 {
+        width: 50% !important;
+    }
+    div#footer div.container div.col-md-4 {
+        width: 100% !important;
+    }
+    ul.list-buttons li {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 979px) {
+    /*
+    |----------------------------------------------------------------------
+    | Main stuff
+    |----------------------------------------------------------------------
+    */
+    .desktop{
+        display:none;
+    }
+    .mobiel{
+        display: block;
+    }
+    /*
+    |----------------------------------------------------------------------
+    | Menubar
+    |----------------------------------------------------------------------
+    */
+
+    div.menubar div.rechter-menu,
+    div.menubar div.rechter-menu div.sidemenu {
+        float: none;
+    }
+    div.menubar div.rechter-menu {
+        padding:12px 0;
+    }
+    div.menubar div.rechter-menu div.sidemenu {
+        padding: 7px 0;
+    }
+    .demo-holder {
+        display: block;
+        float: left;
+        margin: 0 130px;
+        max-width: 115px;
+    }
+    div.menubar div.rechter-menu .demo-holder.pull-left > img {
+        margin-left: 155px;
+        margin-top: -10px;
+        max-height: 55px;
+        width: auto;
+    }
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu {
+        background: transparent none repeat scroll 0 0;
+        border: 0 none;
+        box-shadow: 0 0 0 0 !important;
+        padding: 12px 0 !important;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    html.scroll div.menubar div.rechter-menu.scrolled .demo-holder.pull-left > img {
+        max-height: 65px;
+    }
+    html.scroll div.menubar div.rechter-menu .demo-holder.pull-left > img {
+        max-height: 55px;
+        transition: all 0.5s ease 0s;
+    }
+    html.scroll #menubars #mainmenubar div div.menubar .rechter-menu.scrolled {
+        background: transparent;
+        border-bottom: 0 none;
+        overflow: visible;
+        padding: 8px 5px 5px;
+        position: relative;
+        right: 7px;
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    #mainmenubar {
+        background-color: #0e71b8;
+        overflow: hidden;
+        padding: 0 0 5px;
+        width: 100%;
+    }
+    div.logo {
+        padding: 12px 0 5px;
+        transition: all 0.5s ease 0s;
+    }
+    div.logo a img.logo {
+        max-height: 40px;
+        transition: all 0.5s ease 0s;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Sidebar
+    |----------------------------------------------------------------------
+    */
+
+    ul.list-buttons {
+        width: 100%;
+    }
+    ul.list-buttons > li {
+        max-width: 100%;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Uitgelicht
+    |----------------------------------------------------------------------
+    */
+    div#uitgelicht div div.ebook-download-holder img.ebook-uitgelicht {
+        display: block;
+        margin: 0 auto;
+        max-height: 225px;
+    }
+    div#uitgelicht div div.ebook-download-holder div.counter-blok div.titel-blok h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    div#uitgelicht div div.ebook-download-holder div.counter-blok div.ebook-counter {
+        display: none;
+    }
+    div#ebook-download div.container div.col-md-12 div.ebook-download-formulier div#mc_embed_signup form#mailchimp-ebook div.col-md-4 {
+        padding: 15px 15px 0 !important;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Recensie slider
+    |----------------------------------------------------------------------
+    */
+    #recensies-slider {
+        display: block;
+        float: left;
+        max-width: 100%;
+        width: 100% !important;
+        height: auto !important;
+    }
+    #recensies-slider ul.bjqs {
+        float: left;
+        max-width: 100% !important;
+        min-height: 160px;
+        height:auto !important;
+    }
+    .bjqs-slide {
+        float: left;
+        max-width: 100%;
+        height: auto !important;
+        position: static !important;
+    }
+    .klant-info {
+        bottom: 0;
+        position: relative;
+    }
+    ol.bjqs-markers {
+        display: none;
+    }
+
+    .klant-info > a::before {
+        display: none;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Personen
+    |----------------------------------------------------------------------
+    */
+    .persoon-intro .col-md-3 {
+        float: left;
+        width: 25%;
+    }
+    .persoon-intro .col-md-9.over-persoon {
+        float: left;
+        width: 75%;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Blog & case
+    |----------------------------------------------------------------------
+    */
+    .blog-post-image, .case-image {
+        margin-bottom: 10px;
+        max-height: 165px;
+        min-height: 163px;
+        overflow: hidden;
+    }
+    .blog-titel > h3 {
+        font-size: 15pt !important;
+    }
+    .col-md-6.blogpost {
+        float: left;
+        width: 50%;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Snelle pages
+    |----------------------------------------------------------------------
+    */
+    .s-p-i h2 {
+        width: 78%;
+    }
+    .col-md-3.s-p {
+        float: left;
+        width: 50%;
+    }
+
+    /*
+    |----------------------------------------------------------------------
+    | Contact
+    |----------------------------------------------------------------------
+    */
+    .locatie iframe {
+        width: 100%;
+    }
+
+
+    /*
+    |----------------------------------------------------------------------
+    | Footer
+    |----------------------------------------------------------------------
+    */
+    div#footer div.footer-contact-formulier form input[type="submit"], div#footer div.footer-adres button {
+        bottom: 0;
+        right:0;
+        float:right;
+        position: relative;
+    }
+    div#footer div.footer-adres,
+    div#footer div.footer-diensten,
+    div#footer div.footer-contact-formulier {
+        float: left;
+    }
+    .col-md-4.footer-contact-formulier {
+        width: 34%;
+    }
+    .col-md-3.footer-diensten {
+        width: 36%;
+    }
+    .col-md-3.footer-adres {
+        width: 30%;
+    }
+}
+
+/*
+|----------------------------------------------------------------------
+| Tijdlijnacties
+|----------------------------------------------------------------------
+*/
+
+.full-width {
+    width: 100%;
+    padding: 150px 15px 150px;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+}
+ul.wink > li.vink {
+    background: url("http://www.digitusmarketing.nl/images/digitus/vink.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    display: block;
+    line-height: 1.3;
+    margin: 11px 0;
+    min-height: 25px;
+    padding: 5px 5px 5px 30px;
+}
+/*.box ul > li {
+    list-style: inside none disc;
+    line-height: 1.3;
+    margin: 11px 0;
+    min-height: 15px;
+    padding: 5px 5px 5px 30px;
+}*/
+.full-blauw-balk .container .col-12 .col-9 > h2,
+.full-blauw-balk .container .col-12 > h2 {
+    text-shadow: 1px 1px 2px #231f20;
+    color:white;
+}
+.full-blauw-balk .container .col-12 .col-9 > p,
+.full-blauw-balk .container .col-12 > p {
+    color: white;
+}
+.full-blauw-balk:after  {
+    bottom: -58px;
+    content: url("../images/kerstspecial/schaduw-1.png");
+    display: block;
+    float: none;
+    margin: 0 auto;
+    position: relative;
+}
+.full-blauw-balk {
+    background: url("/images/site/new-bg.png") repeat scroll 0 0 #25aae1 !important;
+    border-bottom: 1px solid #1281af;
+    border-top: 1px solid #79d5fb;
+    box-shadow: 0 2px 3px 0 gray;
+    overflow: visible;
+    padding: 50px 15px 0 !important;
+    position: relative;
+    text-align: center;
+}
+ol {
+    list-style: decimal inside none;
+}
+
+/*
+|----------------------------------------------------------------------
+| breadcrumbs
+|----------------------------------------------------------------------
+*/
+div#crumbs {
+    display: block;
+    float: left;
+    margin: 25px 0 10px;
+    width: 100%;
+}
+#crumbs ul {
+    list-style: none;
+}
+#crumbs > p {
+    display: inline;
+    line-height: 2;
+    margin: 0 15px 0 0 !important;
+}
+#crumbs ul li a {
+    background: rgba(14,113,184,0.3) none repeat scroll 0 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b0cde3', endColorstr='#b0cde3'); /* IE */
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 1em;
+    margin: 0 5px 0 0;
+    padding: 5px 20px 5px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background 0.2s ease 0s;
+    -moz-transition: background 0.2s ease 0s;
+    -ms-transition: background 0.2s ease 0s;
+    -o-transition: background 0.2s ease 0s;
+    transition: background 0.2s ease 0s;
+}
+#crumbs ul li a span.fa {
+  font-size: 1.2em;
+  margin-right: 5px;
+  line-height: 1;
+  position: relative;
+  top: 1px;
+}
+#crumbs ul li a::after {
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgba(14,113,184,0.3);
+    border-top: 15px solid transparent;
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 0;
+    z-index: 2;
+    -webkit-transition: border 0.2s ease 0s;
+    -moz-transition: border 0.2s ease 0s;
+    -ms-transition: border 0.2s ease 0s;
+    -o-transition: border 0.2s ease 0s;
+    transition: border 0.2s ease 0s;
+}
+#crumbs ul li.active a{
+    background: rgba(14,113,184,0.9) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#247dbe', endColorstr='#247dbe'); /* IE */
+}
+#crumbs ul li.active a::after{
+    border-left: 15px solid rgba(14,113,184,0.9) !important;
+}
+#crumbs ul li.active a::before{
+    border-left: 15px solid #f6f6f6 !important;
+}
+#crumbs ul li.active a:hover{
+    background: rgba(14,113,184,1) !important;
+}
+#crumbs ul li.active a::after::hover{
+    border-left: 15px solid rgba(14,113,184,1) !important;
+}
+#crumbs ul li.active a::before::hover{
+    border-left: 15px solid #f6f6f6 !important;
+}
+#crumbs ul li a::before {
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #f6f6f6;
+    border-top: 15px solid transparent;
+    content: "";
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+#crumbs ul li:first-child a {
+    border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+    padding: 5px 10px 5px 15px;
+}
+#crumbs ul li:first-child a:before {
+    display: none; 
+}
+
+#crumbs ul li:last-child a {
+    border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+}
+#crumbs ul li:last-child a:after {
+    display: none; 
+}
+#crumbs ul li a:hover {
+    background: rgba(14,113,184,0.4);
+    -webkit-transition: background 0.4s ease 0s;
+    -moz-transition: background 0.4s ease 0s;
+    -ms-transition: background 0.4s ease 0s;
+    -o-transition: background 0.4s ease 0s;
+    transition: background 0.4s ease 0s;
+}
+#crumbs ul li a:hover:after {
+    border-left-color: rgba(14,113,184,0.4);
+    -webkit-transition: border-left-color 0.4s ease 0s;
+    -moz-transition: border-left-color 0.4s ease 0s;
+    -ms-transition: border-left-color 0.4s ease 0s;
+    -o-transition: border-left-color 0.4s ease 0s;
+    transition: border-left-color 0.4s ease 0s;
+}
+
+#crumbs ul li:nth-child(2) a{
+    background: rgba(14,113,184,0.6);
+}
+#crumbs ul li:nth-child(2) a::before{
+    border-left: 15px solid #f6f6f6;
+}
+#crumbs ul li:nth-child(2) a::after{
+    border-left: 15px solid rgba(14,113,184,0.6);
+}
+#crumbs ul li:nth-child(2) a:hover{
+    background: rgba(14,113,184,0.7);
+}
+#crumbs ul li:nth-child(2) a:hover::before{
+    border-left: 15px solid #f6f6f6;
+}
+#crumbs ul li:nth-child(2) a:hover::after{
+    border-left: 15px solid rgba(14,113,184,0.7);
+}
